@@ -1,0 +1,2 @@
+,Bit,Symbol,Bit Name,Description,R/W
+1,b0,WRE,Initial Output Suppression Enable,0: Initial value specified in TOCR is output 1: The initial output is suppressed.,R/(W)

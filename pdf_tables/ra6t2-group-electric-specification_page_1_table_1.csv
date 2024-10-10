@@ -1,0 +1,19 @@
+,,Parameter,,Min,Typ,Max,Unit,Test conditions,,
+1,,Resolution,,-,-,12,bit,,,
+2,,Channel-dedicated sample-and-hold circuits in use (AN000 to AN005) (AN006 to AN011),Conversion time*1 (operation at ADCLK = 50 MHz),0.70,-,-,us,- Sampling time of channel-dedicated sample-and-hold circuits: 20 ADCLK . Hold mode switching time of channel- dedicated sample-and-hold circuits: 2 ADCLK - Sampling time : 8 ADCLK - Successive approximation time : 5 ADCLK,Permissible signal source impedance Max. = 50O,normal conversion
+3,,,,2.80,-,-,us,,,When using averaging mode(4-time conversion)
+4,,,Offset error,-,+0.5,+1.0,LSB,,,
+5,,,Full-scale error,-,+1.0 +1.5,+1.5,LSB,,,
+6,,,Absolute accuracy,-,+5.0,+7.0,LSB,,normal conversion,
+7,,,,-,+4.0,+5.0,LSB,,When using averaging mode (4-time conversion),
+8,,,Total unadjusted error (TUE),,+3.0,+3.4,LSB,Excludes quantization error (+0.5LSB).,,
+9,,,DNL pseudo-differential nonlinearity error,-,-1 to +1.5,-1 to +2.5,LSB,,,
+10,,,INL integral nonlinearity error,-,+2.0,+3.0,LSB,,,
+11,,High-speed channels (AN000 to AN005) (AN006 to AN011) ((AN018 to AN019)*2),Conversion time ** (operation at ADCLK = 50 MHz),0.16,-,-,us,- Sampling time : 3 ADCLK - Successive approximation time : 5 ADCLK,Permissible signal source,normal conversion
+12,,,,0.64,-,-,US,,impedance Max. = 50O,When using averaging mode(4-time conversion)
+13,,,Offset error,-,+1.0,+3.0,LSB,,,
+14,,,Full-scale error,-,+1.5,+2.5,LSB,,,
+15,,,Absolute accuracy,-,+5.5,+7.0,LSB,,normal conversion,
+16,,,,-,+4.5,+5.5,LSB,,When using averaging mode (4-time conversion),
+17,,,Total unadjusted error (TUE),,+3.5,+4.0,LSB,Excludes quantization error (+0.5LSB).,,
+18,,,DNL pseudo-differential nonlinearity error,-,-1 to +1.5,-1 to +2.5,LSB,,,

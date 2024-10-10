@@ -1,0 +1,9 @@
+,,Parameter,Description
+1,,Functions,". 32 bits x 2 channels (GPT32n (n = 1, 2)) . 16 bits x 4 channels (GPT16m (m = 4 to 7)) . Up-counting or down-counting (saw waves) or up/down-counting (triangle waves) for each counter . Clock sources independently selectable for each channel . Two input/output pins per channel"
+2,,,". Two output compare/input capture registers per channel . For the two output compare/input capture registers of each channel, four registers are provided as buffer registers and are capable of operating as comparison registers when buffering is not in use . In output compare operation, buffer switching can be at crests or troughs, enabling the generation of laterally asymmetric PWM waveforms"
+3,,,- Registers for setting up frame cycles in each channel with capability for generating interrupts at overflow or underflow
+4,,,". Generation of dead times in PWM operation . Synchronous starting, stopping and clearing counters for arbitrary channels . Count start, count stop, count clear, up-count, down-count, or input capture operation in response to a maximum of 8 ELC events"
+5,,,". Count start, count stop, count clear, up-count, down-count, or input capture operation in response to the status of two input pins"
+6,,,". Count start, count stop, count clear, up-count, down-count, or input capture operation in response to a maximum of 4 external triggers . Output pin disable function by detected short-circuits between output pins . PWM waveform for controlling brushless DC motors can be generated . Compare match A to F event, overflow/underflow event, and input UVW edge event can be output to the ELC"
+7,,,. Enables the noise filter for input capture and input UVW . Period count function
+8,,,". Logical operation between the channel output . Bus clock: PCLKA, Core clock: PCLKD - Frequency ratio: PCLKA:PCLKD = 1:N (N = 1/2/4/8/16/32/64)"

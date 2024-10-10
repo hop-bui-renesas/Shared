@@ -1,0 +1,62 @@
+,LQFP/QFN 48 -pin,LQFP/QFN 32 -pin,I/O Ports,RA2E1,RA2E3,,
+1,,,,ACMPLP,ACMPLP,CTSU,CTSU
+2,1,-,P400,-,"-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:"
+3,2,-,P401,-,"-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:"
+4,3,1,-,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:"
+5,4,2,P215,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:"
+6,5,3,P214,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+7,6,4,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+8,7,5,P213,"-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected:"
+9,8,6,P212,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+10,9,7,-,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:"
+11,10,-,P409,-,"-
+:unselected:
+:unselected:",TS5,"-
+:unselected:"
+12,11,-,P408,"-
+:unselected:","-
+:unselected:",TS4,"-
+:unselected:"
+13,12,8,P407,-,"-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:"
+14,13,-,P915,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:"
+15,14,9,P914,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:"

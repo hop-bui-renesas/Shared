@@ -1,0 +1,59 @@
+,28.2.24,CFDRMNB : RX Message Buffer Number Register
+1,28.2.25,CFDRMND : RX Message Buffer New Data Register
+2,28.2.26,CFDRFCCa : RX FIFO Configuration/Control Registers a (a = 0 to 1)
+3,28.2.27,CFDRFSTSa : RX FIFO Status Registers a (a = 0 to 1)
+4,28.2.28,CFDRFPCTRa : RX FIFO Pointer Control Registers a (a = 0 to 1)
+5,28.2.29,CFDCFCC : Common FIFO Configuration/Control Register
+6,28.2.30,CFDCFSTS : Common FIFO Status Register
+7,28.2.31,CFDCFPCTR : Common FIFO Pointer Control Register
+8,28.2.32,CFDFESTS : FIFO Empty Status Register
+9,28.2.33,CFDFFSTS : FIFO Full Status Register
+10,28.2.34,CFDFMSTS : FIFO Message Lost Status Register
+11,28.2.35,CFDRFISTS : RX FIFO Interrupt Flag Status Register
+12,28.2.36,CFDCDTCT : DMA Transfer Control Register
+13,28.2.37,CFDCDTSTS : DMA Transfer Status Register
+14,28.2.38,CFDTMCi : TX Message Buffer Control Registers i (i = 0 to 3)
+15,28.2.39,CFDTMSTSj : TX Message Buffer Status Registers j (j = 0 to 3)
+16,28.2.40,CFDTMTRSTS : TX Message Buffer Transmission Request Status Register
+17,28.2.41,CFDTMTARSTS : TX Message Buffer Transmission Abort Request Status
+18,28.2.42,CFDTMTCSTS : TX Message Buffer Transmission Completion Status Register
+19,28.2.43,CFDTMTASTS : TX Message Buffer Transmission Abort Status Register
+20,28.2.44,CFDTMIEC : TX Message Buffer Interrupt Enable Configuration Register
+21,28.2.45,CFDTXQCC : TX Queue Configuration/Control Register
+22,28.2.46,CFDTXQSTS : TX Queue Status Register
+23,28.2.47,CFDTXQPCTR : TX Queue Pointer Control Register
+24,28.2.48,CFDTHLCC : TX History List Configuration/Control Register
+25,28.2.49,CFDTHLSTS : TX History List Status Register
+26,28.2.50,CFDTHLACC0 : TX History List Access Register 0
+27,28.2.51,CFDTHLACC1 : TX History List Access Register 1
+28,28.2.52,CFDTHLPCTR : TX History List Pointer Control Register
+29,28.2.53,CFDGRSTC : Global SW reset Register
+30,28.2.54,CFDGTSTCFG : Global Test Configuration Register
+31,28.2.55,CFDGTSTCTR : Global Test Control Register
+32,28.2.56,CFDGFDCFG : Global FD Configuration Register
+33,28.2.57,CFDGLOCKK : Global Lock Key Register
+34,28.2.58,CFDRPGACCK : RAM Test Page Access Registers k (k = 0 to 63)
+35,28.2.59,CFDGAFLIGNENT : Global AFL Ignore Entry Register
+36,28.2.60,CFDGAFLIGNCTR : Global AFL Ignore Control Register
+37,28.2.61,CFDRMIEC : RX Message Buffer Interrupt Enable Configuration Register
+38,28.2.62.2,CFDRMBCPb[0] : RX Message Buffer Component b (b = 0 to 31)
+39,28.2.62.3,CFDRMIDb : RX Message Buffer ID Registers (b = 0 to 31)
+40,28.2.62.4,CFDRMPTRb : RX Message Buffer Pointer Registers (b = 0 to 31)
+41,28.2.62.5,CFDRMFDSTSb : RX Message Buffer CANFD Status Registers (b = 0 to 31)
+42,28.2.62.6,"CFDRMDFb_p : RX Message Buffer Data Field p Registers (p = 0 to 15, b = 0 to 31)"
+43,28.2.62.7,CFDRFMBCPb[0] : RX FIFO Access Message Buffer Component b (b = 0 to 1)
+44,28.2.62.8,CFDRFIDb : RX FIFO Access ID Register b (b = 0 to 1)
+45,28.2.62.9,CFDRFPTRb : RX FIFO Access Pointer Register b (b = 0 to 1)
+46,28.2.62.10,CFDRFFDSTSb : RX FIFO Access CANFD Status Register b (b = 0 to 1)
+47,28.2.62.11,"CFDRFDFb_p : RX FIFO Access Data Field p Register b (p = 0 to 15, b = 0 to 1)"
+48,28.2.62.12,CFDCFMBCP0[0] : Common FIFO Access Message Buffer Component
+49,28.2.62.13,CFDCFID : Common FIFO Access ID Register
+50,28.2.62.14,CFDCFPTR : Common FIFO Access Pointer Register
+51,28.2.62.15,CFDCFFDCSTS : Common FIFO Access CANFD Control/Status Register
+52,28.2.62.16,CFDCFDFp : Common FIFO Access Data Field p Registers (p = 0 to 15)
+53,28.2.62.17,CFDTMBCPb[0] : TX Message Buffer Component b (b = 0 to 3)
+54,28.2.62.18,CFDTMIDb : TX Message Buffer ID Registers (b = 0 to 3)
+55,28.2.62.19,CFDTMPTRb : TX Message Buffer Pointer Register (b = 0 to 3)
+56,28.2.62.20,CFDTMFDCTRb : TX Message Buffer CANFD Control Register (b = 0 to 3)
+57,28.2.62.21,"CFDTMDFb_p : TX Message Buffer Data Field Register (p= 0 to 15 , b= 0 to 3)"
+58,,

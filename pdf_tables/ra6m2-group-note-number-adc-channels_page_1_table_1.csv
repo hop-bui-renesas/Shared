@@ -1,0 +1,2 @@
+,Feature,Functional description
+1,12-bit A/D Converter (ADC12),"Up to two successive approximation 12-bit A/D Converters (ADC12) are provided. In unit 0, up to 13 analog input channels are selectable. In unit 1, up to nine analog input channels, the temperature sensor output, and an internal reference voltage are selectable for conversion. The A/D conversion accuracy is selectable from 12-bit, 10-bit, and 8-bit conversion, making it possible to optimize the tradeoff between speed and resolution in generating a digital value. See section 45, 12-Bit A/D Converter (ADC12)."

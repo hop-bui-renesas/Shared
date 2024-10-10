@@ -1,0 +1,34 @@
+,PSEL[4:0] settings,Function,Pin,,,,,,,,,,
+1,,,P200,P201,P204,P205,P206,P207,P208,P212,P213,P214,P215
+2,01100b,CTSU,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+3,ASEL bit,,"-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:",:unselected:,:unselected:,"-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:",:unselected:,"-
+:unselected:","-
+:unselected: :unselected:"
+4,ISEL bit,,"-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","1
+:selected:","1
+:selected:","-
+:unselected:","-
+:unselected: :unselected:","1
+:selected:","1
+:selected:","-
+:unselected: :unselected:",:unselected: :unselected:

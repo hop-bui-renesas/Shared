@@ -1,0 +1,68 @@
+,r18an0064xx0104,,
+1,| r18an0064ej0104-r-in32m3-module-sample-package.pdf | r18an0064j0104-r-in32m3-module-sample-package.pdf,// This file(English),
+2,,// This file(Japanese),
+3,"|
+SolutionKit",// Industrial Network sample program folder,
+4,|,"// For RA6M3, RA6M4 board",- RA6
+5,| | | |,// Application note for RA6M3/RA6M4 (English),"| | r30an0398ej0104-r-in32m3-module.pdf
+:unselected:"
+6,,// Application note for RA6M3/RA6M4 (Japanese),"| | r30an0398jj0104-r-in32m3-module.pdf | |
+:unselected: :unselected:"
+7,,,| Software
+8,,"// Project for RA6M3, RA6M4","| |
+| RA6_uCCM_V104.zip |"
+9,,// For RL78/G14 board,"|
+-RL78
+:unselected:"
+10,,// Application note for RL78/G14 (English),"|
+| | r30an0400ej0104-r-in32m3-module.pdf"
+11,"| | | r30an0400j0104-r-in32m3-module.pdf | | | | | Software | | RL78_uCCM_V104.zip | | | RX66T | | r30an0399ej0104-r-in32m3-module.pdf | | r30an0399jj0104-r-in32m3-module.pdf | | | Software | RX66T_uCCM_V104.zip |
+:unselected: :unselected: :unselected: :unselected: :unselected:",// Application note for RL78/G14 (Japanese),
+12,,,
+13,,// Project for RL78/G14,
+14,,// For Evaluation Board with RX66T (SEMB1320 from Shimafuji Elec.),
+15,,// Application note for RX66T (English),
+16,,// Application note for RX66T (Japanese),
+17,,,
+18,,// Project for RX66T,
+19,Firmware,// R-IN32M3 Module firmware folder,
+20,| ReleaseNote.txt,// Firmware history file,
+21,| irj45_2.2.0.0_ci11.pfw |,// Firmware Ver2.2.0.0,
+22,,// Document folder,Documents
+23,,// User's Manual Hardware (English),| r19uh0122ed0204-r-in32m3-module.pdf
+24,,// User's Manual Hardware (Chinese),"|
+r19uh0122cj0204-r-in32m3-module.pdf"
+25,,// User's Manual Hardware (Japanese),"|
+r19uh0122jj0204-r-in32m3-module.pdf"
+26,,// User's Manual Software (English),"|
+r17us0002ed0205-r-in32m3-module.pdf"
+27,,// User's Manual Software (Chinese),"|
+r17us0002cj0205-r-in32m3-module.pdf"
+28,,// User's Manual Software (Japanese),"|
+r17us0002jj0205-r-in32m3-module.pdf"
+29,,// Datasheet (English),"|
+r19ds0109ed0204-r-in32m3-module.pdf"
+30,,// Datasheet (Chinese),"|
+r19ds0109cj0204-r-in32m3-module.pdf"
+31,,// Datasheet (Japanese),"|
+r19ds0109jj0204-r-in32m3-module.pdf"
+32,,// User's Implementation Guide (uGOAL Edition) (English),"|
+r30an0402ej0103-r-in32m3-module.pdf"
+33,,// User's Implementation Guide (uGOAL Edition) (Japanese),"|
+r30an0402jj0103-r-in32m3-module.pdf"
+34,,// Management Tool Instruction Guide (English),"|
+r30an0390ej0101-r-in32m3-module.pdf"
+35,,// Management Tool Instruction Guide (Japanese),"|
+r30an0390jj0101-r-in32m3-module.pdf"
+36,,// Firmware Update Guide (English),"|
+r30an0401ej0102-r-in32m3-module.pdf"
+37,,// Firmware Update Guide (Japanese),"|
+r30an0401jj0102-r-in32m3-module.pdf"
+38,,// Modbus TCP Start-Up Manual (English),"|
+r30an0406ej0200-r-in32m3-module.pdf"
+39,,// Modbus TCP Start-Up Manual (Japanese),"| |
+r30an0406jj0200-r-in32m3-module.pdf"
+40,,// Tool folder,Tool
+41,iCommExplorer-win-v1.5.1.zip,// Management Tool Ver1.5.1,
+42,ModbusDemoApplication.zip,// Modbus TCP Evaluation Tool,
+43,Renesas Image Generator.zip,// Firmware Image Generator,

@@ -1,0 +1,8 @@
+,Bit,Symbol,Bit Name,Description,R/W
+1,b0,OE3B,Master Enable MTIOC3B,0: MTU3 output is disabled *1 1: MTU3 output is enabled,R/W
+2,b1,OE4A,Master Enable MTIOC4A,0: MTU3 output is disabled *1 1: MTU3 output is enabled,R/W
+3,b2,OE4B,Master Enable MTIOC4B,0: MTU3 output is disabled *1 1: MTU3 output is enabled,R/W
+4,b3,OE3D,Master Enable MTIOC3D,0: MTU3 output is disabled *1 1: MTU3 output is enabled,R/W
+5,b4,OE4C,Master Enable MTIOC4C,0: MTU3 output is disabled *1 1: MTU3 output is enabled,R/W
+6,b5,OE4D,Master Enable MTIOC4D,0: MTU3 output is disabled *1 1: MTU3 output is enabled,R/W
+7,"b7, b6",-,Reserved,These bits are always read as 1. The write value should be 1.,R/W

@@ -1,0 +1,53 @@
+,,Description,,
+1,Rev.,Page,Date,Summary
+2,1.00,"-
+:unselected: :unselected:",Apr.23.20,First release document.
+3,1.01,"-
+:unselected:",Jun.01.20,Examples updated for IAR.
+4,1.02,"-
+:unselected:",Jun.09.20,Updated for FSP v1.2.0.
+5,1.03,"-
+:unselected:",Jul.24.20,Updated for new EPs supported on FSP v1.2.0.
+6,1.04,"NA
+:selected:",Aug.12.20,Package updated to include this document.
+7,1.05,"-
+:unselected:",Sep.03.20,Updated for FSP v1.3.0.
+8,1.06,-,Sep.14.20,This revision includes changes to the code files. There are no changes to this document.
+9,1.07,"-
+:unselected:",Oct.12.20,Support for FSP v2.0.0.
+10,1.08,-,Oct.23.20,"Updated support for IAR and Keil, added VEEPROM."
+11,1.09,-,Nov.02.20,Added support for FSP v2.1.0.
+12,1.10,"-
+:unselected:",Dec.01.20,Added support for FSP v2.2.0.
+13,1.11,"-
+:unselected:",Feb.02.21,Added support for FSP v2.3.0.
+14,1.12,-,Mar.10.21,Support for USB COMPOSITE and USB PVND.
+15,1.13,-,Apr.06.21,Added support for FSP v2.4.0.
+16,1.14,-,May.03.21,Added support for FSP v3.0.0.
+17,1.15,-,May.13.21,Added support for FSP v3.0.0 (2).
+18,1.16,-,Jul.12.21,Added support for FSP v3.1.0 (1).
+19,1.17,-,Jul.26.21,Added support for FSP v3.1.0 (2).
+20,1.18,-,Aug.30.21,Added support for FSP v3.1.0 (3).
+21,1.19,-,Sep.10.21,Added support for FSP v3.2.0.
+22,1.20,-,Sep.29.21,Added support for FSP v3.3.0 (2).
+23,1.21,-,Oct.20.21,Added support for FSP v3.4.0 (2).
+24,1.22,-,Dec.20.21,Added support for FSP v3.5.0 (2).
+25,1.23,-,Mar.21.22,Added support for FSP v3.6.0.
+26,1.24,-,Apr.11.22,Added support for FSP v3.6.0 (2).
+27,1.25,-,Jul.18.22,Added support for FSP v3.8.0 (1).
+28,1.26,-,Aug.11.22,Added support for FSP v3.8.0 (2).
+29,1.27,-,Sep.20.22,Added support for FSP v4.0.0.
+30,1.28,-,Oct.17.22,Added support for FSP v4.0.0 (2).
+31,1.29,-,Nov.14.22,Added support for FSP v4.1.0 (1).
+32,1.30,-,Dec.01.22,Added support for FSP v4.1.0 (2).
+33,1.31,-,Jan.10.23,Added support for FSP v4.2.0 (1).
+34,1.32,-,Mar.24.23,Added support for FSP v4.3.0 (2).
+35,1.33,-,Apr.28.23,Added support for FSP v4.4.0 (1).
+36,1.34,-,Jun.01.23,Added support for FSP v4.4.0 (2).
+37,1.35,-,Jul.17.23,Added support for FSP v4.5.0 (1).
+38,1.36,-,Sep.18.23,Added support for FSP 4.5.0 (2).
+39,1.37,-,Sep.26.23,Added support for FSP v4.6.0 (1).
+40,1.38,-,Oct.23.23,Added support for FSP v4.6.0 (2).
+41,1.39,-,Nov.06.23,Added support for FSP v5.0.0 (2).
+42,1.40,-,Dec.05.23,Added support for FSP v5.0.0 (3).
+43,1.41,-,Dec.19.23,Added support for FSP v5.1.0 (2).

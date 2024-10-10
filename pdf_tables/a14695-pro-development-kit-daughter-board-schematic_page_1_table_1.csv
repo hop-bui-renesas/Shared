@@ -1,0 +1,21 @@
+,Version Date,Comments,
+1,A1.0,Internal review release,19/Mar/2018
+2,A1.1,Added pull-down resistor R24 to P1 1 Added options for DA14691/DA14695 _,20/Mar/2018
+3,,"- D9 single RED LED (D1 set as NP) - R25, R26 shorting LED pins to GND",
+4,,"- R27, R28 shorting haptic driver pins to GND",
+5,A1.2,"Added RF filter option close to RFIOp (Z4, 5, Z6) Changed L1 (DCDC inductor) to DFE201610E-R47M",21/Mar/2018
+6,,Released for manufacturing,27/Mar/2018
+7,,Added a current limiter mosfet on V30 (Q4) -> external loads now connect to the current-limited rail (V30x),10/Sep/2018
+8,,Corrected the mismatch of the UART signals on J4 Added 0402 NP capacitor close to J3 pin-1 (C14),
+9,B1.0,Released for manufacturing,18/Sep/2018
+10,,"Changed R27, R28 to N.P.",04/Oct/2018
+11,,Changed C13 value to 2.2uF/25V,
+12,,Modified options for the QSPI flash package:,
+13,,- U2 -- > 8SOIC 208mil,
+14,,- U2X -- > 8USON 2x3mm,
+15,,- U2Y -- > 8SOIC 150mil,
+16,C1.0,Released to internal review,05/Oct/2018
+17,C1.1,Changed ESD protection D7 D8 from ESD206B102ELSE6327XTSA1 (EOL) to ESD102U102ELSE6327XTSA1 (note: this part is polarized),15/Nov/2018
+18,,"Updated several parts as obsoleted/EOL and some with environmental compliance problems (K2, J3)",
+19,D1.0,Added 0 ohm resistor (R29) shorting V18F to V18P Changed USB connector (J3) type to Molex 67503-1020 Changed default part# for 4.7uF capacitors to GRM155R61A475MEAAD,11/Dec/2018
+20,,,

@@ -1,0 +1,2 @@
+,,12,TSYNC,"Transmit SYNC data It is valid when MCR.SBSEL = 1 and MCR.SYNSEL = 1 in Manchester mode. When this bit is not used, write the initial value. 0: The Start Bit is transmitted as DATA SYNC. 1: The Start Bit is transmitted as COMMAND SYNC.",R/W
+1,,31:13,-,These bits are read as 1. The write value should be 1.,R/W

@@ -1,0 +1,9 @@
+,Item,Description
+1,Evaluation board,RTK0EG0018C01001BJ
+2,MCU used,RA2L1 (R7FA2L1AB2DFP)
+3,Operating frequency,48MHz
+4,Operating voltage,5.0V
+5,Integrated Development Environment,e2 studio V2021-04
+6,C compiler,GNU ARM Embedded 9.2.1.20191025
+7,Capacitance touch IDE,QE for Capacitive Touch[RA] V1.3.0.
+8,Emulator,E2 Emulator Lite

@@ -1,0 +1,9 @@
+,Item,Symbol,Value,Unit
+1,Power supply voltage,"VCC, VCC_USB",-0.3 to +4.6,"V
+:selected:"
+2,VBATT power supply voltage,VBATT,-0.3 to +4.6,"V
+:selected:"
+3,Input voltage (except for ports for 5 V tolerant*1),Vin,-0.3 to VCC + 0.3,"V
+:selected:"
+4,Input voltage (ports for 5 V tolerant*1),Vin,-0.3 to VCC + 4.6 (<= 5.8 max.),"V
+:selected:"

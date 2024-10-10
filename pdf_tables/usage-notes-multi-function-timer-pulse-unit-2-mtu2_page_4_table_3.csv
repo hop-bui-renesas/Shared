@@ -1,0 +1,2 @@
+,Bit,Symbol,Bit Name,Description,R/W
+1,b0,WRE,Waveform Retain Enable,0: Initial value specified in TOCR is output 1: Waveform output immediately before synchronous clearing is retained,R/(W)

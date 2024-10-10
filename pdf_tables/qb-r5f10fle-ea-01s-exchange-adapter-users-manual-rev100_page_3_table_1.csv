@@ -1,0 +1,11 @@
+,<1> Host machine:,"Windows PC (WindowsXP, WindowsVista, Windows7), IBM PC/AT compatible can be used"
+1,<2> Accessory Disk:,"Debugger, USB drivers, manual, etc."
+2,,Obtain latest software from the Renesas Electronics website.
+3,<3> USB interface cable:,Cable connecting QB-RL78G1A to host machine
+4,<4> AC adapter:,Can support 100 to 240 V by replacing AC plug
+5,<5> QB-RL78G1A:,IECUBE
+6,<6> Check pin adapter (optional) :,Adapter used for monitoring waveforms with oscilloscope
+7,<7> Emulation probe:,Probe connecting exchange adapter to QB-RL78G1A
+8,<8> Exchange adapter:,This product
+9,<9> Target connector:,Connector soldered to target system
+10,<10> Target system,

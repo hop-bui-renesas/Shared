@@ -1,0 +1,14 @@
+,"History
+Version","Table
+Date",Comments
+1,A0,01 / Sep / 2020,Initial release
+2,A1,02 / Dec / 2020,"R453 no pop, C216 no pop, R411 no pop, R23 no pop C208 made 22pF, R356 made 374K, R412 made 0 Ohm R413 made 0 Ohm, R452 made 280K"
+3,B0,16 / Dec / 2020,"R484 (no-pop), R485 (0 Ohm) added to control MODE pin in U28 URX now connected to the P201 via R486 (R407 made NP) Pull-up R487 (47K) added on K22_RST1 R488 NP to disconnect U18 from VSYS when eMMC not used Connectors J1 & J2 replaced by 10144517-083802LF (+2mm H) Buffer U43 added for the VLDO loopback R489, R490 pull-ups 47K at the RST and CMD signlas of eMMC J39 (NP) external access to Data-in (DA_DI, DA_DO) signals R456 made 430K"
+4,B1,25 / Feb / 2021,"R456 made 383K , R356 made 430K"
+5,,06 / Jul / 2021 26 / Jul / 2021 26 / Aug / 2021,"Disconnected J31 pins 9/11/13 from GND Reassigned signals on J27 as generic expansion / SPI3 Reassigned BRSTn(x) signals to P0_4/P0_7 (CMAC SWD) Reassigned DA_DI to P0_12, DA_BCLK to P0_13 Added a connector (J6) for eMMC daughterboard C_TRIG renamed to TRIG_0 and defined 7 more signal options (TRIG_1 to TRIG_7) , added jumper block (J7) Changed RN30. . RN34 value to 0 ohm Changed DA7218 VDDIO/VDD_MIC to 1.8V, removed U37 Added power switches U3 for QSPI RAM and U9 for QSPI Flash Added analog switches U6/U7/08 for QSPI Flash, QSPI RAM and Digital Audio signals Added jumper blocks J8/J12/J11 for QSPI Flash, QSPI RAM and Digital Audio Power ON/OFF control Replaced U13 with similar part (AP61100Z6-7) Added voltage options for VLDO (3.3V/3.6V) Changed part number/package on U30, U31 (MK22FN128VMP10) Changed the power port names on page 6 from V18F to 1V8F Added option on J8 to use P004 as eMMC/FLASH power enable Replaced R417 with two resistors in series (R17, R18) Added package option UDFN8 for the QSPI flash (U15) Changed the default QSPI flash to AT25SL128A-MHE-T Assigned J5-2, J36-59 as external analog input option (pmm2 ) Added mosfets (Q3. . 06) for trigger options Re-assigned signals and added a jumper on J9 (to be able to disconnect the sense resistor) Added testpoint on P0_29"
+6,C0,03 / Sep / 2021,Released to manufacturing
+7,C1,22 / Oct / 2021,"R21, R413, R356, R452, C208, U5 made non populated R411 made 0 Ohm, R453 made 787K, C216 made 22pF"
+8,D0,23 / Nov / 2021,"Added option for using VCOM UART from U31 (RN9) Added option for 3.0V output on DCDC/VBLDO (R453, R491, R492) Changed J9, J35 to 2x2 pin (M20-8760242) Changed C92, C186 to 1uF, Added testpoints TP15,TP16,TP23 Added non populated PMOD sockets (J20, J21) Changed C208 to InF, Changed Q3 .. 06 to EM6K7T2CR Changed J27 RN16 RN17 to NP, Changed R484 to 0, R485 to NP"
+9,D1,21 / Dec / 2021,"R81 made 0 Ohm, R14 made No Pop, R15 made 0 Ohm FB5 replaced by 0 Ohm R495 (0603) , C208 made No Pop"
+10,D2,16 / Mar / 2022,Modification on QSPI signal switch (U6) labelling
+11,D3,27 / Sept / 2022,"Rename GPIOs at: Resistor arrays RN30-RN34, MikroBUS J15-J18 Generic sockets J20-J21"

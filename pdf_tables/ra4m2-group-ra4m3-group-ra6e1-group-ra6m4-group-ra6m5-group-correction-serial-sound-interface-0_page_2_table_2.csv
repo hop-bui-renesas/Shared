@@ -1,0 +1,5 @@
+,Bit,Symbol,Function,R/W
+1,,,,
+2,13:8,RDC[5:0],Receive Data Count Number of valid data stored in the receive FIFO data register,R
+3,,,,
+4,29:24,TDC[5:0],Transmit Data Count Number of valid data stored in the transmit FIFO data register,R

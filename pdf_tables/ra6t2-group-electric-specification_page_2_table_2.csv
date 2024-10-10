@@ -1,0 +1,21 @@
+,,Parameter,,Min,Typ,Max,Unit,Test conditions,,
+1,,,INL integral nonlinearity error,-,+2.0,+3.0,LSB,,,
+2,,High-precision channels (AN012 to AN017),Conversion time*1,0.28,-,-,us,. Sampling time : 9 ADCLK - Successive approximation time : 5 ADCLK,Permissible signal,normal conversion
+3,,,(operation at ADCLK = 50 MHz),1.12,-,-,us,,source impedance Max. = 50O,When using averaging mode(4-time conversion)
+4,,,Offset error,-,+1.0,+1.5,LSB,,,
+5,,,Full-scale error,-,+1.0,+2.5,LSB,,,
+6,,,Absolute accuracy,-,+4.0,+7.0,LSB,,normal conversion,
+7,,,,-,+3.0,+5.5,LSB,,When using averaging mode (4-time conversion),
+8,,,Total unadjusted error (TUE),,+3.4,+4.4,LSB,Excludes quantization error (+0.5LSB).,,
+9,,,DNL pseudo-differential nonlinearity error,-,-1 to +1.5,-1 to +2.5,LSB,,,
+10,,,INL integral nonlinearity error,-,+2.0,+3.0,LSB,,,
+11,,Normal-precision channels (AN020 to AN028),Conversion time **,0.50,-,-,us,. Sampling time : 20 ADCLK - Successive approximation time : 5 ADCLK,Permissible signal source impedance Max. = 50O,normal conversion
+12,,,"(operation at
+ADCLK = 50 MHz)",2.00,-,-,us,,,When using averaging mode(4-time conversion)
+13,,,Offset error,-,+1.0,+2.5,LSB,,,
+14,,,Full-scale error,-,+1.5,+2.5,LSB,,,
+15,,,Absolute accuracy,-,+5.5,+8.0,LSB,,normal conversion,
+16,,,,-,+5.5,+7.0,LSB,,When using averaging mode (4-time conversion),
+17,,,Total unadjusted error (TUE),,+4.2,+5.3,LSB,Excludes quantization error (+0.5LSB).,,
+18,,,DNL pseudo-differential nonlinearity error,-,-1 to +1.5,-1 to +2.5,LSB,,,
+19,,,INL integral nonlinearity error,-,+2.0,+4.0,LSB,,,

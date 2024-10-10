@@ -1,0 +1,3 @@
+,Function,Operation when this phenomenon occurs
+1,Trace acquisition,The trace information of (1) to (2) (the first branch instruction after (1)) which was not actually executed is displayed additionally before the trace information of the interrupt handler.
+2,Coverage acquisition,It is displayed that all instructions from (1) to (3) have been executed (covered) regardless of the actual execution status.

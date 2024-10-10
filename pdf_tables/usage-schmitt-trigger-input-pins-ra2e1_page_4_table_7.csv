@@ -1,0 +1,12 @@
+,PSEL[4:0] settings,Pin,,,
+1,,Function P500,P501,P502,
+2,00000b,(initial),,,:unselected: :unselected:
+3,00010b,GPT,"1
+:selected:","1
+:selected:","1
+:selected:"
+4,00011b,GPT,:selected:,:unselected: :unselected:,:selected:
+5,00101b,SCI,".
+:selected:",:selected:,:unselected:
+6,ASEL bit,,:unselected: :unselected:,:unselected: :unselected:,:unselected: :unselected:
+7,ISEL bit,,:unselected:,:unselected: :unselected:,:unselected: :unselected:

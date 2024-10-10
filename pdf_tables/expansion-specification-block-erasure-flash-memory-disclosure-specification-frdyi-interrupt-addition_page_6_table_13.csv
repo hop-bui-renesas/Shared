@@ -1,0 +1,14 @@
+,Source of Interrupt Request Generation,Name,Vector No.,Vector Address Offset,Form of Interrupt Detection,CPU,DTC,"sstb Return
+:unselected:","IER
+:unselected:","IPR
+:unselected:","DTCER
+:unselected:"
+1,"omitted
+:unselected:",,,,,,,,,,
+2,-,Reserved,23,005Ch,-,"*
+:selected:","*
+:selected:","*
+:selected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"

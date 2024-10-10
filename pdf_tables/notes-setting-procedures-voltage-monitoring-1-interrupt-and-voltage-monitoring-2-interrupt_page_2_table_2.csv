@@ -1,0 +1,5 @@
+,(Omitted),
+1,7,Set the LVD1CR0.LVD1CMPE bit to 1 (voltage monitoring 1 circuit comparison results output enabled).
+2,8,Wait for at least 2 us. -
+3,9,Set the LVD1SR.LVD1DET bit to 0. -
+4,10,Set the LVD1CR0.LVD1RIE bit to 1 (voltage monitoring 1 - interrupt/reset enabled).

@@ -1,0 +1,31 @@
+,,IDE Support,,
+1,Example Project,e2 studio/GCC,IAR,Keil MDK
+2,NetX_wifi,Supported,,
+3,quickstart,Supported,,
+4,adc,Supported,,
+5,agt,Supported,Supported,Supported
+6,audio_playback_pwm,Supported,,
+7,cac,Supported,,
+8,can,Supported,,
+9,cpp,Supported,,
+10,crc,Supported,,
+11,dac,Supported,,
+12,dmac,Supported,Supported,Supported
+13,doc,Supported,,
+14,elc,Supported,,
+15,flash_hp,Supported,Supported,Supported
+16,freertos,Supported,Supported,Supported
+17,gpt,Supported,Supported,Supported
+18,gpt_input_capture,Supported,,
+19,icu,Supported,Supported,Supported
+20,iic_master,Supported,,
+21,iwdt,Supported,,
+22,lpm,Supported,,
+23,rtc,Supported,Supported,Supported
+24,sci_i2c,Supported,,
+25,sci_spi,Supported,,
+26,sci_uart,Supported,Supported,Supported
+27,vee_flash,Supported,,
+28,wdt,Supported,Supported,Supported
+29,wifi,Supported,,
+30,wifi_on_chip_udp_freertos,Supported,,

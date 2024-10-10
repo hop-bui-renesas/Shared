@@ -1,0 +1,11 @@
+,No.,Step Name,Description
+1,1,Set operating mode,"Set the operating mode with GTCR.MD[2:0] bits or GTCR.MD[3:0] bits. In Figure 21.x1, 000b or 0000b (saw-wave PWM mode 1) is set to GPT320."
+2,2,Set external pulse width measuring function,"Enable external pulse width measuring function with GTUPSR.USILVL[3:0] bits for up-counting operation and GTDNSR.DSILVL[3:0] bits for down-counting operation and select the input pin and level to measure. In Figure 21.x1, GTUPSR.USILVL[3:0] = ""0011b"" (count up when GTIOCnA pin is 1)"
+3,3,Set count direction,"Select the count direction (up or down) with GTUDDTYC. In Figure 21.x1, for GPT320, lower 2 bits of GTUDDTYC is set to 11b, and then lower 2 bits of GTUDDTYC is set to 01b (up-counting)."
+4,4,Select count clock,Select the count clock with GTCR. TPCS[3:0] bits of the corresponding channel.
+5,5,Set cycle,"Set the cycle in GTPR of the corresponding channel. When complementary PWM mode, set the cycle in GTPR of the master channel."
+6,6,Set initial value for counter,Set the initial value in the GTCNT counter of the corresponding channel.
+7,7,Set counter clear factor to the inter channel cooperation input capture (Cleared channels),"Set GTCSR.CSCMSC[2:0] bits in the channel to be cleared by input capture by inter channel cooperation to 001b, 010b, and select input capture as counter clear factor. In figure 21.x1, GPT321.GTCSR.CSCMSC[2:0] bits are 001b."
+8,8,Inter channel cooperation input capture setting (Source channel),"Set the input capture factor using GTICCR in the source channels of inter channel cooperarion input capture. In figure 21.x1, GPT320.GTICCR.ICAFPO bit is 1b."
+9,9,Inter channel cooperation input capture setting (Captured channels),"Set GTICmSR.mSOC bit (m=A or B) in the captured channels to allow input capture to GTCCRm (m=A or B) by other channel factors. In figure 21.x1, GPT321.GTICASR.ASOC bit is 1b."
+10,10,Set group of inter channel cooperation input capture,Set the same value to GTICCR.ICmGRP[1:0] bits (m=A or B) in the source channels and cleared channels of inter channel cooperation input capture and set them in the same input capture group.

@@ -1,0 +1,16 @@
+,Development Kit hardware features,SensorFusion software features
+1,- Board size: round shape +/- 70 x 20 mm - Integrated front-end module supports ranges,"- Complete library for data acquisition, sensor calibration and fusion."
+2,up to 300 meters,- Guarantees high performance sensor data
+3,- 15-DOF wireless sensor module,processing using decimation for most
+4,- DA14585 low-power Bluetooth low energy,accurate and real time sensor data
+5,(5.0) SoC,- Sensor fusion guarantees reduced airtime
+6,- ICM42605 6-axis motion tracking sensor,and longest battery life
+7,- AK09915 3-axis geomagnetic field sensor,- Sensor fusion and streaming support
+8,"- BME680 Low power environmental unit (gas,",- Default settings:
+9,"pressure, temperature and humidity)",- 100 Hz Accelerometer
+10,- Proximity and ambient light sensor with IR,"- 100 Hz Gyroscope
+:unselected:"
+11,LED,"- 0.5 Hz Environmental
+:unselected:"
+12,- Digital Microphone,- 10 Hz Magnetometer
+13,- Buzzer Jdialog,"- Magnetometer is synchronized to motion sensor in sensor fusion mode - Ideal for resource-constrained systems - minimizes memory, processing requirements and power consumption. - 0.5 MIPS on Cortex M0 - < 5 KB RAM"

@@ -1,0 +1,5 @@
+,Package type,,Package code *1
+1,Lead type plastic package,QFP,PxQP
+2,Non-lead type plastic package,QFN,PxQN
+3,Grid array type plastic package,BGA,PxBG
+4,,LGA,PxLG

@@ -1,0 +1,8 @@
+,,Item,Symbol,Min.,Typ.,Max.,Unit,Test Conditions
+1,Schmitt trigger input voltage,Omitted,,,,,V,
+2,,RIIC input pin (except for SMBus),VIH,VCC x 0.7,-,VCC + 3.6 (<= 5.8 max.),,
+3,,,VIL,-0.3,-,VCC * 0.3,,
+4,,,AVT,VCC * 0.05,-,-,,
+5,,Ports for 5 V tolerant*2,VIH,VCC * 0.8,-,VCC + 3.6 (<= 5.8 max.),,
+6,,,VIL,-0.3,-,VCC * 0.2,,
+7,,Omitted,,,,,,

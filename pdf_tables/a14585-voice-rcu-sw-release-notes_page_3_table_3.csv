@@ -1,0 +1,9 @@
+,#,OPEN ISSUES & LIMITATIONS
+1,1,Maximum key matrix setup is 16 rows x 16 columns
+2,2,SPI Flash operations are not prohibited when battery level is low. This may result in data corruption.
+3,3,Only BMI160 sensor is supported in motion module
+4,4,BLE white lists are not supported
+5,5,Privacy feature implementation is pending
+6,6,Keyboard delayed wakeup feature implementation is pending
+7,7,Mouse feature implementation is pending
+8,8,Dynamic calculation of maximum number of packets pre connection interval is pending. Currently symbol MAX_NUM_OF_PACKETS_PER_CONNECTION is used for bandwidth calculations.

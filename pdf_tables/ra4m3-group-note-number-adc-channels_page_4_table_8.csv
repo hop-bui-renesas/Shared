@@ -1,0 +1,7 @@
+,Pin name,I/O,Function
+1,AVCCO,Input,Analog block power supply pin
+2,AVSSO,Input,Analog block power supply ground pin
+3,VREFH,Input,Reference power supply pin
+4,VREFL,Input,Reference power supply ground pin
+5,"AN100 to AN102, AN116 to AN122",Input,"Analog input pins 00 to 02, 16 to 22"
+6,ADTRG1,Input,External trigger input pin for starting A/D conversion

@@ -1,0 +1,3 @@
+,Bit,Symbol,Bit Name,Description,R/W
+1,b0,DFLEN,Data Flash Access Enable,0: Access to the data flash is disabled 1: Access to the data flash is enabled,R/W
+2,b7-b1,-,Reserved,This bit is read as 0. The write value should be 0.,R/W

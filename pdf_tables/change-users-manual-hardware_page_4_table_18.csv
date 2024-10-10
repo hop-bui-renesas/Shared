@@ -1,0 +1,9 @@
+,Address,Module Symbol,Register Name,Register Symbol,Number of Bits,Access Size,Number of Access States,Module Name,Reference Page,Remarks,
+1,,,,,,,ICLK >= PCLK,,,,ICLK < PCLK
+2,0008 C178h,MPC,P70 Pin Function Control Register,P70PFS,8,8,"2, 3 PCLKB",MPC,531,Not present in- versions with 64 or 48-pins=,2 ICLK
+3,0008 C179h,MPC,P71 Pin Function Control Register,P71PFS,8,8,"2, 3 PCLKB",,53,Alot present in- versions with 64 of 48-pins.,2 ICLK
+4,0008 C17Ah,MPC,P72 Pin Function Control Register,P72PFS,8,8,"2, 3 PCLKB",,53,Not present in- versions with 64 or 48-pins=,2 ICLK
+5,0008 C17Bh,MPC,P73 Pin Function Control Register,P73PFS,8,8,"2, 3 PCLKB",,531,Not present in- versions with 64-or 48-pins=,2 ICLK
+6,0008 C17Ch,MPC,P74 Pin Function Control Register,P74PFS,8,8,"2, 3 PCLKB",,531,Not present in versions with 64 of 48-pins.,2 ICLK
+7,0008 C17Dh,MPC,P75 Pin Function Control Register,P75PFS,8,8,"2, 3 PCLKB",,531,Not present in- versions with 64-or 48-pins=,2 ICLK
+8,0008 C17Eh,MPC,P76 Pin Function Control Register,P76PFS,8,8,"2, 3 PCLKB",,531,Net present in- versions with 64 or 48-pins.,2 ICLK

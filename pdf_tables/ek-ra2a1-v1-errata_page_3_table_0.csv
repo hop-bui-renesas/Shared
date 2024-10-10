@@ -1,0 +1,67 @@
+,"Version
+Figure 5 shows the location of the ""Renesas RA"" logo and version number on the bottom side of the kit circuit board, where the first line below the logo is the kit name, and the second line below the logo is the version information, with the numeric portion in the second line indicating the board version number.",,,,,,,,
+1,,,,,,,,,
+2,,,,,,,,,
+3,,,E1,"E35 USB
+-LDO","SV
+5V",,,+3V3,
+4,,P301 N.C.,,,,P915 POOO,,"E30 +3V3JLOBE
+USB_VBUS",
+5,,P302 N.C.,,,,P914 :selected: P401,,P407,
+6,,P304 N.C.,,,,VCC_USB( :selected: P103,,+3V3_MCU,
+7,,,,E38,,,,,
+8,,P303 N.C. VCC N.C.,,,,N.C. :selected: P105 N.C. :selected: P104,,,
+9,,GND N.C.,,E37,,N.C. :selected: P102,,,J-LINK
+10,,P112 N.C.,,E33,E3,N.C. :selected: P403,,,
+11,,P411 N.C.,,"E32H
+:unselected:",SW,N.C. :selected: VCC,,,
+12,,P410 N.C.,,,GNDDETECT,N.C. :selected: :selected: GND,,,
+13,,P001 P212,,,,N.C. :selected: :selected: P101,,,
+14,,P111 P213,,,,N.C. :selected: :selected: P407,,,USB FS E21E16F17E20
+15,,P003 P214,,,,P300 :selected: P204,,,
+16,,P015 P215,,,,P108 P402,,,
+17,,P107 VCL,,,,N.C. :selected: :selected: P408,,,
+18,,P106 N.C.,LDO,E13 E14E12,,N.C. :selected: :selected: P409,,,
+19,,N.C.,E24,,"IP409
+OR",N.C. :selected: P205,,12M XTAL E18 E23,AND VCC
+20,,N.C.,E19,,TSCAP-E,RESET# P206,,P212/P213,USB
+21,,AVSSO N.C.,32K,E7 E8 E15,,P201 P110 RXD9,,E22 E27,XTAL
+22,,AVCCO N.C.,,,,"P200 P109 TXD9
+:selected:",,E26,P214/P215
+23,,P002 N.C.,,,,N.C. PO12,,EXT VCL AND,
+24,,N.C. :selected: ON.C. :selected:,,CRXO_B,E41H,P400 :selected: :selected: ADREG,,"VCL CAP
+E29E28",
+25,,N.C. :selected: N.C.,,CMPIN1,E42,P408 AVREF,,,
+26,,N.C. :selected: N.C.,"E46
+-> GND","SSLBO_C
+E45",E43,P102 AVSS1,,,
+27,,N.C. :selected: N.C.,->,ANSDIP,E44,P100 :selected: P014,,"USERI VCCO
+AVSSO
+:unselected:",+3V3MCU
+28,,N.C. :selected: N.C.,,"GND
++3V3MCU",,P500 :selected: :selected: P013,,"POTL
+E3 E10
+:unselected:","AVSS1 ->
+AVCCI ->"
+29,,N.C. :selected: N.C.,TOUCH,,,P501 :selected: :selected: AVCC1,,,BTN
+30,,N.C. :selected: N.C.,E5,"A CONFIG
+E51 EUR54",E53 E52,P502 :selected: :selected: N.C.,,,E2 PMOD
+31,,N.C. N.C.,,,,VREFHO AVCCO,,,SP
+32,,N.C. :selected: N.C.,5NI(R),,,VREFLO :selected: :selected: AVSSO,,9X E305654,SC
+33,,N.C. :selected: N.C.,,ESS ES8 ES7,ES6,N.C. :selected: :selected: N.C.,,JX02 947-0-3119,
+34,,N.C. :selected: :selected: N.C.,,,,N.C. :selected: :selected: N.C.,,,
+35,,N.C. :selected: N.C.,RENESAS,,,"N.C. N.C.
+:selected:",,,
+36,,N.C. :selected: N.C.,RA,,,N.C. :selected: :unselected: N.C.,,,
+37,,N.C. N.C.,,,,N.C. :selected: :selected: N.C .-,,,
+38,,N.C. N.C.,,,,N.C. :selected: N.C.,Board,,EK-RA2A1
+39,,N.C. :selected: N.C.,,"LJUSER
+:selected:",SW,N.C. :selected: :unselected: N.C.,Version Number,,v1
+40,,N.C. :selected: :selected: N.C.,,,,N.C. :selected: :selected: N.C.,,,
+41,,GND :selected: N.C. N.C. Vcc,FC,ROHS,10,N.C. N.C. N.C. :selected: N.C.,,CE,
+42,,Viet N.C.,"4000238
+000109",USER E3 P205,VCC_USB_LDO,N.C.,,"1301
+1935",
+43,,,,LED,,,,,
+44,,,5. Version,Number,,Location,,Figure,
+45,"For more information, please contact Renesas Support.",,,,,,,,

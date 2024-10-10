@@ -1,0 +1,8 @@
+,Function,Part numbers,,,
+1,,R7FA6M2AF2CLK/ R7FA6M2AD2CLK,R7FA6M2AF3CFB/,R7FA6M2AF3CFP/,
+2,,,R7FA6M2AD3CFB,R7FA6M2AD3CFP,
+3,I/O ports,109,,75,I/O pins
+4,,,1,1,Input pins
+5,,,110,76,Pull-up resistors
+6,,,109,75,N-ch open-drain outputs
+7,,,21,14,5-V tolerance

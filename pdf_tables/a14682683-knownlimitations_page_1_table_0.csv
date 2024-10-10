@@ -1,0 +1,4 @@
+,Family:,DA1468x,,,
+1,Date:,29-May-18,@Dialog Semiconductor,,
+2,Item Nr,Date,Description,Status,Solution/Workaround
+3,241,09-Nov-17,"A spike on the input when you are still pressing a button, it will debounce it and go to the KEY_PRESSED state again, generating a duplicate KEYBR_IRQ",Not fixed,"Use debounce time greater than expect spike, A value of minimum 10 ms is a good practical value"

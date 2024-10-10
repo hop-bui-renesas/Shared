@@ -1,0 +1,9 @@
+,Pin number,"Power,
+System, Clock, Debug, CAC",I/O ports,Timers,Communication interfaces,Analogs,HMI,,,,,,,,,,,,
+1,LQFP 64-pin,,,AGT,SCI,ADC,CTSU,BGA 64-pin,LQFP/QFN 48-pin,LGA 36-pin,LQFP/QFN 32-pin,WLCSP 25-pin,"GPT_OPS, POEG",GPT,RTC,IIC,SPI,ACMPLP,Interrupt
+2,62,,P002,-,-,AN002,TS23,A2,46,-,-,"-
+:unselected: :unselected:",-,-,-,-,-,-,IRQ2
+3,63,,P001,-,-,AN001,TS22,B2,47,C2,-,"-
+:unselected:",-,-,-,-,-,-,IRQ7
+4,64,,P000,-,-,AN000,TS21,C3,48,B2,-,"-
+:unselected:",-,-,-,-,-,-,IRQ6

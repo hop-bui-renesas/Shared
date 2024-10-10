@@ -1,0 +1,112 @@
+,Event number,Interrupt request source,Name,IELSRn,DELSRn,Canceling Snooze,Canceling Software Standby,Canceling Deep Software Standby,
+1,,,,Connect to NVIC,Invoke DMAC,,,,Invoke DTC
+2,0x192,SCI3,SCI3_RXI,">
+:selected:",:selected:,"-
+:unselected:",:unselected: :unselected:,"-
+:unselected:",:selected:
+3,0x193,,SCI3_TXI,:selected:,:selected:,"-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected: :unselected:","1
+:selected:"
+4,0x194,,SCI3_TEI,:selected:,"-
+:unselected: :unselected:",:unselected:,"-
+:unselected: :unselected:",-,"-
+:unselected: :unselected:"
+5,0x195,,SCI3_ERI,:selected:,"-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:
+:unselected:","-
+:unselected:","-
+:unselected:
+:unselected:"
+6,0x196,,SCI3_AM,:selected:,"-
+:unselected: :unselected:",:unselected: :unselected:,"-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:"
+7,0x198,SCI4,SCI4_RXI,:selected:,:selected:,:unselected:,"-
+:unselected: :unselected:","-
+:unselected:",:selected:
+8,0x199,,SCI4_TXI,:selected:,"1
+:selected:","-
+:unselected:",:unselected: :unselected:,"-
+:unselected:","1
+:selected:"
+9,0x19A,,SCI4_TEI,:selected:,"-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:",:unselected: :unselected:
+10,0x19B,,SCI4_ERI,:selected:,"-
+:unselected: :unselected:",":unselected:
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:
+:unselected:"
+11,0x19C,,SCI4_AM,:selected:,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected: :unselected:"
+12,0x1B6,SCI9,SCI9_RXI,:selected:,:selected:,"-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:","1
+:selected:"
+13,0x1B7,,SCI9_TXI,:selected:,:selected:,:unselected:,"-
+:unselected:
+:unselected:","-
+:unselected:","1
+:selected:"
+14,0x1B8,,SCI9_TEI,:selected:,"-
+:unselected: :unselected:",:unselected:,:unselected: :unselected:,"-
+:unselected:","-
+:unselected: :unselected:"
+15,0x1B9,,SCI9_ERI,"1
+:selected:","-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected: :unselected:"
+16,0x1BA,,SCI9_AM,:selected:,"-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected:"
+17,Ox1BG-,SCIXO-,Seixo_SCIXO-,:selected:,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:
+18,Ox1BD-,,SCIXO_SCIX+,"+
+:selected:",:unselected: :unselected:,:unselected:,"-
+:unselected:",:unselected:,"-
+:unselected:"
+19,0x1BE-,,SCIXO_SCIX2-,:selected:,:unselected: :unselected:,:unselected:,:unselected: :unselected:,:unselected:,:unselected: :unselected:
+20,Ox1BF-,,Seixo_SCIX3,:selected:,:unselected: :unselected:,:unselected:,"-
+:unselected:","-
+:unselected:",:unselected: :unselected:
+21,0x1C0,SCIX1,SCIX1_SCIXO,:selected:,"-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:
+:unselected:","-
+:unselected:","-
+:unselected:
+:unselected:"
+22,0x1C1,,SCIX1_SCIX1,:selected:,:unselected: :unselected:,:unselected: :unselected:,:unselected: :unselected:,-,"-
+:unselected: :unselected:"
+23,0x1C2,,SCIX1_SCIX2,:selected:,:unselected:,"-
+:unselected:","-
+:unselected: :unselected:",-,"-
+:unselected: :unselected:"
+24,0x1C3,,SCIX1_SCIX3,:selected:,"-
+:unselected:
+:unselected:","-
+:unselected:
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:"

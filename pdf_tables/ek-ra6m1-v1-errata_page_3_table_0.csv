@@ -1,0 +1,60 @@
+,,,,,,,,,,,,,,,
+1,,J2,,E30,,"+3V3JLOB
++3V3",E1,,,"E35 USB
+LDO","SV
+SV",,J1,,
+2,,P100 :unselected: P412,USB_VBUS,,,,,,,,,,USB_DM :unselected: :unselected: P400,,
+3,,P101,P407,,,,,,,,,,USB_DP P401,,:unselected: P413
+4,,P102,VBAT,+3V3_MCU,,,,,,,,,VCC_USB P111,,P415
+5,,P103,,,,,,,,E38,,,P2071 :selected: :selected: P109,,:selected: P708
+6,,VCC,,,,,,,,E34,,,P402 :selected: :selected: P110,,:selected: N.C.
+7,,VSS,,,,,,,J-LINK,JE37,,E31,N.C. :selected: :selected: P302,,:unselected: N.C.
+8,,P205,,,,,,,,E33,,,P404 :selected: P108,,:unselected: N.C.
+9,,P408,,,,,,,,"E32
+:unselected:",,JTAG,P405 :selected: :selected: VCC,,:selected: N.C.
+10,,P409,,,,,,,,,,GNDDETECT,P406 :selected: :selected: VSS,,N.C.
+11,,P411 P407/,,,,,,,,,,,N.C. :selected: P601,,P212
+12,,USB,,,,,,USB,FS,,,,N.C. :selected: :selected: P602,,:unselected: P213
+13,,VBUS,,,,,,,E21E16E17E20,,,,,,
+14,,P004,,,,,,,8000,,,,N.C. :selected: :selected: P600,,:selected: N.C.
+15,,P003,,,,,,,,,,,N.C. :selected: :selected: P301,,:unselected: XCIN
+16,,P001,,,,,,,,E14,"E12
+:unselected:",,N.C. :selected: P610,,VCLO
+17,,PO00,,12M,XTAL,P212/P213,,,VCC USB,,,"1P205
+OR",N.C. :selected: P609,,:selected: VBAT
+18,,VREFHO,EXT VCLO,E18,E23,E24,,,,E8,E15,TSCAP-A,N.C. :selected: P300,,N.C.
+19,,VREFLO,"AND
+VCLO CAP",,,E19,TOUCH,,BTN,,,,RESET# :selected: :selected: P403,,:selected: N.C.
+20,,AVSSO,,,,2K,E5,E2,,,,,P201 :selected: P414,,N.C.
+21,,AVCCO,,,,XTAL,,,,,,,,,:selected: N.C.
+22,,,E29E28,E25,97,,,,,,,,P2009 P105,,
+23,,"P014
+N.C.",,,,,RENESAS,,,,,,N.C. P015,,
+24,,J4,,,,,,,,,,,J3,,
+25,,,,,,,RA,,,,,,N.C. :selected: N.C.,,N.C. P500
+26,,,E50,,,,EK-RA6M1,,,,,,N.C. :selected: N.C.,,N.C. :selected: P501
+27,,,,E11,,,v1,,,,,,,Board,N.C. :selected: P502
+28,,,"POTE36
+E51",H,,,,,E541,"EXT
+ND",VCL,,N.C. :selected: N.C.,Version Number,N.C. :selected: P503
+29,,,E52,,,,,,E55 LIJ,VCL,CAP,,P306 :selected: P307,,P205 P504
+30,,,E53,E10,,,,,,,,,P304 P305,,P206 :selected: P508
+31,,,USER,,,,,9X,,E305654,9(R),,N.C. :selected: P303,,P410 N.C.
+32,,,,->GND,,,,,,,,,P113 :selected: P112,,P208 N.C.
+33,,,VREFH/VREFHO/AVCCO,"VREFL/VREFLO/AVSSO
+->_+3V3MCU",,,,,JX02,94V-0 3,1,19,P115 :selected: :selected: P114,,P211 :selected: P002
+34,,,,,,,,,RoHS,,,,"N.C., :selected: P608",,P214 P005
+35,,,,,,,,,,,,,N.C. :selected: :selected: N.C.,,P210 :selected: P006
+36,,,,,,,,,,E4,,,N.C :selected: :selected: N.C.,,P209 :selected: P007
+37,,,,,,,,,,,P415,,N.C. :selected: :selected: N.C.,,N.C. :selected: :selected: P008
+38,,,,,,,,,,,USER,SW,N.C :selected: :selected: N.C.,,VREFL :selected: VREFH
+39,,,,O :unselected:,O :unselected:,,,,,,,,VCL :unselected: :selected: N.C.,,N.C. :selected: N.C.
+40,,,,,,,,,,,,,N.C :selected: :selected: N.C.,,N.C. :selected: N.C.
+41,,,,,,CEFC,,,,,,10,N.C :unselected: N.C.,,N.C. :selected: N.C.
+42,,,,,,,,,,ROHS,,,N.C. :selected: N.C.,,GND N.C.
+43,,,,,,,,,,,,,P106 :unselected: P107,,N.C. :unselected: :selected: VCC
+44,,,,,:,"4000240 1301
+000332 1935",,,"USER
+P112","LEDES
+E3",,,N.C. P104,,N.C. :selected: :selected: N.C.
+45,,,,,,,,,,,,,EK-RA6M1_REV_ 1,,

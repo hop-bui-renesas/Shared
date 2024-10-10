@@ -1,0 +1,16 @@
+,1.,About QE for Capacitive Touch,2
+1,1.1,Summary,2
+2,1.2,Functions,2
+3,1.3,Supported Environment.,2
+4,1.4,Supported Microcontrollers,2
+5,1.5,Supported FSP,2
+6,2.,Installation and Uninstallation,3
+7,2.1,Installing This Product,3
+8,2.2,Updating This Product,3
+9,2.3,Uninstalling This Product,3
+10,3.,Notes / Restrictions,4
+11,3.1,Usage Considerations,4
+12,3.1.1,Notes on Tuning,4
+13,3.2,Functional Restrictions,4
+14,3.2.1,Restriction on Monitoring Function via Serial Connection,4
+15,Revision History,,5

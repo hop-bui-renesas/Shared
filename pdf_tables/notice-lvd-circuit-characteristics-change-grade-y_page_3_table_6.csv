@@ -1,0 +1,23 @@
+,Parameter,Symbol,Conditions,MIN.,TYP.,MAX.,Unit,,
+1,Interrupt and reset mode,VLVD5,"VPOC2, VPOC1, VPOC0 = 0, 0, 1Note 1 falling reset voltage: 2.75 V",2.68Note 2,2.75,3.00,"V
+:selected:",,
+2,,VLVD2,"LVIS1, LVIS0 = 0, 0",4.30,4.42,4.87,"V
+:selected:",Rising release reset voltage,
+3,,,,4.21,4.32,4.76,"V
+:selected:",Falling interrupt voltage,
+4,,VLVD5,"VPOC2, VPOC1, VPOC0 = 0, 1, 0Note 1 - falling reset voltage: 2.75 V",2.68Note 2,2.75,3.00,"V
+:selected:",,
+5,,VLVD1,,4.50,4.62,5.09,"V
+:selected:",Rising release reset voltage,"LVIS1, LVIS0 = 0, 0"
+6,,,,4.40,4.52,4.98,"V
+:selected:",Falling interrupt voltage,
+7,,VLVD5,"VPOC2, VPOC1, VPOC0 = 0, 1, 1Note 1 - falling reset voltage: 2.75 V",2.68Note 2,2.75,3.00,"V
+:selected:",,
+8,,VLVD3,"LVIS1, LVIS0 = 0, 1 LVIS1, LVIS0 = 0, 0",3.13,3.22,3.66,"V
+:selected:",Rising release reset voltage,
+9,,,,3.07,3.15,3.47,"V
+:selected:",Falling interrupt voltage,
+10,,VLVD0,,4.62,4.74,5.22,"V
+:selected:",Rising release reset voltage,
+11,,,,4.52,4.64,5.11,"V
+:selected:",Falling interrupt voltage,

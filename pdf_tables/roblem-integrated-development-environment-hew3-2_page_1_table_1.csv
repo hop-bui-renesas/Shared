@@ -1,0 +1,4 @@
+,Division sub-options,Character string in [User defined options :]]
+1,Default,-division=cpu
+2,CPU/inline,-division=cpu=inline
+3,CPU/runtime,-division=cpu=runtime

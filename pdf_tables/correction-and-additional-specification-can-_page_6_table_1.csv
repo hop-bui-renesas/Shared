@@ -1,0 +1,6 @@
+,,RAM Name,RAM Property,RAM Area Calculation Method,PFL RAM Values
+1,,,No. of Channels,(n+1),2
+2,,PFL,Avg. rule entries per channel,Fixed,20
+3,,,Max Rule entries,(n+1) * Avg. tule entries per channel,40
+4,,,No. of Bytes in a rule entry,Fixed,36
+5,,,Number of Bytes PFL RAM,Max Rule entries * No. of Bytes in a rule entry,1440

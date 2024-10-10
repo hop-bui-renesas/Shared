@@ -1,0 +1,8 @@
+,Release Vm.n,The end of sales of Vm.n Release V(m+1).0,,One year after the end of sales of Vm.n,5 years after Vm.n is released,
+1,Vm.0~n,,,,m : version,
+2,,,,,n : revision,
+3,V(m+1).0~n (When version upgrade product exists),,,,:unselected: : on sale,:unselected:
+4,,,,,,
+5,Technical support -,,,,:unselected: : one year after,
+6,information service,,,,the end of sales,
+7,Bug fix,,,-,,

@@ -1,0 +1,34 @@
+,,IDE Support,,
+1,Example Project,e2 studio/GCC,IAR,Keil MDK
+2,quickstart,Supported,,
+3,acmphs,Supported,,
+4,adc,Supported,,
+5,agt,Supported,Supported,Supported
+6,audio_playback_pwm,Supported,,
+7,cac,Supported,,
+8,can,Supported,,
+9,cpp,Supported,,
+10,crc,Supported,,
+11,dac,Supported,,
+12,dma_spi,Supported,,
+13,dmac,Supported,Supported,Supported
+14,doc,Supported,,
+15,elc,Supported,,
+16,flash_hp,Supported,Supported,Supported
+17,freertos,Supported,Supported,Supported
+18,gpt,Supported,Supported,Supported
+19,gpt_input_capture,Supported,,
+20,icu,Supported,Supported,Supported
+21,iic_master,Supported,,
+22,iic_slave,Supported,Supported,Supported
+23,iwdt,Supported,,
+24,kint,Supported,,
+25,lpm,Supported,,
+26,mbed_crypto,Supported,,
+27,poeg,Supported,,
+28,sci_i2c,Supported,,
+29,sci_spi,Supported,,
+30,sci_uart,Supported,Supported,Supported
+31,spi,Supported,Supported,Supported
+32,vee_flash,Supported,,
+33,wdt,Supported,Supported,Supported

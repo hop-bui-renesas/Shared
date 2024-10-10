@@ -1,0 +1,11 @@
+,"sec 5.11 table 18:
+parameter","- DC
+min/max",min/max,unit
+1,VO_1V2_0,0.875/0.925,0.85/0.95,"V
+:selected:"
+2,VO_1V2_1,0.975/1.025,0.95/1.05,"V
+:selected:"
+3,VO_1V2_2,1.075/1.125,1.05/1.25,"V
+:selected:"
+4,VO_1V2_3,1.175/1.225,1.15/1.25,"V
+:selected:"

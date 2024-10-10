@@ -1,0 +1,5 @@
+,Clock Used,Oscillation Stabilization Wait Time,,
+1,,Symbol,Description,
+2,Main clock,tMAINOSCWT,"If n = wait time selected by the MOSCWTCR.MSTS[4:0] bits, n+16384 tMAINOSC + MAIN",
+3,PLL clock,tPLLWT1,"If n = wait time selected by the PLLWTCR.PSTS[4:0] bits, n+131072 tPLL1 + fPLL",When the PLL starts operating after the main clock oscillation is stabilized
+4,,tPLLWT2,"If n = wait time selected by the PLLWTCR.PSTS[4:0] bits, n+131072 tMAINOSC + tPLL1 + fPLL",When the PLL starts operating before the main clock oscillation is stabilized

@@ -1,0 +1,7 @@
+,Parameter,Description
+1,,
+2,DMAC/DTC activation,All the interrupt sources
+3,Brushless DC motor control function -,Available
+4,Interrupt sources,"9 sources (n = 1, 2, 4, 5) - GTCCRA comare match/input capture(GPTn_CCMPA) . GTCCRB comare match/input capture(GPTn_CCMPB) . GTCCRC comare match(GPTn_CMPC)"
+5,,- GTCCRD comare match(GPTn_CMPD)
+6,,". GTCCRE comare match(GPTn_CMPE) . GTCCRF comare match(GPTn_CMPF) - GTCNT overflow (GTPR compare match) (GPTn_OVF) - GTCNT underflow (GPTn_UDF) - GTPC count stop(GPTx_PC) (x = 1, 4, 5)"

@@ -1,0 +1,5 @@
+,Address,Module Symbol,Register Name,Register Symbol,Number of Bits,Access Size,Number of Access States,
+1,,,,,,,ICLK >= PCLK,ICLK < PCLK
+2,0008 7021h,ICU,Interrupt Request Register 033,IR033,8,8,2 ICLK,
+3,0008 7022h,ICU,Interrupt Request Register 034,IR034,8,8,2 ICLK,
+4,0008 7023h,ICU,Interrupt Request Register 035,IR035,8,8,2 ICLK,

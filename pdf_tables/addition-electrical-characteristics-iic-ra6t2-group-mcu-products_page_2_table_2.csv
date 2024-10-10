@@ -1,0 +1,29 @@
+,Parameter,Symbol,Min.,Typ.,Max.,Unit,Test Conditions,,
+1,IIC (Hs-mode) BFCTL.HSME = 1,tsCL,10(12) x tuccyc + 80,-,"-
+:unselected:",ns,Figure 46.48,SCL input cycle time,
+2,,tSCLH,5(6) * t|Ccyc,-,"-
+:unselected:",ns,,SCL input high pulse width,
+3,,tsCLL,5(6) * tiICcyc,-,-,ns,,SCL input low pulse width,
+4,,tSrCL,-,-,80,ns,,SCL rise time,Cb = 400pF
+5,,,-,-,40,,,,Cb = 100pF
+6,,tSrDA,-,"-
+:unselected:",160,ns,,SDA rise time,Cb = 400pF
+7,,,-,"-
+:unselected:",80,,,,Cb = 100pF
+8,,tsfCL,-,"-
+:unselected:",80,ns,,SCL fall time,Cb = 400pF
+9,,,-,-,40,,,,Cb = 100pF
+10,,tSIDA,-,-,160,ns,,SDA fall time,Cb = 400pF
+11,,,-,-,80,,,,Cb = 100pF
+12,,tsp,0,-,1(1) * tuICcyc,ns,,"SCL, SDA input spike pulse removal time",
+13,,tSTAH,tilccyc + 40,-,-,ns,,START condition input hold time,
+14,,tSTAS,40,-,-,ns,,Repeated START condition input setup time,
+15,,tSTOS,40,-,-,ns,,STOP condition input setup time,
+16,,tSDAS,10,-,-,ns,,Data input setup time,
+17,,tSDAH,0,-,150,ns,,Data input hold time,Cb = 400pF
+18,,,0,-,70,,,,Cb = 100pF
+19,,Cb *1,-,-,400,pF,,"SCL, SDA capacitive load",
+20,,tSCLH,-,120,225,ns,,SCL output minimum high pulse width,Cb = 400pF
+21,,,-,60,130,,,,Cb = 100pF
+22,,tSCLL,-,-,320,ns,,SCL output minimum low pulse width,Cb = 400pF
+23,,,-,-,160,,,,Cb = 100pF

@@ -1,0 +1,20 @@
+,Address,Module Symbol,Register Name,Register Symbol,Number of Bits,Access Size,Number of Access States,Related Function,Reference Page,
+1,,,,,,,ICLK >= PCLK,,,ICLK < PCLK
+2,FEFF FAC0h,FLASH,Unique ID register 0 *9,UIDR0,8,8,1ICLK,Flash Memory,1515,1ICLK
+3,FEFF FAC 1h,FLASH,Unique ID register 1 *9,UIDR1,8,8,1ICLK,,1515,1ICLK
+4,FEFF FAC2h,FLASH,Unique ID register 2 *9,UIDR2,8,8,1ICLK,,1515,1ICLK
+5,FEFF FAC3h,FLASH,Unique ID register 3 *9,UIDR3,8,8,1ICLK,,1515,1ICLK
+6,FEFF FAC4h,FLASH,Unique ID register 4 *9,UIDR4,8,8,1ICLK,,1515,1ICLK
+7,FEFF FAC5h,FLASH,Unique ID register 5 *9,UIDR5,8,8,1ICLK,,1515,1ICLK
+8,FEFF FAC6h,FLASH,Unique ID register 6 *9,UIDR6,8,8,1ICLK,,1515,1ICLK
+9,FEFF FAC7h,FLASH,Unique ID register 7 *9,UIDR7,8,8,1ICLK,,1515,1ICLK
+10,FEFF FAC8h,FLASH,Unique ID register 8 *9,UIDR8,8,8,1ICLK,,1515,1ICLK
+11,FEFF FAC9h,FLASH,Unique ID register 9 *9,UIDR9,8,8,1ICLK,,1515,1ICLK
+12,FEFF FACAh,FLASH,Unique ID register 10 *9,UIDR10,8,8,1ICLK,,1515,1ICLK
+13,FEFF FACBh,FLASH,Unique ID register 11 *9,UIDR11,8,8,1ICLK,,1515,1ICLK
+14,FEFF FACCh,FLASH,Unique ID register 12 *9,UIDR12,8,8,1ICLK,,1515,1ICLK
+15,FEFF FACDh,FLASH,Unique ID register 13 *9,UIDR13,8,8,1ICLK,,1515,1ICLK
+16,FEFF FACEh,FLASH,Unique ID register 14 *9,UIDR14,8,8,1ICLK,,1515,1ICLK
+17,FEFF FACFh,FLASH,Unique ID register 15 *9,UIDR15,8,8,1ICLK,,1515,1ICLK
+18,FEFF FAD2h,TEMPS,Temperature sensor calibration data register * *9,TSCDRL,8,8,1ICLK,Temperature Sensor,1480,1ICLK
+19,FEFF FAD3h,TEMPS,Temperature sensor calibration data register *,TSCDRH,8,8,1ICLK,,1480,1ICLK

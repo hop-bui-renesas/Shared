@@ -1,0 +1,14 @@
+,Address,Module Symbol,Register Name,Register Symbol
+1,0008 8014h,CMT2,Compare Match Timer Counter,CMCNT
+2,0008 8214h,TMR2,Time Constant Register A,TCORA
+3,0008 8214h,TMR23,Time Constant Register A,TCORA
+4,0008 8394h,RSPI0,RSPI Command Register 2,SPCMD2
+5,0008 8614h,MTU,Timer Cycle Data Register,TCDR
+6,0008 8694h,MTU4,Noise Filter Control Register,NFCR
+7,0008 8894h,MTU5,Timer Control Register V,TCRV
+8,0008 9014h,S12AD,A/D Channel Select Register B,ADANSB
+9,0008 C094h,PORTA,Open-Drain Control Register 0,ODR0
+10,0008 C154h,MPC,P24 pin Function Control Register,P24PFS
+11,0008 C194h,MPC,PA4 pin Function Control Register,PA4PFS
+12,0008 C414h,RTC,Hour Alarm Register,RHRAR
+13,0008 C414h,RTC,Binary Counter 2 Alarm Register,BCNT2AR

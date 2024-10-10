@@ -1,0 +1,36 @@
+,PSEL[4:0] settings,Function,pin,,,,,,,,,,,,,,,
+1,,,P400,P401,P402,P403,P404,P405,P406,P407,P408,P409,P410,P411,P412,P413,P414,P415
+2,00000b (value after reset),Hi-Z/ JTAG/SW D,Hi-Z,,,,,,,,,,,,,,,
+3,00001b,AGT,AGTIO 1,-,-,"-
+:unselected:","-
+:unselected:",-,AGTO5,AGTIO 0,AGTOB 2,AGTOA 2,AGTOB 1,AGTOA 1,AGTEE 1,AGTEE 3,AGTIO 5,AGTIO 4
+4,00010b,GPT'3,-,GTETR GA,,-,-,-,-,-,,:unselected:,,-,"-
+:unselected:","-
+:unselected:",-,"-
+:unselected: :unselected:"
+5,00011b,GPT'3,GTIOC 6A,GTIOC 6B,-,-,,GTIOC 1A,GTIOC 1B,GTIOC 6A,GTIOC 6B,-,,"-
+:unselected:",:unselected:,"-
+:unselected:","-
+:unselected:","-
+:unselected:"
+6,00100b,SC,SCK4,CTS4_ RTS4/ SS4,CTS4,-,,-,,CTS4_ RTS4/ SS4,CTS4,-,RXDD/ MISOO/ SCLO,TXDO/ MOSIO/ SDAD,SCKO,CTSO_ RTSO/ SSO,CTSO,-
+7,00101b,SCI,-,,,,:unselected:,-,,,RXD3/ MISO3/ SCL3,TXD3/ MOSI3/ SDA3,SCK3,CTS3_ RTS3/ SS3,CTS3,-,,-
+8,00110b,SPI'2,-,-,-,-,-,-,SSLA3,SSLA3 _A,-,-,MISOB B,MOSIB B,RSPCK B_B,SSLBD B,SSLB1 B,SSLB2 B
+9,00111b,IIC'2,SCLO_ A,SDAD_ A,-,-,,-,-,SDAD_ B,SCLO_ B,-,"-
+:unselected:","-
+:unselected:",:unselected:,"-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:"
+10,01001b,CLKOUT/ RTC,-,-,-,-,,,-,RTCOU T,-,-,,"-
+:unselected:",:unselected:,:unselected: :unselected:,"-
+:unselected: :unselected:","-
+:unselected:"
+11,01010b,CAC ADC12,1,,CACRE F,,,,,ADTRG 0,,,,,,,:unselected:,-
+12,10000b,CAN,-,CTXO,CRXO,-,,-,-,,-,-,-,,,:unselected:,"-
+:unselected:","-
+:unselected:"
+13,10010b,SSIE'2,AUDIO _CLK,-,AUDIO _CLK,SSIBC KD_A,SSILRC KO/SSI FSD_A,SSITXD 0_A,SSIRX DO_A,,-,-,-,-,:unselected:,"-
+:unselected:",:unselected:,-
+14,10011b,USBFS,-,-,-,-,-,-,,USB_V BUS,USB_ID,USB_E XICEN,-,"-
+:unselected:",:unselected:,:unselected:,,USB_V BUSEN

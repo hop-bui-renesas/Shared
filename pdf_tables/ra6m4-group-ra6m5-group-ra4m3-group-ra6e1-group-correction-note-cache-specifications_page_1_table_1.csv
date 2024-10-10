@@ -1,0 +1,8 @@
+,Parameter,C-cache,S-cache
+1,Capacity,2 KB,2 KB
+2,Way,2-way set associative,2-way set associative
+3,Line size,32/64 bytes,32/64 bytes
+4,Number of entry,32/16 entry/way,32/16 entry/way
+5,Write way,No write,"Write-through, non-write allocate"
+6,Replace way,2-way: LRU (least recently used),2-way: LRU (least recently used)
+7,Cache support area,0x0000_0000 to 0x1FFF_FFFF,0x20000000 - 0xDFFFFFFF*1 except Standby SRAM area (0x2800_0000 to 0x2FFFF_FFFF)

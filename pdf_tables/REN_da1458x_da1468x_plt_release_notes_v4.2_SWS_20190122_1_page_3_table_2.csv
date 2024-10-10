@@ -1,0 +1,22 @@
+,#,DESCRIPTION
+1,OVERVIEW,
+2,This is a full release of the DA1458x/DA1468x Production Line Tool (PLT). It includes many new features compared to the previous version. One major addition is the support of audio test for the DA14585/6 chipsets as well as a full support of the DA14682/3 and DA15100/1 chipsets.,
+3,NEW FEATURES,
+4,1,DA14682/3 support
+5,2,DA15100/1 support
+6,3,DA14585 audio test support
+7,4,DA1468x/DA1510x firmware produced from SDK 1.0.10.1072
+8,5,DA1468x/DA1510x production firmware can be downloaded through uartboot.bin at 1Mbaud.
+9,6,Current measurements. In case of failure the PLT switches off devices one by one until the failed DUT is found.
+10,FIXES / IMPROVEMENTS,
+11,1,Fix XTAL trim error messages in all production test binaries.
+12,2,Disable version number message from uartboot.bin.
+13,3,Fix a bug in DA14585 OTP header programming when 'Check empty' option was enabled.
+14,4,Add password protection in missing UI selections.
+15,5,Added GU hardware reset retries.
+16,6,Protect reading and writing at invalid OTP addresses.
+17,7,Improve OTP addressing in the configuration GUI and XML file and XSD validation. Added tooltips of allowable OTP addresses scheme per chipset. OTP address range validation is now based on the chipset selected.
+18,8,Fix retry on failure when red color was shown in Finish button.
+19,DOCUMENTATION,
+20,UM-B-040,DA1458x_DA1468x_Production_Line_Tool_libraries_4v2.pdf
+21,UM-B-041,DA1458x_DA1468x_Production_Line_Tool_4v2.pdf

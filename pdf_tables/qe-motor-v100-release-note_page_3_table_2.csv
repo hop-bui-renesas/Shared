@@ -1,0 +1,4 @@
+,Limit of Over Current [A],5.0F
+1,Limit of Over Voltage [V],60.0F
+2,Limit of Over Speed [rpm],4500.0F
+3,Limit of Low Voltage [V],8.0F

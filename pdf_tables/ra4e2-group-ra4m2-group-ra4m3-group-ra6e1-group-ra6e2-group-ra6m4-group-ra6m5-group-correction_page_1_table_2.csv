@@ -1,0 +1,5 @@
+,FRM[1:0],12s (00b),Monaural (10b),TDM (01b)
+1,00b,2,1,Setting prohibited
+2,01b,Setting prohibited,Setting prohibited,4
+3,10b,,,5
+4,11b,,,6

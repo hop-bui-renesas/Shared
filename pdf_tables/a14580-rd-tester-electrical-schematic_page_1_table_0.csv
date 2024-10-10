@@ -1,0 +1,31 @@
+,optional,
+1,"AD21 /7 @317
+DR_DUT5","AD25 / @321
+DR_DUT9"
+2,"LED green
+330R","LED green
+330R"
+3,"AD22
+77 318
+DR_DUT6","AD26
+177 0322
+DR_DUT10"
+4,"LED green
+330R","LED green
+330R"
+5,"AD23
+27 @319
+DR_DUT7","AD27
+JAA Q323
+DR_DUT11"
+6,"LED green
+3BOR
+:selected:","LED green
+V330R"
+7,"AD24 ~~ @320
+DR_DUTB","AD28
+17 09:324
+DR_DUT12"
+8,"LED green
+Y 330R","ED green
+330R"

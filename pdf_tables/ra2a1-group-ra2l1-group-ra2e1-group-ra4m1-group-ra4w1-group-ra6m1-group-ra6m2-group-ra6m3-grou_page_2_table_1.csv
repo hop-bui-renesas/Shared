@@ -1,0 +1,7 @@
+,BIt,Symbol,Bit name,Decoription,
+1,bC,DI80,Region O Disable,0: Security MPU region 0 Is enabled 1: Security MPU region 0 is disabled.,R
+2,b1,DI81,Region 1 Disable,0: Security MPU region 1 Is enabled 1: Security MPU region 1 Is disabled.,R
+3,b2,DI82,Region 2 Disable,0: Security MPU region 2 is enabled 1: Security MPU region 2 is disabled.,R
+4,b3,DI83,Region 3 Disable,0: Security MPU region 3 Is enabled 1: Security MPU region 3 Is disabled.,R
+5,b7 to b4,-,Reserved,"These bits are read as 1. When writing to flash, the write value should always be 1.",R
+6,be,DISPCO,PC Region 0 Disable,0: Security MPU PC region 0 Is enabled 1: Security MPU PC region 0 is disabled.,R

@@ -1,0 +1,4 @@
+,Parameter,Min,Typ,Max,Unit,Test conditions
+1,Internal reference voltage input channel*2,1.42,1.48,1.54,V,-
+2,PCLKD (ADCLK) frequency*3,1,-,2,MHZ,-
+3,Sampling time*4,5.0,-,-,us,-

@@ -1,0 +1,6 @@
+,Part numbers,R7FA2A1AB3CFM,R7FA2A1AB3CNE,R7FA2A1AB3CNF,R7FA2A1AB2CBT,R7FA2A1AB3CFJ,
+1,I/O ports,46,30,22,19,19,I/O pins
+2,,3,3,3,3,1,Input pins
+3,,44,28,20,17,19,Pull-up resistors
+4,,24,17,13,13,15,N-ch open-drain outputs
+5,,9,6,3,3,4,5-V tolerance

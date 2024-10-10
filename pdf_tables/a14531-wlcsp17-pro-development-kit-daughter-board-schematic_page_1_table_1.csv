@@ -1,0 +1,10 @@
+,History Table Version Date,Comments,
+1,A00,Draft Release,08 / Aug / 2018
+2,,Added option for hardware reset (P0_0 - R30) Added CIB debugging option (J4) Corrected mismatch in function notes (purple names) for MISO/SCLK,09 / Aug / 2018
+3,A1.0,Released to manufacturing,17 / Aug / 2018
+4,A1.1,Changed R1. . R6 to 36 ohm Changed R23. . R29 to N.P. Changed Y2 part number to SC20S-7PF20PPM (N.P. ),29 / Nov / 2018
+5,A1.2,"Added Matching circuit Z1, 23 - Z3 = 4.6nH / LQW15AN4N6B80D - Z1 = 1pF",11 / Jan / 2019
+6,A1.3,"BOM modifications for DCDC power optimization: . Changed L1 from BRL1608T2R2M to CBMF1608T2R2M - Changed C1, C2 from 10uF to 2.2uF",01 / Feb / 2019
+7,C1.0,Changed L1 from CBMF1608T2R2M to DFE201610E-2R2M,28 / Feb / 2019
+8,D1.0,"Added placeholder for pi-shaped CLC filter ( Z1, 22, 23) Added placehold for decoupling capacitors: C6, C7 Changed RF matching components to : 24, 25 , Z6 Added resistors R34, R35 Changed C2 from 2.2uF to 10uF Added resistor R33 btw VBAT and VH+",18/ Jul / 2019
+9,E1.0,"Changed R15:36Ohm, pin-2 connection to SWDIO)from MB2_5 (J1B-pin B26) to P0_5 Changed R6 to not populated",8/ Aug / 2019

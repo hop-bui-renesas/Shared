@@ -1,0 +1,7 @@
+,Product Type,Code Flash Memory (00000H-xxxxxH),RAM (yyyyyH-FFEFFH)
+1,R5F10968,8192*8 bits (00000H-01FFFH) Note 2,512*8 bits (FFD00H-FFEFFH)
+2,"R5F109xA (x = 6, A, B, G, L)",16384*8 bits (00000H-03FFFH) Note 2,1024*8 bits (FFB00H-FFEFFH)
+3,"R5F109xB (x = 6, A, B, G, L)",24576*8 bits (00000H-05FFFH) Note 2,1536*8 bits (FF900H-FFEFFH) Note 3
+4,"R5F109xC (x = 6, A, B, G, L)",32768*8 bits (00000H-07FFFH) Note 2,2048x8 bits (FF700H-FFEFFH)
+5,"R5F109xD (x = 6, A, B, G, L)",49152*8 bits (00000H-0BFFFH) Note 2,3072*8 bits (FF700H-FFEFFH)
+6,"R5F109xE (x= 6, A, B, G, L)",65536*8 bits (00000H-0FFFFH),4096*8 bits (FF700H-FFEFFH)

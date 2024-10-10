@@ -1,0 +1,137 @@
+,PSEL[4: 0] settings,Function,Pin,,,,,,,,,,,,,
+1,,,P100,P101,P102,P103,P104,P105,P106,P107,P108,P109,P110,P111,P112,P113
+2,00000b,(initial),"-
+:unselected:",,,,,,,,"1
+:selected:",:unselected: :unselected:,,,,
+3,00001b,AGT,"1
+:selected:","1
+:selected:",:selected:,:unselected: :unselected:,":unselected:
+:unselected:",":unselected:
+:unselected:","-
+:unselected:
+:unselected:","-
+:unselected: :unselected:",:unselected:,":unselected:
+:unselected:",":unselected:
+:unselected:",:selected:,:selected:,":unselected:
+:unselected:"
+4,00010b,GPT,:selected:,"1
+:selected:",:selected:,"1
+:selected:","1
+:selected:",:selected:,"-
+:unselected: :unselected:","-
+:unselected: :unselected:",:selected:,:selected:,:selected:,"-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:"
+5,00011b,GPT,:selected:,"1
+:selected:",:selected:,"1
+:selected:",:selected:,:selected:,"-
+:unselected:","-
+:unselected:",:selected:,"1
+:selected:","1
+:selected:","1
+:selected:","1
+:selected:","-
+:unselected:"
+6,00100b,SCI,:selected:,:selected:,:selected:,:unselected:,:selected:,:unselected:,:unselected: :unselected:,"-
+:unselected: :unselected:",:unselected:,:selected:,:unselected:,:selected:,:selected:,"-
+:unselected:"
+7,00101b,SCI,:selected:,:unselected:,:selected:,:unselected: :unselected:,"-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected: :unselected:",:unselected:,:selected:,:selected:,"1
+:selected:",:selected:,"-
+:unselected: :unselected:"
+8,00110b,SPI,:selected:,:selected:,:selected:,"1
+:selected:","1
+:selected:","1
+:selected:",:selected:,:unselected:,"-
+:unselected:",:unselected:,:unselected:,:unselected:,:unselected:,"-
+:unselected:"
+9,00111b,IIC,:selected:,:selected:,:unselected: :unselected:,:unselected: :unselected:,:unselected: :unselected:,:unselected: :unselected:,:unselected: :unselected:,:unselected: :unselected:,:unselected: :unselected:,:unselected: :unselected:,"-
+:unselected: :unselected:",:unselected: :unselected:,"-
+:unselected: :unselected:",:unselected: :unselected:
+10,01000b,KINT,"1
+:selected:",:selected:,:selected:,:selected:,"1
+:selected:","1
+:selected:",:selected:,:selected:,"-
+:unselected:","-
+:unselected:",:unselected:,:unselected:,:unselected:,"-
+:unselected:"
+11,01001b,CLKOUT/ ACMPLP /RTC,:unselected:,:unselected:,:unselected:,:unselected:,:unselected: :unselected:,"-
+:unselected:","-
+:unselected: :unselected:",:unselected:,"-
+:unselected:",:unselected:,"-
+:unselected:",:unselected:,:unselected:,"-
+:unselected:"
+12,01010b,CAC/ ADC12,"-
+:unselected: :unselected:","-
+:unselected:","1
+:selected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:",:unselected: :unselected:,"-
+:unselected:"
+13,01100b,CTSU,"-
+:unselected:",:unselected: :unselected:,:unselected: :unselected:,:unselected:,:unselected: :unselected:,:unselected:,"-
+:unselected: :unselected:",:unselected: :unselected:,:unselected: :unselected:,:unselected: :unselected:,:unselected:,:unselected: :unselected:,:unselected:,:unselected:
+14,ASEL bit,,"-
+:unselected: :unselected:",:unselected:,":unselected:
+:unselected:","-
+:unselected:","-
+:unselected:
+:unselected:","-
+:unselected:
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:
+:unselected:","-
+:unselected:
+:unselected:","-
+:unselected:
+:unselected:","-
+:unselected:
+:unselected:","-
+:unselected: :unselected:"
+15,,,"-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected:
+:unselected:",":unselected:
+:unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:"
+16,ISEL bit,,"1
+:selected:","1
+:selected:","-
+:unselected:
+:unselected:","-
+:unselected:
+:unselected:",:selected:,"1
+:selected:","-
+:unselected:","-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:","1
+:selected:","1
+:selected:","-
+:unselected:","-
+:unselected:"

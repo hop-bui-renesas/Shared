@@ -1,0 +1,12 @@
+,Byte #,1469x UTX,1469x URX
+1,0,STX = 0x02,
+2,1,,SOH = 0x01
+3,2,,0x00
+4,3,,0x00
+5,4,,LEN_LSB
+6,5,,LEN_MiddleSB
+7,6,,LEN_MSB
+8,7,ACK = 0x06 or NACK = 0x15,
+9,8 ... N,,SW code bytes
+10,N+1,CRC,
+11,N+2,,ACK

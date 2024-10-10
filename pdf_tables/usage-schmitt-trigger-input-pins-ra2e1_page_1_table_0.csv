@@ -1,0 +1,44 @@
+,PSEL[4:0] settings,Function,Pir,,,,,,,,,,
+1,,,POOC,P001,P002,P003,P004,P010,P011,P012,P013,P014,P015
+2,00000b,(initial),"-
+:unselected: :unselected:",,,,,,,,,,
+3,01100b,CTSU,:unselected:,"-
+:unselected: :unselected:",:unselected: :unselected:,:unselected: :unselected:,"-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:"
+4,ASEL bit,,"-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:",:unselected: :unselected:
+5,ISEL bit,,"1
+:selected:","1
+:selected:",:selected:,"-
+:unselected:",:selected:,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:",:selected:
+6,NCODR bit,,"-
+:unselected: :unselected:","-
+:unselected:",:unselected:,"-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:"

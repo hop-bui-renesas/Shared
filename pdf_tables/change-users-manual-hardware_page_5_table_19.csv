@@ -1,0 +1,3 @@
+,Address,Module Symbol,Register Name,Register Symbol,Numbe r of Bits,Access Size,Number of Access States,Module Name,Reference Page,Remarks,
+1,,,,,,,ICLK >= PCLK,,,,ICLK < PCLK
+2,0008 C196h,MPC,PA6 Pin Function Control Register,PA6PFS,8,8,"2, 3 PCLKB",MPC,534,"Not present in versions with 120, 112, 100, 64, or 48 pins.",2 ICLK

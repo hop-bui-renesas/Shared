@@ -1,0 +1,14 @@
+,Features,DA14701,DA14705,DA14706,DA14708
+1,External PSRAM with d-cache,:selected:,"*
+:selected:",:selected:,:selected:
+2,JEITA Charger,"X
+:selected:",:selected:,:selected:,"V
+:selected:"
+3,Boost DCDC converter,"*
+:selected:",:selected:,:selected:,"V
+:selected:"
+4,eMMc,:selected:,"X
+:selected:","X
+:selected:",:selected:
+5,Rest of the features,:selected:,:selected:,:selected:,"V
+:selected:"

@@ -1,0 +1,4 @@
+,Clock for Oscillation,Wait Control Register,Wait Time,
+1,Main clock,MOSCWTCR.MSTS[4:0],|Wait time > tMAINOSC x fMAIN [cycle],
+2,PLL clock,PLLWTCR.PSTS[4:0],Wait time > tPLL1 x fPLL [cycle],When the PLL starts operating after the main clock oscillation is stabilized
+3,,,Wait time >= (tMAINOSC + tPLL1) x fPLL [cycle],When the PLL starts operating before the main clock oscillation is stabilized

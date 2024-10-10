@@ -1,0 +1,8 @@
+,Bit,Symbol,Bit Name,Functions,R/W
+1,1:0,CTSUSPMD[1:0],Calibration Mode Bits,Calibration Mode 00: Capacitance measurement mode 10: Calibration mode Others: Setting prohibited,R/W
+2,2,CTSUTSOD,TS Pins Fixed Output Bit,TS Pins Fixed Output 0: Capacitance measurement mode 1: Output High or Low from TS terminals,R/W
+3,3,CTSUDRV,Calibration Setting 1 Bit,Calibration Setting 1 0: Capacitance measurement mode 1: Calibration setting 1,R/W
+4,6:4,,Reserved Bits,These bits are read as 0. The write value should be 0.,R/W
+5,7,CTSUTSOC,Calibration Setting 2 Bit,Calibration Setting 2 0: Capacitance measurement mode 1: Calibration setting 2,R/W
+6,14:8,,Reserved Bits,These bits are read as 0. The write value should be 0.,R/W
+7,15,CTSUICOMP,TSCAP Voltage Error Monitor Bit,This bit monitors the error status of the TSCAP voltage 0: Normal TSCAP voltage 1: Abnormal TSCAP voltage.,R

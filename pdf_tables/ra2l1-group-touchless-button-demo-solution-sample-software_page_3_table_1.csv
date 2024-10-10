@@ -1,0 +1,18 @@
+,Folder/File Name,Description,,
+1,touchless_sample_project_ra2l1,Project folder,,
+2,,C project file,.cproject,
+3,,Project file,project,
+4,,Debug configuration file,touchless_sample_project_ra2l1 Debug_Flat.launch,
+5,,FSP configurator configuration file,configuration.xml,
+6,,QE automatically generated file storage folder,qe_gen,
+7,,QE Touch configuration definition source file,,qe_touch_config.c
+8,,QE Touch configuration definition header file,,qe_touch_config.h
+9,,QE Touch configuration definition header file,,qe_touch_define.h
+10,,Application file,,qe_touch_sample.c
+11,,Source/header file storage folder,src,
+12,,Touchless button demo solution LED control source file,,r_touchless_led.c
+13,,Touchless button demo solution LED control header file,,r_touchless_led.h
+14,,Touchless button demo solution buzzer control source file,,r_touchless_buzzer.c
+15,,Touchless button demo solution buzzer control header file,,r_touchless_buzzer.h
+16,,QE for Capacitive Touch generated folder,QE-Touch,
+17,,Touch I/F configuration file,,touchless_sample_project_ra2l1.tifcfg

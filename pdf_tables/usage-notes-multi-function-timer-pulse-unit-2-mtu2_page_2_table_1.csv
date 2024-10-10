@@ -1,0 +1,3 @@
+,Bit,Symbol,Bit Name,Description,R/W
+1,b0,OLSP,"Output Level Select P*2, *3",See Table 17.32.,R/W
+2,b1,OLSN,Output Level Select N*2 *3,See Table 17.33.,R/W

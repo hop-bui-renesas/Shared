@@ -1,0 +1,27 @@
+,,IDE Support,,
+1,Example Project,e2 studio/GCC,IAR,Keil MDK
+2,quickstart,Supported,,
+3,adc,Supported,,
+4,adc_gpt_periodic_sampling,Supported,,
+5,agt,Supported,Supported,Supported
+6,cac,Supported,,
+7,cpp,Supported,,
+8,crc,Supported,,
+9,doc,Supported,,
+10,elc,Supported,,
+11,flash_lp,Supported,Supported,Supported
+12,freertos,Supported,Supported,Supported
+13,gpt,Supported,Supported,Supported
+14,gpt_input_capture,Supported,,
+15,icu,Supported,Supported,Supported
+16,iic_master,Supported,,
+17,iwdt,Supported,,
+18,kint,Supported,,
+19,lpm,Supported,,
+20,rtc,Supported,Supported,Supported
+21,sci_i2c,Supported,,
+22,sci_spi,Supported,,
+23,sci_uart,Supported,Supported,Supported
+24,vee_flash,Supported,,
+25,wdt,Supported,Supported,Supported
+26,wifi,Supported,,

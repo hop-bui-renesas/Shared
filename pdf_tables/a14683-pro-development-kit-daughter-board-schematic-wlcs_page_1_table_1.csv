@@ -1,0 +1,16 @@
+,Version,Date,Comments
+1,A,13/Mar/ 2015,Initial Schematic
+2,B,17/Jun/ 2015,Add R24=2.2K for V14 rail power at power up
+3,,,Change value of C4 to 10uF
+4,,26/Jun/ 2015,Replace SW2 pin header connector with slide switch CUS-12TB
+5,,,Replace J3 RF Switch with Murata MM8130-2600
+6,,,"Add second choice for QSPI FLASH , U3, W25Q80EW"
+7,,03/Jul/ 2015,Change C8 from 1uF to 4.7uF
+8,,,"Replace L1 part number (L2012 , lower DC Resistance)"
+9,C,29/Jul/ 2015,Connect R24 to V18 instead of VDDIO
+10,,,Change pin assigment for UTX (P1_3) URX (P2_3)
+11,D,16/Sept/ 2015,Add Resistor R25=10MOhm to XTAL32Kp
+12,,,Make Resistor R24=2.2K NP
+13,,,Make W25Q80EW populated
+14,E,16/Oct/ 2015,Modify for label
+15,,13/Jul/ 2016,Modify IC part number to DA14683

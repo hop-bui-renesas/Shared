@@ -1,0 +1,12 @@
+,Parameter,Symbol,Min,Typ,Max,Unit,Test conditions
+1,Voltage level for switching to battery backup,VDETBATT,2.50,2.60,2.70,"V
+:selected:",Figure 53.88
+2,Lower-limit VBATT voltage for power supply switching caused by VCC voltage drop,VBATTSW,2.70,-,-,"V
+:selected:",
+3,VCC-off period for starting power supply switching,tVOFFBATT,200,-,-,us,
+4,VBATT low voltage detection level,Vbattldet,1.8,1.9,2.0,"V
+:selected:",Figure 53.89
+5,Minimum VBATT down time,tBATTOFF,200,-,-,us,
+6,Response delay,tBATTdet,-,-,200,Us,
+7,VBATT monitor operation stabilization time (after VBATTMNSELR.VBATTMNSEL is changed to 1),td(E-A),-,-,20,us,
+8,VBATT current increase (when VBATTMNSELR.VBATTMNSEL is 1 compared to the case that VBATTMNSELR.VBATTMNSEL is 0),IVBATTSEL,-,140,350,nA,

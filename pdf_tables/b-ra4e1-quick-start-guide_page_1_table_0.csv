@@ -1,0 +1,13 @@
+,Item,Specification
+1,Evaluation MCU,Part Number: R7FA4E10D2CFM; package: 64-pin LFQFP
+2,,"On-chip memory: 512 KB ROM, 128 KB RAM, 8 KB data flash memory"
+3,Board size,55 mm x 95 mm; thickness: 1.6 mm
+4,Power supply voltage,Vcc: 3.3 V to 5.5 V. MCU operation voltage range 1.6 V to 5.5 V
+5,Power supply circuit,USB connector: VBUS (5 V input); VBUS is converted to 3.3 V by LDO.
+6,,2-pin external power-supply header*1
+7,Push switch,Reset switch x 1; user switch x 1
+8,LED,"Power indicator: green x 1*1, user: green x 2, debug/power: orange x 1"
+9,USB connector,Micro USB Type-B
+10,PmodTM connector*1,"Right angle type, 12-pin x 2"
+11,ArduinoTM connector,"6-pin x 1, 8-pin x 2, 10-pin x 1 The interface is compatible with ArduinoTM Uno R3."
+12,MCU header*1,50-pin x 2

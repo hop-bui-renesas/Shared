@@ -1,0 +1,5 @@
+,Feature,Functional description
+1,I/O ports,". I/O ports for the 56-pin QFN - I/O pins : 32
+:selected:"
+2,,"- Input pins : 3 - Pull-up resistors : 30 - N-ch open-drain outputs : 25 - 5-V tolerance : 5
+:unselected: :unselected: :unselected:"

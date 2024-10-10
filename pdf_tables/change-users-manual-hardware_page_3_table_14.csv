@@ -1,0 +1,7 @@
+,Address,Module Symbol,Register Name,Register Symbol,Number of Bits,Access Size,Number of Access States,Module Name,Reference Page,Remarks,
+1,,,,,,,ICLK >= PCLK,,,,ICLK < PCLK
+2,0008 9860h,AD,A/D Sampling State Register 0,ADSSTR0,8,8,"2, 3 PCLKB",AD,1601,"Not present in versions with 420, 412, 100, 64 or 48 pins.",2 ICLK
+3,0008 9861h,AD,A/D Sampling State Register L,ADSSTRL,8,8,"2, 3 PCLKB",,1602,"Not present in versions with 420,- 412, 100, 64 or 48 pins.",2 ICLK
+4,0008 9873h,AD,A/D Sampling State Register 1,ADSSTR1,8,8,"2, 3 PCLKB",,1601,"Not present in versions with 420,- 412, 100, 64 or 48 pins.",2 ICLK
+5,0008 9874h,AD,A/D Sampling State Register 2,ADSSTR2,8,8,"2, 3 PCLKB",,1601,"Not present in versions with 420,- 412, 100, 64 or 48 pins",2 ICLK
+6,0008 9875h,AD,A/D Sampling State Register 3,ADSSTR3,8,8,"2, 3 PCLKB",,1601,"Not present in versions with 420,- 412, 100, 64 or 48 pins.",2 ICLK

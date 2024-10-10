@@ -1,0 +1,15 @@
+,History Table,,
+1,Version Date,Comments,
+2,A00,Draft Release,08 / Aug / 2018
+3,A1.0,Added option for hardware reset (P0_0 - R30) Added CIB debugging option (J4),09 / Aug / 2018
+4,,Corrected mismatch in function notes (purple names) for MISO/SCLK,
+5,,Released to manufacturing,17 / Aug / 2018
+6,C1.0,"Added options for SWDIO (R31, R32) Default option for SWDIO set to P0 _ 10 (R31) Version number set to C (matching the layout version) Released to manufacturing",17 / Aug / 2018
+7,C1.1,Set default configuration: SPI bus and JTAG: . R1 to R12 changed to 36 Ohms instead of 100 ohms . Y2 (32. 768KHz - NP) type changed to SC20S-7PF20PPM . R23 R24 R25 R26 R27 R28 R29 set as not populated,30 / Nov / 2018
+8,C1.2,"Set JTAG SWDIO on P0 _ 5 (not on P0 _ 10 as in datasheet) . R31 = No pop - R15 = 0 Added Matching circuit Z1, 3 - Z3 = 4.6nH / LQW15AN4N6B80D - Z1 = 1pF",10 / Jan / 2019
+9,C1.3,"BOM modifications for DCDC power optimization: - Changed L1 from BRL1608T2R2M to CBMF1608T2R2M - Changed C1, C2 from 10uF to 2.2uF Set JTAG SWDIO on PO_10 (as in datasheet) - R31 = 0 . R15 = No Pop",01 / Feb / 2019
+10,D1.0,Changed L1 from CBMF1608T2R2M to DFE201610E-2R2M,04 / Feb / 2019
+11,E1.0,Changed C2 to 4.7uF Added NP resistor R33 Layout modification: Removed restangle on top legend around U1,15 / May / 2019
+12,F1.0,"Added placeholder for pi-shaped CLC filter ( Z1, 22, z3) Changed RF matching components to : 24, 25 , Z6 Added placehold for decoupling capacitors: C6, C7 Added resistors R34, R35",03/ July / 2019
+13,F1.1,Changed C2 from 4.7uF to 10uF,10/ July / 2019
+14,F1.2,Changed R11 to N. P.,09 / Aug / 2019

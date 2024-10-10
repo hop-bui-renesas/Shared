@@ -1,0 +1,19 @@
+,Function,Signal,I/O,Description
+1,SCI,SCKn (n = 9),I/O,Input/output pins for the clock (clock synchronous mode)
+2,,RXDn (n = 9),Input,Input pins for received data (asynchronous mode/clock synchronous mode)
+3,,TXDn (n = 9),Output,Output pins for transmitted data (asynchronous mode/clock synchronous mode)
+4,,CTSn_RTSn (n = 9),I/O,"Input/output pins for controlling the start of transmission and reception (asynchronous mode/clock synchronous mode), active- low."
+5,,SCLn (n = 9),I/O,Input/output pins for the IIC clock (simple IIC mode)
+6,,SDAn (n = 9),I/O,Input/output pins for the IIC data (simple IIC mode)
+7,,SCKn (n = 9),I/O,Input/output pins for the clock (simple SPI mode)
+8,,MISOn (n = 9),I/O,Input/output pins for slave transmission of data (simple SPI mode)
+9,,MOSIn (n = 9),I/O,Input/output pins for master transmission of data (simple SPI mode)
+10,,SSn (n = 9),Input,"Chip-select input pins (simple SPI mode), active-low"
+11,13C,SCLn (n = 0),I/O,Input/output pins for the clock
+12,,SDAn (n = 0),I/O,Input/output pins for data
+13,SPI,RSPCKA,I/O,Clock input/output pin
+14,,SSLAO,I/O,Input or output pin for slave selection
+15,,MOSIA,I/O,Input or output pins for data output from the master
+16,,MISOA,I/O,Input or output pins for data output from the slave
+17,Analog power supply,VREFHO,Input,Analog reference voltage supply pin for the ADC12. Connect this pin to AVCCO when not using the ADC12.
+18,,VREFLO,Input,Analog reference ground pin for the ADC12. Connect this pin to AVSSO when not using the ADC12.

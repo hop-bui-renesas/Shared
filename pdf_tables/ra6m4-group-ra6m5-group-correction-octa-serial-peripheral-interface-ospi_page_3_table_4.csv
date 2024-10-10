@@ -1,0 +1,3 @@
+,,Internal Address,Maximum Accessible Area
+1,OctaFlash,0x7000_0000 to 0x7FFF_FFFF,Up to 256 Mbytes
+2,OctaRAM,0x6800_0000 to 0x687F_FFFF,Up to 8 Mbytes

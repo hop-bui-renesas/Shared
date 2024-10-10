@@ -1,0 +1,5 @@
+,Item,Target Register,Limitations,Limitations after the Permanent Countermeasure
+1,"1, 2, 3, 4",GTST,Limitation at the time of writing Limitation when using compare-match Limitation when using interrupts Limitation in use of the input capture flags,None
+2,5,LCST,Limitation when using interrupts,None
+3,6,GTETINT,Limitation when using the external trigger input interrupt,None
+4,7,GTSTR,"Limitation at the time of writing to (i.e. the need to read, modify, then write) specific bits","No limitation when the added register, GTSWP, is also used"

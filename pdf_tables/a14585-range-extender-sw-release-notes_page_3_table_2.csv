@@ -1,0 +1,5 @@
+,#,DESCRIPTION
+1,NEW FEATURES,
+2,-,NA
+3,FIXES / IMPROVEMENTS,
+4,-,Enables the range extender with power set by the user. Keeps radio output value during sleep.

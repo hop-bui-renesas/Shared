@@ -1,0 +1,4 @@
+,,Bug/Enhancement
+1,312,LO spurs and TX harmonics at RFIO pin
+2,314,System in boost is stuck at boot if Vbat_high load > 50 uA load
+3,306,Small input leakage current when xtal32k_m (P0_4) is high

@@ -1,0 +1,22 @@
+,,PSEL [4:0] settings,Function,pin,,,,,,,,,,,,,,,
+1,,,,P100,P101,P102,P103,P104,P105,P106,P107,P108,P109,P110,P111,P112,P113,P114,P115
+2,,00000b (value after reset),Hi-Z/ JTAG/SW D,Hi-Z,,,,,,,,TMS/ SWDIO,TDO/S WO,TDI,Hi-Z,,,,
+3,,00001b,AGT,AGTIO 0,AGTEE 0,AGTOO,AGTIO 2,AGTEE 2,AGTO2,AGTOB 0,AGTOA 0,AGTOA 3,AGTOB 3,AGTEE 3,AGTOA 5,AGTOB 5,AGTEE 5,AGTIO 5,-
+4,,00010b,GPT'2,GTETR GA,GTETR GB,-,,GTETR GB,GTETR GA,-,-,:unselected:,,,,-,,"-
+:unselected:",-
+5,,00011b,GPT'2,GTIOC 5B,GTIOC 5A,GTIOC 28,GTIOC 2A,GTIOC 1B,GTIOC 1A,-,,,GTIOC 1A,GTIOC 1B,-,-,GTIOC 2A,GTIOC 28,GTIOC 4A
+6,,00100b,SCI,RXDO/ MISOO/ SCLO,TXDO/ MOSIO/ SDAD,SCKO,CTSO RTSO/ SSO,,-,:unselected:,,-,,CTS2 RTS2/ SS2,SCK2,TXD2/ MOSI2/ SDA2 TXDX2/ SIOX2,RXD2/ MISO2/ SCL2 RXDX2,,"-
+:unselected:"
+7,,00101b,SCI,SCK1,CTS1_ RTS1/ SS1,-,,-,,,,CTS9 RTS9/ SS9,TXD9 MOSI9/ SDA9,RXD9/ MISO9/ SCL9,SCK9,SCK1,-,CTS9,-
+8,,00110b,"SPI""1",MISOB _A,MOSIB A,RSPCK BA,SSLBO A,SSLB1 _A,SSLB2 A,SSLB3 A,-,SSLAD B,MOSIA B,MISOA B,RSPCK A B,SSLAD B,-,-,-
+9,,01001b,CLKOUT/ RTC,-,,-,,-,,,,-,CLKOU T,"-
+:unselected:","-
+:unselected:",-,,,-
+10,,01010b,CAC/ ADC12,-,,ADTRG 0,-,-,-,,,-,-,-,-,-,"-
+:unselected:",,-
+11,,10000b,CAN,-,-,CRXD,CTXO,"-
+:unselected:",-,"-
+:unselected:",-,-,,,,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:"

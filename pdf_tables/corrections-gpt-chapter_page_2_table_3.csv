@@ -1,0 +1,7 @@
+,Bit,Symbol,Function,R/W
+1,(omission),,,
+2,12,-,These bits are read as 0. The write value should be 0.,R/W
+3,(omission),,,
+4,19:16,MD[3:0],Mode Select*2,R/W*1
+5,,,0 0 0 0: Saw-wave PWM mode 1 (single buffer or double buffer possible) (omission),
+6,(omission),,,

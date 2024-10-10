@@ -1,0 +1,6 @@
+,Address,Module Symbol,Register Name,Register Symbol,Number of Bits,Access Size,Number of Access States,Module Name,Reference Page,Remarks,
+1,,,,,,,ICLK >= PCLK,,,,ICLK < PCLK
+2,0008 C087h,PORT3,Open Drain Control Register 1,ODR1,8,8,"2, 3 PCLKB",I/O Ports,509,"Not present in versions with 120, 112, 100, 64, or 48 pins.",2 ICLK
+3,0008 C092h,PORT9,Open Drain Control Register 0,ODR0,8,8,"2, 3 PCLKB",,508,"Not present in versions with 144, 120, 112, 100, or 48 pins.",2 ICLK
+4,0008 C093h,PORT9,Open Drain Control Register 1,ODR1,8,8,"2, 3 PCLKB",,509,Not present in versions with 48 pins.,2 ICLK
+5,0008 C09Ah,PORTD,Open Drain Control Register 0,ODR0,8,8,"2, 3 PCLKB",,508,Net present in- versions with 64 or 48-pins.,2 ICLK

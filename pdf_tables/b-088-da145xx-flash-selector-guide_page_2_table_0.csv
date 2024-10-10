@@ -1,0 +1,36 @@
+,Memory Size,Flash Device,DA1453x,DA14585
+1,512 kBit,AT25DF512C,"Y
+:selected:","Y
+:selected:"
+2,,AT25XE512C,"Y
+:selected:","Y
+:selected:"
+3,1 Mbit,AT25DN011,-,"Y
+:selected:"
+4,,AT25DF011,"Y
+:selected:","Y
+:selected:"
+5,,AT25XE011,"Y
+:selected:","Y
+:selected:"
+6,2 Mbit,AT25EU0021A,"Y
+:selected:","Y
+:selected:"
+7,,AT25DF021A,"Y
+:selected:","Y
+:selected:"
+8,,AT25XE021A,Y,"Y
+:selected:"
+9,4 Mbit,AT25XE041B,Y,"Y
+:selected:"
+10,,AT25FF041A,V (1),"Y
+:selected:"
+11,,AT25XE041D,V (1),Y
+12,,AT45DB041E,-,"Y
+:selected:"
+13,8 Mbit,AT25FF081A,V(1,"Y
+:selected:"
+14,,AT25XE081D,V (1),"Y
+:selected:"
+15,32 Mbit,AT25SL321,Y,"Y
+:selected:"

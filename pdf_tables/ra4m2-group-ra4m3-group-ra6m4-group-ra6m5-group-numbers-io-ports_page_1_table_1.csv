@@ -1,0 +1,5 @@
+,Feature,Functional description
+1,I/O ports,". I/O ports for the 100-pin LQFP - I/O pins : 77
+:selected:"
+2,,"- Input pins : 1 - Pull-up resistors : 78 - N-ch open-drain outputs : 77 - 5-V tolerance : 14 . I/O ports for the 64-pin LQFP - I/O pins : 43 - Input pins : 1 - Pull-up resistors : 44 - N-ch open-drain outputs : 43 - 5-V tolerance : 9 . I/O ports for the 48-pin LQFP, 48-pin QFN - I/O pins : 29 - Input pins : 1 - Pull-up resistors : 30 - N-ch open-drain outputs : 29 - 5-V tolerance : 4
+:unselected: :unselected: :selected: :selected:"

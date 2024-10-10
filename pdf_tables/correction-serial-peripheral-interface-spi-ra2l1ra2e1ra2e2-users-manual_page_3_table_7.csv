@@ -1,0 +1,6 @@
+,Parameter,Specifications
+1,Number of channels,One channel
+2,SPI transfer functions,". Use of MOSI (master out/slave in), MISO (master in/slave out), SSL (slave select), and RSPCK (SPI clock) signals allows serial communications through SPI operation (4-wire method) or clock synchronous operation (3-wire method)"
+3,,- Transmit-only operation available . Communication mode selectable to full-duplex or transmit-only - RSPCK polarity switching . RSPCK phase switching
+4,Data format,". MSB-first or LSB-first selectable . Transfer bit length selectable to 8, 9, 10, 11, 12, 13, 14, 15, 16, 20, 24, or 32 bits . 32-bit transmit and receive buffers"
+5,Bit rate,". In master mode, the on-chip baud rate generator generates RSPCK by frequency-dividing PCLKB (the division ratio ranges from divided by 2 to divided by 4096) . In slave mode, the minimum PCLKB clock divided by 6 can be input as RSPCK (PCLKB divided by 6 is the maximum RSPCK frequency) Width at high level: 3 PCLKB cycles; width at low level: 3 PCLKB cycles"

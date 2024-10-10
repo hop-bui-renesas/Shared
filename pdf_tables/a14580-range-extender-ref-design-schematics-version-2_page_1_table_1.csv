@@ -1,0 +1,6 @@
+,History Table,,
+1,Version,Date,Comments
+2,A,28 / Sept / 2014,Initial Schematic
+3,B,04 /Jan / 2015,"Remove signal BJT inverter, add extra control signal Remove L2, C10, change C4 to NP, change C8 to 10pf"
+4,C,01 /Apr / 2015,"CHANGE POWER AMP TO SKY66111, CHANGE RBIAS NETWORK"
+5,C1,02 /Sept / 2015,CHANGE RBIAS VALUE=3.3K

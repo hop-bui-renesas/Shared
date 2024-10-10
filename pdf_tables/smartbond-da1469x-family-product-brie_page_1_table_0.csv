@@ -1,0 +1,22 @@
+,smartbond,DA1469x,RENESAS,
+1,,,HASH AES,Arm Cortex-M33 CPU
+2,,,,
+3,,,TRNG,Sensor Node Controller
+4,,,RC32M,
+5,,,RC32K,SWD
+6,,512KB RAM,XTAL32k,
+7,,,,UART x3 [ISO7816]
+8,,,XTAL32M,
+9,,,,SPIx2
+10,,,PLL96M,I2C PDM/PCM/SRC
+11,,128KB ROM,Configurable MAC Digital PHY RADIO,RTC
+12,,,,4x24bits Timers
+13,,QSPI FLASH I/F QSPI PSRAM I/F,,10 bit SAR ADC
+14,,,,14 bit SD ADC
+15,,,,LRA/ERM
+16,,Display driver,DCDC Buck,
+17,,,,USB
+18,,,External power,Charger
+19,,,rails (PMU),White LEDs
+20,,Motor Controller,,
+21,,Up to 55 GPIOs,,

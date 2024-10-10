@@ -1,0 +1,6 @@
+,Bit,Symbol,Bit name,Description,R/W
+1,b3 to b0,,Reserved,These bits are read as 0. The write value should be 0.,R/W
+2,b4,SPRDTD,SPI Receive/Transmit Data Select,"0: Read SPDR/SPDR_HA values from receive buffer 1: Read SPDR/SPDR_HA values from transmit buffer, but only if the transmit buffer is empty.",R/W
+3,b5,SPLW,SPI Word Access/Halfword Access Specification,0: Set SPDR_HA to valid for halfword access 1: Set SPDR to valid for word access.,R/W
+4,b6,SPBYT,SPI Byte Access Specification,0: SPDR is accessed in halfword or word (SPLW is valid) 1: SPDR is accessed in byte (SPLW is invalid).,R/W
+5,b7,-,Reserved,This bit is read as 0. The write value should be 0.,R/W

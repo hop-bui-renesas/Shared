@@ -1,0 +1,4 @@
+,Symbol,Parameter,"Limits *1, *2",Unit,,
+1,,,Min,,Typ,Max
+2,Iinput_s,Port input current (static) at overvoltage condition of terminals without 5V-tolerant *3,-,mA,-,+2.0
+3,SIinput_s,Sum of all pins input current (static) at overvoltage condition,-,mA,-,+20.0

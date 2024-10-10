@@ -1,0 +1,26 @@
+,Address,Module Symbol,Register Name,Register Symbol
+1,0008 A004h,SCI0,Serial Status Register,SSR
+2,0008 A044h,SCI2,Serial Status Register,SSR
+3,0008 A084h,SCI4,Serial Status Register,SSR
+4,0008 A0C4h,SCI6,Serial Status Register,SSR
+5,0008 AC44h,SDHI,SD Interrupt Mask Register 2,SDIMSK2
+6,0008 ADC4h,SDHI,Version Register,SDVER
+7,0008 B004h,CAC,CAC Status Register,CASTR
+8,0008 B084h,DOC,DOC Data Setting Register,DODSR
+9,0008 B104h,ELC,Event Link Setting Register 3,ELSR3
+10,0008 B304h,SCI12,Serial Status Register,SSR
+11,0008 C004h,PORT4,Port Direction Register,PDR
+12,0008 C044h,PORT4,Port Input Register,PIDR
+13,0008 C084h,PORT2,Open-Drain Control Register0,ODR0
+14,0008 C0C4h,PORT4,Pull-Up Resistor Control Register,PCR
+15,0008 C104h,MPC,Address Output Enable Register 0,PFAOE0
+16,0008 C1C4h,MPC,PG4 Pin Function Control Register,PG4PFS
+17,0008 C404h,RTC,Minute Counter,RMINCNT
+18,0008 C404h,RTC,Binary Counter 1,BCNT1
+19,0008 C444h,RTC,Time Capture Control Register 2,RTCCR2
+20,0008 C4C4h,POE3,Input Level Control/Status Register 2,ICSR2
+21,0009 0844h,CAN0,Bit Configuration Register,BCR
+22,0009 1844h,CAN1,Bit Configuration Register,BCR
+23,0009 2844h,CAN2,Bit Configuration Register,BCR
+24,0009 4204h,CMTW0,Timer Control Register,CMWCR
+25,0009 4284h,CMTW1,Timer Control Register,CMWCR

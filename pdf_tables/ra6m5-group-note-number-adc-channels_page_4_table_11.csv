@@ -1,0 +1,7 @@
+,Pin name,I/O,Function
+1,AVCCO,Input,Analog block power supply pin (Connect to VCC when ADC12/DAC12 is not used.)
+2,AVSSO,Input,Analog block power supply ground pin (Connect to VSS when ADC12/DAC12 is not used.)
+3,VREFHO,Input,Reference high-potential power supply pin
+4,VREFLO,Input,Reference low-potential power supply ground pin
+5,"AN000 to AN010, AN012, AN013 *1",Input,"Analog input pins 0 to 10, 12, 13"
+6,ADTRGO,Input,External trigger input pin for starting A/D conversion

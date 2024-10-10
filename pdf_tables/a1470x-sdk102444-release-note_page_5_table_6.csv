@@ -1,0 +1,29 @@
+,Feature Number,Description
+1,103.1,Apply recommended settings for DA1470x
+2,104.0,Applications running on M33
+3,105.0,Sensor Node Framework
+4,106.0,BT-LE Controller running on M0+
+5,108.0,Clock management
+6,109.0,Timers Driver
+7,110.0,Support RTC
+8,112.0,Support Crypto HW
+9,113.0,Boot from Flash & RAM
+10,114.0,Support memory Controller
+11,115.0,Reset support
+12,116.1,Add support for DA1470x device variants
+13,117.3,Add support for using parts of RAM9/RAM10 CMAC memory cells in the main processor application
+14,119.0,Support BOD
+15,120.1,`st_fw` for DA1470x
+16,121.1,Extend `collect_debug_info` for DA1470x
+17,121.2,"Add support for concurrent debug logging via UART-retargeted printf's from M33, SNC"
+18,122.0,Flash Programming
+19,125.1,Add TRNG and DRBG capabilities
+20,174.0,Proximity Reporter Example
+21,193.1,Software Upgrade Support
+22,199.0,eMMC driver
+23,288.0,Add support for Macronix MX25U6432 flash memory
+24,291.0,Support RCHS accuracy calibration
+25,297.0,"Support configurable DMA priorities for peripherals (I2C, I3C, SPI, UART, USB, Audio)"
+26,301.0,FreeRTOS v10.4.4
+27,302.0,Add support for Adesto AT25SL128 storage flash memory
+28,328.0,Add SNC template projects

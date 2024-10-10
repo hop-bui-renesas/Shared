@@ -1,0 +1,8 @@
+,Item,Clock source,Clock supply,Specification
+1,CAC HOCO clock (CACHCLK),HOCO,CAC,24/32/48/64 MHz
+2,CAC IWDTLOCO clock (CACILCLK),IWDTLOCO,CAC,15 KHz
+3,RTC clock (RTCSCLK/ RTCS128CLK/RTCLCLK),SOSC/LOCO,RTC,32.768 kHz / 128 Hz
+4,IWDT clock (IWDTCLK),IWDTLOCO,IWDT,15 KHz
+5,Sys Tick timer clock (SYSTICCLK),LOCO,Sys Tick timer,32.768 kHz
+6,Clock/buzzer output (CLKOUT),MOSC/SOSC/LOCO/MOCO/ HOCO,CLKOUT pin,Up to 16 MHZ Division ratios: 1/2/4/8/16/32/64/128
+7,Serial wire clock (SWCLK),SWCLK pin,OCD,Up to 12.5 MHz

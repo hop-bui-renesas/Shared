@@ -1,0 +1,8 @@
+,Configuration,,,,,
+1,Description,to VPP,Decoup to VDD,to P3_0,VBAT3V,Decoup.
+2,U1,R9,C5,R11,R10,C6
+3,DA14580,0ohm,NP,NP,NP,NP
+4,DA14581,0ohm,NP,NP,NP,NP
+5,DA14583,0ohm,NP,NP,0ohm,100nF
+6,DA14585 (default),NE,NP,0ohm,NP,NP
+7,DA14586,NP,NP,NP,0ohm,100nF

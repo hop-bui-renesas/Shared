@@ -1,0 +1,4 @@
+,Name,Description Base address
+1,KINT,Key Interrupt Function 0x4008_5000
+2,POEG,Port Output Enable for GPT 0x4008_A000
+3,CANFD,CANFD Module Control 0x400B_0000

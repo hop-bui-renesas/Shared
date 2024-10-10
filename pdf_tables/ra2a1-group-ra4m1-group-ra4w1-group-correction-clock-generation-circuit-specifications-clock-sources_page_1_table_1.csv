@@ -1,0 +1,3 @@
+,Clock source,Description,Specifications
+1,Main clock oscillator (MOSC),Resonator frequency,1 MHz to 20 MHz (up to 5.5 V) 1 MHz to 8 MHz (up to 2.4 V)
+2,,External clock input frequency,Up to 20 MHz

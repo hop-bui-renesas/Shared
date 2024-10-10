@@ -1,0 +1,12 @@
+,PSEL[4:0] settings,Function,pin,,,,,,,
+1,,,P000,P001,P002,P003,P004,P013,P014,P015
+2,00000b (value after reset),Hi-Z/JTAG/SWD,Hi-Z,,,,,,,
+3,ASEL bit,,AN000,AN001,AN002,AN003,AN004,AN011,AN012/DA0,ANO13/BA+
+4,ISEL bit,,IRQ6-DS,IRQ7-DS,IRQ8-DS,-,IRQ9-DS,,-,IRQ13
+5,DSCR[1:0] bits,"Drive capacity control""1",L,L,L,L,L,L,L,"L
+:unselected:"
+6,NCODR bit,N-ch open-drain,:selected:,:selected:,:selected:,:selected:,:selected:,:selected:,"1
+:selected:",:selected:
+7,PCR bit,Pull-up,:selected:,:selected:,:selected:,:selected:,:selected:,:selected:,:selected:,:selected:
+8,64 pins product,,:selected:,:selected:,:selected:,:selected:,:selected:,:selected:,:selected:,:selected:
+9,48 pins product,,:selected:,:selected:,:selected:,,-,:selected:,:selected:,:selected:

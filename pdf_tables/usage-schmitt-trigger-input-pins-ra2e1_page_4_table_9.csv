@@ -1,0 +1,7 @@
+,PSFI [4: settings,Function,Pin,,,,,,,,,,,,,
+1,,,P100,P101+,P102,P103-,P104-,P105-,P106-,P107+,P108-,P109 --,P110-,P111+,P112-,P113-
+2,00000b-,(initial)+3,-,,,,,,,,"10
+:selected:",,,,,
+3,00001b+,AGT,,:selected:,:selected:,,,,,,-,,,"10
+:selected:","10
+:selected:",

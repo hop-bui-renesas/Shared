@@ -1,0 +1,37 @@
+,History Table,,
+1,Version Date,Comments,
+2,A00,Initial Schematic,18 / Dec. / 2017
+3,B00,Changes to current version :,6 / Mar. / 2018
+4,,"- Change part Y3 to 9HT11-32.768KDZB-T
+:unselected:",
+5,,"- Change T25 to Header conn. type
+:unselected:",
+6,,- Add TP25 for monitoring 5V,
+7,,- Add TP26 for monitoring VDD_3V3_SEG,
+8,,Antenna matching circuit:,
+9,,- R84 change to Z3 = 10pF,
+10,,- R85 change to L2 = 2.2nH,
+11,,- R86 change to L3 = 4nH,
+12,,"- Z1 change to R88 (NP) - Z2 change to R89 (0ohm)
+:unselected: :unselected:",
+13,,Change MikroBus power supply from VDD_3V3_SEG to VDD_3V3_HUB Change RESET circuit,
+14,,Set Resistor R9 as populated (1kohm) Set resistor R10 as No populated,
+15,C00,Changes to current version :,29 / Mar. / 2018
+16,,"- Remove J2 (Segger connector)
+:unselected:",
+17,,"- Add TP30 (SWO/TDO)
+:unselected:",
+18,,"- Add TP28 (LDO_683)
+:unselected:",
+19,,"- Add TP29 (V33)
+:unselected: :unselected:",
+20,,"- Add SW6
+:unselected:",
+21,,"- Add U10
+:unselected:",
+22,,"- Add 1uF Cap C50 & C51
+:unselected:",
+23,,"- Remove R49, R50
+:unselected:",
+24,,"- Change R87 from 4.7k to 1k
+:unselected:",

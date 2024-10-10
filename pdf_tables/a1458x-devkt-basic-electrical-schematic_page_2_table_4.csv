@@ -1,0 +1,9 @@
+,Configuration,,,,,
+1,Description,to VPP,Decoup to VDD,to P3_0,VBAT3V,Decoup
+2,,R37,C30,R39,R40,C32
+3,580,0ohm,NP,NP,NP,NP
+4,581,0ohm,NP,NP,NP,NP
+5,583,0ohm,NP,NP,0ohm,100nF
+6,584,0ohm,NP,NP,0ohm,100nF
+7,585 (default),NP,NP,0ohm,NP,NP
+8,586,NP,NP,NP,0ohm,100nF

@@ -1,0 +1,9 @@
+,No.,Main Applications,Assumed Temperature Profile,Recommended Temperature Profile for Derating
+1,1,"Cooking equipment (kitchen stoves, IH heaters)",An operating time of 3 hours/day in a high-temperature environment. Standby or stopped at other times.,"Tj <= 112oC for 3 hours/day. At other times, standby or stopped at Tj <= 97C"
+2,2,"Appliance motors, power tools",Used for 3 hours/day in a high-temperature environment. Used for 3 hours/day in a non-high-temperature environment. Standby or stopped at other times.,"102degC < Tj <= 112degC for 3 hours/day. Tj <= 102degC for 3 hours/day. At other times, standby or stopped at Tj <= 97degC"
+3,3,EV chargers,Used for 8 hours/day in a high-temperature environment.,102degC < Tj <= 112C for 4 hours/day. Tj <= 102degC for 4 hours/day.
+4,,,Standby or stopped at other times.,"At other times, standby or stopped at Tj <= 92degC"
+5,4,"Smart meters, power converters, and equipment that may be installed outdoors (24-hour operation)",Used for 4 hours/day in a high-temperature environment. Used for 4 hours/day in a non-high-temperature environment. Also operating at other times.,"102degC < Tj <= 112degC for 4 hours/day. <= Tj <= 102degC for 4 hours/day. At other times, operating at Tj <= 87degC"
+6,5,PC and server power supplies (24-hour operation),Used continuously for 5 years in an environment that includes high-temperature periods.,"102degC < Tj <= 112degC 15,000 hours Tj <= 102degC 30,000 hours"
+7,6,Industrial motors (24-hour operation: example 1),Used continuously in a high-temperature environment.,89degC < Tj <= 99degC 80% Tj <= 89degC 20%
+8,7,Industrial motors (24-hour operation: example 2),Used continuously in an environment that includes extreme high-temperature periods.,97degC < Tj <= 112C 5% 92degC < Tj <= 97degC 75% Tj <= 92degC 20%

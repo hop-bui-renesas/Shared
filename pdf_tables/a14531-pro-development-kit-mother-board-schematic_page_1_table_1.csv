@@ -1,0 +1,7 @@
+,History Table,Comments,
+1,Version,,Date
+2,A0.0,Release to manufacturing,21 / Jun / 2019
+3,B1.0,Current measurement - VREF noise . Changed C38 from 1uF to 100pF . Changed R5 from 0 to 33 ohm,09 / Aug / 2019
+4,,"Current measurement - waveform ringing . Changed C121, C106 to N. P. . Changed LP4, LP5 beads to 0 ohm resistors . Placed on R29 a 4.7uF Capacitor . Changed C4 from 5.6nF to 1nF",
+5,,"Current measurement - switching transients . changed R115 from 1M to 18.7k . changed R116 from 1M to 100k - changed R117 from 100k to 47.5k . changed C92 from 56nF to 2.49k Renamed R29 to C128 Added NP resistor R314 (option for current measurement) Changed U23 type from 74AVCH2T45GT to 74AVC2T45GT Changed U25 power to VDDIO and C2 from 100nF to 1nF Added TP21, TP22 (option for test jig) Added NP header J22 (option for VPP) Changed J19 to 5-pins type and set as default jumper option to connect SW2 button to P3 _ 1 (P0_11 on DA14531) Changed R2 from 10k to NP Changed R37 from 100k to 200k Changed C123 from N.P. to 100nF Changed R38 from 100k to 0R and connected to U3-5 Changed R1 from 1M to 4.75k Exchanged the functions of MikroBUS/Arduino socket signals related with P2_8/P3_0 (DA14531 PO_8/PO_10) _ Changed C83 from 1nF to 10nF",
+6,,,

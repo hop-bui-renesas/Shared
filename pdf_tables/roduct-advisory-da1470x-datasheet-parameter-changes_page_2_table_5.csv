@@ -1,0 +1,4 @@
+,sec 4.13 table 28: Vsys Generator Characteristics,,,
+1,parameter,min / max,min / max,unit
+2,ILIM_acc_abs,-15 / +15,-20 / +20,mA
+3,ILIM_acc_rel,-15 / +15,-20 / +20,mA

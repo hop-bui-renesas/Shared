@@ -1,0 +1,14 @@
+,Address,Module Symbol,Register Name,Register Symbol,Number of Bits,Access Size,Number of Access States,Module Name,Reference Page,Remarks,
+1,,,,,,,ICLK >= PCLK,,,,ICLK < PCLK
+2,0008 71BFh,ICU,"DTC Activation Enable Register 191
+:unselected:","DTCER191
+:unselected:",8,8,2 ICLK,ICUb,308,"Not present in versions with 112, 100, 64, or 48 pins.",
+3,0008 71C0h,ICU,"DTC Activation Enable Register 192
+:unselected:","DTCER192
+:unselected:",8,8,2 ICLK,,308,"Not present in versions with 112, 100, 64, or 48 pins.",
+4,0008 71DFh,ICU,"DTC Activation Enable Register 223
+:unselected:","DTCER223
+:unselected:",8,8,2 ICLK,,308,"Not present in versions with 100, 64, or 48 pins.",
+5,0008 71E0h,ICU,"DTC Activation Enable Register 224
+:unselected:","DTCER224
+:unselected:",8,8,2 ICLK,,308,"Not present in versions with 100, 64, or 48 pins.",

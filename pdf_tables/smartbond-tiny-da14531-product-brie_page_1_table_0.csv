@@ -1,0 +1,21 @@
+,,smartbond,DA14531,,RENESAS,
+1,,,,,,SW
+2,,ARM Cortex,M0+TMM CPU,AES-128,,based
+3,,,,,,TRNG
+4,,,,,RC32M,
+5,,SWD,,,,
+6,,,,,RC32K/512k,
+7,,"2 UARTs,",48KB RAM,,XTAL32k,
+8,,1wire UART SPI,,,,
+9,,20,,,XTAL32M,
+10,,Quadrature Decoder,,,RCX,
+11,,Keyboard CTRL,,,,
+12,,RTC,,,,
+13,,,144KB ROM,5.1 MAC,Digital PHY,RADIO
+14,,2x14bit Timers with 6 PWMs 1x 11bit,,,,
+15,,Capture Timer,,BLE,,
+16,,10 bit SAR ADC,,,,
+17,,,32 KB OTP,,,
+18,,Temperature Sensor,,,Buck/Boost/Bypass DCDC,
+19,,,"6 GPIOs in package WLCSP17, 12 GPIOs in package FCGQFN24",,,
+20,,,,,,

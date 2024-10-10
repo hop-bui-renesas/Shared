@@ -1,0 +1,4 @@
+,Category,Feature
+1,Segger GDB,Segger GDB Hardware Debug Core Feature
+2,RZ JLink,RZ J-Link GDB Hardware Debug Feature
+3,KPIT RZ Toolchain Integration,KPIT ARM-RZ Toolchain Integration

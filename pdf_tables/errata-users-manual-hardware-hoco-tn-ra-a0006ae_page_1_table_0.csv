@@ -1,0 +1,29 @@
+,Product Category,MPU/MCU,Document No.,TN-RA *- A0006A/E,Rev.,1.00,
+1,Title,Errata for User's Manual: Hardware for HOCO,Information Category,Technical Notification,,,
+2,Applicable Product,RA6M1 Group RA6M2 Group RA6M3 Group,Reference Document,RA6M1 Group User's Manual Hardware Rev.1.00 RA6M2 Group User's Manual Hardware Rev.1.00 RA6M3 Group User's Manual Hardware Rev.1.00,,,Lot No.
+3,,,,,,,All
+4,The following descriptions should be changed.,,,,,,
+5,1. OSCSF,,,,,,
+6,RA6M1,"Page 155, RA6M2 Page 160, RA6M3 Page 178",,,,,
+7,- Incorrect :selected:,,,,,,
+8,HOCOSF flag (HOCO Clock Oscillation Stabilization Flag),,,,,,
+9,"The HOCOSF flag indicates the operating status of the counter that measures the wait time for the high-speed clock oscillator (HOCO). When OFS1.HOCOEN is set to 1, confirm that OSCSF.HOCOSF is also",,,,,,
+10,"set to 1 before using the HOCO clock.
+:unselected:",,,,,,
+11,:selected: :black_circle: Correct,,,,,,
+12,HOCOSF flag (HOCO Clock Oscillation Stabilization Flag),,,,,,
+13,"The HOCOSF flag indicates the operating status of the counter that measures the wait time for the high-speed clock oscillator (HOCO). When OFS1.HOCOEN is set to 0, confirm that OSCSF.HOCOSF is alse set to 1 before using the HOCO clock.",,,,,,
+14,2. HOCOCR,,,,,,
+15,"RA6M1 Page 150, RA6M2 Page 155, RA6M3 Page 173",,,,,,
+16,- Incorrect :selected:,,,,,,
+17,HCSTP bit (HOCO Stop),,,,,,
+18,The HCSTP bit starts or stops the HOCO clock.,,,,,,
+19,"After setting the HCSTP bit to 0 to start the HOCO clock, confirm that the OSCSF.HOSCSF bit is set",,,,,to 1,
+20,"before using the clock. When OFS1.HOCOEN is set to 1, confirm that the OSCSF.HOCOSF is also set
+before using the HOCO clock. A fixed stabilization wait is required after setting the HOCO clock to",,,,,to 1,
+21,,,,,,start,
+22,"operation. A fixed wait for oscillation to stop is also required. For the HOCO to operate, the HOCO",,,,,Wait,
+23,Control Register (HOCOWTCR) must also be set.,,,,,,
+24,The following constraints apply when starting and stopping operation:,,,,,,
+25,". After stopping the HOCO, confirm that the OSCSF.HOCOSF bit is 0 before restarting the HOCO clock :selected: :black_circle: Confirm that the HOCO clock is operating and that the OSCSF.HOCOSF bit is 1 before stopping
+:selected:",,,,,,

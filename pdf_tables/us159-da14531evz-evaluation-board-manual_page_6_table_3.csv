@@ -1,0 +1,18 @@
+,Qty,Reference Designator,Description,Manufacturer,Manufacturer Part Number
+1,1,B1,"Bumper, Cylindrical, 0.375"" D, 0.19"" HSM",Bumper Specialities,BS35CL01X02RP
+2,1,BT1,"Battery Holder, 12mm Coin Cell, CR1220, SM, RoHS",Harwin,S8411-45R
+3,3,"C1, C3, C4","Capacitor, 0.1uF, 50V, SM 0603, Multilayer Ceramic, X7R, RoHS",Yageo,CC0603KRX7R9BB104
+4,1,C2,"Capacitor, 10uF, 10V, SM 0603, Multilayer Ceramic, X5R, RoHS",Murata,GRM188R61A106KE69D
+5,1,D1,"LED, Red, Clear, 0805, SM, RoHS",Wurth Elektronik,150080RS75000
+6,1,J1,"Connector, 2*6, 0.1"", Pmod, Right Angle, Unshrouded, RoHS",Harwin,M20-9950645
+7,1,J2,"Connector, 2*5 Header, Vertical, 1.27mm Pitch, Pin 7, SM, RoHS",Samtec,FTSH-105-01-L-DV-007-K
+8,1,Q1,"Transistor, P-Ch Mosfet, 60V, 120mA, 100, SM, SOT23-3, RoHS",Diodes Inc.,DMP10H4D2S-7
+9,2,"R1, R4","Resistor, 4.7kQ, 1/8W, 1%, 100ppm, SM, 75WV, 100OV, Thick Film, 0603, RoHS",KOA Speer,RK73H1JTTD4701F
+10,8,"R2, R5, R6, R7, R8, R11, R14, R15","Resistor, 0O, 1/8W, 1%, 100ppm, SM, 75WV, 100OV, Thick Film, 0603, RoHS",KOA Speer,RK73Z1JTTD
+11,1,R3,"Resistor, 6490, 1/8W, 1%, 100ppm, SM, 75WV, 100OV, Thick Film, 0603, RoHS",KOA Speer,RK73H1JTTD6490F
+12,2,"R9, R12","Resistor, 220, 1/8W, 1%, 100ppm, SM, 75WV, 100OV, Thick Film, 0603, RoHS",KOA Speer,RK73H1JTTD22R0F
+13,1,R10,"Resistor, 47kO, 1/8W, 1%, 100ppm, SM, 75WV, 100OV, Thick Film, 0603, RoHS",KOA Speer,RK73H1JTTD6802F
+14,2,"R16, R17","Resistor, 10kQ, 1/8W, 1%, 100ppm, SM, 75WV, 100OV, Thick Film, 0603, RoHS",KOA Speer,RK73H1JTTD1002F
+15,1,SW1,"Switch, Pushbutton, Top Actuated, SM, RoHS",C&K Components,PTS810 SJG 250 SMTR LFS
+16,1,U1,"DA14531MOD, Bluetooth Low Energy 5.1 Module, 128KB Flash, 144KB ROM, 48KB RAM, 16-SMD Module, SM, RoHS",Dialog Semiconductor,DA14531MOD-00F01002
+17,1,U2,"IC, Digital, Buffer, Inverting, Open Drain, SM, SC-70-5, RoHS",Diodes Inc.,74LVC1G06SE-7

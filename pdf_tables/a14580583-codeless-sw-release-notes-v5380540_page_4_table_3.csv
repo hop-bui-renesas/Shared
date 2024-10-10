@@ -1,0 +1,5 @@
+,#,OPEN ISSUES & LIMITATIONS
+1,1,ahtoi undefined behavior: when arguments are passed that a numerical value is needed the input is not checked or sanitized. If i.e instead of a decimal value a string is passed such as the case for command AT+MEM=aaaaaa then this will be translated to AT+MEM=0
+2,2,"Active role changing: After te following sequence, - Connect as peripheral/central - Disconnect - Change role - Connect as central/peripheral Device will generate a hardfault when sending data."
+3,3,I2C 10 bit addressing is not supported.
+4,4,Max command slots is 99 (2 digits).

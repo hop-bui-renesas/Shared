@@ -1,0 +1,10 @@
+,Mode,Slave (SPI operation),Single-master (SPI operation),Slave (clock synchronous operation),Master (clock synchronous operation)
+1,MSTR bit setting,0,1,0,1
+2,MODFEN bit setting,0 or 1,0,0,0
+3,SPMS bit setting,0,0,1,1
+4,RSPCKn pins,Input,Output,Input,Output
+5,MOSIn pin,Input,Output,Input,Output
+6,MISOn pin,Output/Hi-Z,Input,Output,Input
+7,SSLn0 pins,Input,Output,Hi-Z*1,Hi-Z*1
+8,SSL polarity change function,Supported,Supported,-,-
+9,Max transfer rate,PCLKB/4,PCLKB/2,PCLKB/4,PCLKB/2

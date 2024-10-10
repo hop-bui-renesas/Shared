@@ -1,0 +1,17 @@
+,,Pin number,"Power, System, Clock, Debug,
+CAC",Interrupt,1/0 port,Extbus,Timers,,Communication interfaces,Analog,HMI,,,,,,,,,,,,,,,,,,,,
+1,,OBGA176,,,,External bus,AGT,GPT,"USBFS,
+CAN",ADC12,CTSU,LQFP176,@LGA145,LQFP144,SLQFP100,SDRAM,GPT,RTC,"SCI0,2,4,6,8",(30 MHZ),"SCI1,3,5,7,9 (30 MHZ)",IC,"SPI, QSPI",SSIE,"ETHERC (MII)
+(25 MHZ)","ETHERC (RMII)
+(50 MHZ)",USBHS,SDHI,"DAC12, ACMPHS","GLCDC, PDC",
+2,,,"|TRDATA
+3",-,P208,-,,GTOVLO,,:unselected:,:unselected:,,,,37,,,,,,,,QIO3,1-,"ETO_LI
+NKSTA","ETO_LI-
+NKST A",:unselected:,SDO DATO _B,:unselected:,LCD_DATA 18_B,
+3,,C9,RES,,,,,,,:unselected:,:unselected:,67,C7,55,38,,,,,,,,,,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:,,
+4,,B8,MD,,P201,,,,,:unselected:,:unselected:,68,B6,56,39,,,,,,,,,,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:,,
+5,,C8,1-,NMI,P200,,,,,:unselected:,:unselected:,69,C8,57,40,,,,,,,,,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:,,
+6,,D8,,,P908,CS7,,,,:unselected:,:unselected:,70,,1,,,GTIOC 2A,,,,,,,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:,LCD_DATA 14_B,
+7,,D7,,,P907,CS6,,,,:unselected:,:unselected:,71,,,,,GTIOC 2B,,,,,,,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:,LCD_DATA 13_B,
+8,,A7,,,P906,CS5,,,,:unselected:,:unselected:,72,,,,,GTIOC 3A,,,,,,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:,LCD_DATA 12_B,
+9,,B7,,,P905,CS4,,,,:unselected:,:unselected:,73,-,,,,GTIOC 3B,,,,,,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:,:unselected:,LCD_DATA 11_B,

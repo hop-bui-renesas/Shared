@@ -1,0 +1,6 @@
+,Issue Number,Description
+1,1020.01,"DA14531: Wrong TX power level value is returned by Tx Power GATT service. Returned value is the setting of the register, not the dBm. Furthermore, the returned value refers to the advertising power, even if the connection power is different."
+2,1020.02,"DA14585/586/531: In external processor configuration the GPIO used for waking up is not programmed immediately after UART flow off. This may lead to missing the communication over UART with the external processor, if the external processor tries to wake up the device too soon."
+3,1020.03,The prod_test.hex file might have memory alignment issues preventing its usage In SmartSnippets Toolbox RF Master or with Bluetooth tester equipment. The corresponding prod_test.bin files should be used instead.
+4,1020.04,"DA14531: when _EXCLUDE_ROM_PRF_ is not defined and no BLE profiles are used in the application context, BLE_NB_USED_PROFILES must be set to 0. If not, the first four addresses of the executable - initial Stack Pointer, Reset Handler, NMI Handler and HardFault Handler - will be overwritten with zeros. Affected SDK projects: hci; ble_app_noncon; prod_test."
+5,933.04,"DA14585/586/531: Default system rand() function is not true random (not NIST compliant). It is suggested to use the alternative chacha20() function, when true random numbers are required (NIST compliant)."

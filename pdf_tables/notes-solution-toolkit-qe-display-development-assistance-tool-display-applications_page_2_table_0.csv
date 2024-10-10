@@ -1,0 +1,17 @@
+,emWin setting name,Macro name,Value(Example)
+1,LCD rotation,EMWIN_DISPLAY_ORIENTATION,"ORIENTATION_0 ORIENTATION_CW ORIENTATION_180 ORIENTATION_CCW
+:unselected:"
+2,Color depth per pixel,EMWIN_BITS_PER_PIXEL,"Case 16bits : 16 Case 32bits : 32 *When using DRW2D, set 16bits or more."
+3,LCD reset pin,EMWIN_DISP_SIGNAL_PIN,"Case Port B, Bit6 : GPIO_PORT_B_PIN_6 *The settings in the [TCON and LCD Settings] tab will be displayed."
+4,LCD reset pin Enable/Disable,EMWIN_USE_DISP_SIGNAL_PIN,Case Enable : 1 Case Disable : 0 *The settings in the [TCON and LCD Settings] tab will be displayed.
+5,LCD backlight pin,EMWIN_BACKLIGHT_PIN,"Case Port 0, Bit 0: GPIO_PORT_0_PIN_0 *The settings in the [TCON and LCD Settings] tab will be displayed."
+6,LCD backlight pin Enable/Disable,EMWIN_USE_BACKLIGHT_PIN,Case Enable : 1 Case Disable : 0 *The settings in the [TCON and LCD Settings] tab will be displayed.
+7,LCD touch IC reset pin,EMWIN_TOUCH_IC_RESET_PIN,"Case Port 6, Bit 6: GPIO_PORT_6_PIN_6"
+8,LCD touch IC reset pin Enable/Disable,EMWIN_USE_TOUCH_IC_RESET_PIN,Case Enable : 1 Case Disable : 0
+9,Address of frame buffer 1,EMWIN_GUI_FRAME_BUFFER1,"Case 0x00000040: 0x00000040 *In the [Graphic Layer Settings] tab, under [Graphic Layer 2 Settings], the [First Address of Frame Buffer] will be displayed."
+10,Address of frame buffer 2,EMWIN_GUI_FRAME_BUFFER2,Case 0x00800000: 0x00800000
+11,Maximum memory size used in GUI,EMWIN_GUI_NUM_BYTES,Case 81920: 81920u
+12,Slave address of touch panel,EMWIN_SLAVE_ADDRESS,Case 0x38: 0x00000038
+13,Multi-touch function,EMWIN_USE_MULTITOUCH,Case Use : 1 Case Not use : 0
+14,Maximum number of touch panel points,EMWIN_MAX_NUM_TOUCHPOINTS,Case 10 : 10u
+15,IIC channel number,EMWIN_SCI_IIC_NUMBER,Case 6:6u

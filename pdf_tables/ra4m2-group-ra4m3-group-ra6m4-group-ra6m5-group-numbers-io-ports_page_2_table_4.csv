@@ -1,0 +1,6 @@
+,Parts number,R7FA4M3AF3CFB R7FA4M3AE3CFB R7FA4M3AD3CFB,R7FA4M3AF3CFP R7FA4M3AE3CFP,R7FA4M3AF3CFM R7FA4M3AE3CFM,,
+1,,109,75,41,I/O ports,I/O pins
+2,,1,1,1,,Input pins
+3,,110,76,42,,Pull-up resistors
+4,,109,75,41,,N-ch open-drain outputs
+5,,21,14,9,,5-V tolerance

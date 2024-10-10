@@ -1,0 +1,15 @@
+,Component name,Start address,End address,Note
+1,ITM,0xE000_0000,0xE000_0FFF,See reference 2. in section 2.13. References
+2,DWT,0xE000_1000,0xE000_1FFF,See reference 2. in section 2.13. References
+3,BPU,0xE000_2000,0xE000_2FFF,See reference 2. in section 2.13. References
+4,Secure SCS/SCS,0xE000_E000,0xE000_EFFF,See reference 1. in section 2.13. References
+5,Non-Secure SCS,0xE002_E000,0xE002_EFFF,See reference 2. in section 2.13. References
+6,TPIU*1,0xE004_0000,0xE004_0FFF,See reference 3. in section 2.13. References
+7,ETM,0xE004_1000,0xE004_1FFF,See reference 1. in section 2.13. References
+8,CTI1,0xE004_2000,0xE004_2FFF,See reference 2. in section 2.13. References
+9,CTI0,0xE004_4000,0xE004_4FFF,See reference 4. in section 2.13. References
+10,ATB Funnel,0xE004_7000,0xE004_7FFF,See section 2.8. CoreSight ATB Funnel and reference 4. in section 2.13. References
+11,ETB,0xE004_8000,0xE004_8FFF,See reference 4. in section 2.13. References
+12,Time Stamp Generator,0xE004_9000,0xE004_9FFF,See section 2.10. CoreSight Time Stamp Generator and reference 4. in section 2.13. References
+13,System ROM Table,0xE00F_E000,0xE00F_EFFF,See reference 3. in section 2.13. References
+14,Processor ROM Table,0xE00F_F000,0xE00F_FFFF,See reference 2. in section 2.13. References

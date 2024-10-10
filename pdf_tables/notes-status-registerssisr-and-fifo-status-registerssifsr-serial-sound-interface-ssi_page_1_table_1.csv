@@ -1,0 +1,15 @@
+,Address,Module Symbol,Register Name,Register Symbol
+1,0008 8004h,CMT0,Compare Match Timer Counter,CMCNT
+2,0008 8044h,R12DA,D/A Control Register,DACR
+3,0008 8144h,TPU3,Timer Interrupt Enable Register,TIER
+4,0008 8204h,TMR0,Time Constant Register A,TCORA
+5,0008 8204h,TMR01,Time Constant Register A,TCORA
+6,0008 8304h,RIIC0,I2C Bus Mode Register 3,ICMR3
+7,0008 8344h,RIIC2,I2C Bus Mode Register 3,ICMR3
+8,0008 8544h,MMCIF,Interrupt request Enable Register,CEINTEN
+9,0008 9004h,S12AD,A/D Channel Select Register A0,ADANSA0
+10,0008 9084h,S12AD,A/D Data Duplication Register A,ADDBLDRA
+11,0008 9104h,S12AD1,A/D Channel Select Register A0,ADANSA0
+12,0008 9144h,S12AD1,A/D Data Register 18,ADDR18
+13,0008 9184h,S12AD1,A/D Data Duplication Register A,ADDBLDRA
+14,0008 9E04h,QSPI,QSPI Data Register,SPDR

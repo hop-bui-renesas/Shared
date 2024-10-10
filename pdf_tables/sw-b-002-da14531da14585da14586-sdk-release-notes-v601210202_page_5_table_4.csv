@@ -1,0 +1,30 @@
+,Feature Number,Description
+1,1020/001,"Supports DA14531, DA14585 and DA14586 devices."
+2,1020/002,Includes Eclipse/GCC project example (prox_reporter).
+3,1020/003,Supported by SmartSnippets tools version 2.0.10.
+4,1020/004,Doxygen documentation of all API functions.
+5,1020/011,Updated 531 radio driver.
+6,1020/012,RF driver for DA14531.
+7,1020/013,DA14531: API function to dynamically control radio TX power.
+8,1020/014,DA14531: RF power control -20 ... 3dbm.
+9,1020/015,SPI driver for DA14531 (master/slave buffered and DMA driven transactions).
+10,1020/016,I2C driver for DA14585/586/531.
+11,1020/017,RTC driver for DA14531.
+12,1020/018,OTP driver for DA14531.
+13,1020/019,Support for OTP configuration script in 531.
+14,1020/020,Support for DA14531 ROM functions.
+15,1020/021,Near field mode API for DA14531.
+16,1020/022,API function to enable/disable the H/W Reset pin in DA14531.
+17,1020/023,DA14531 support in Wakeup & Quadrature Decoder driver.
+18,1020/024,DA14531 support in GPIO driver.
+19,1020/025,Added DA14531 target in project : ble_app_peripheral.
+20,1020/026,Added DA14531 target in project : ble_app_profile.
+21,1020/027,Added DA14531 target in project : ble_app_barebone.
+22,1020/028,Added DA14531 target in project : prox_monitor_ext .
+23,1020/029,Added DA14531 target in project : hci.
+24,1020/030,Peripheral examples ported to DA14531.
+25,1020/031,Batt_lvl peripheral example project DA14531.
+26,1020/032,DA14531: Support for 1-wire UART (driver & flash programmer).
+27,1020/033,Temperature sensor driver.
+28,1020/034,Readout of internal temperature.
+29,1020/035,AES driver (data and link).

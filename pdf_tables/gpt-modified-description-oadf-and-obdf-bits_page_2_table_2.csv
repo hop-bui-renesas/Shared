@@ -1,0 +1,5 @@
+,Bit,Symbol,Function,R/W
+1,8,OAE,GTIOCnA Pin Output Enable 0: Output is disabled 1: Output is enabled,R/W
+2,10:9,OADF[1:0],GTIOCnA Pin Disable Value Setting 0 0: None of the below options are specified 0 1: GTIOCnA pin is set to Hi-Z in response to control the output negation. 1 0: GTIOCnA pin is set to 0 in response to control the output negation. 1 1: GTIOCnA pin is set to 1 in response to control the output negation.,R/W
+3,24,OBE,GTIOCnB Pin Output Enable 0: Output is disabled 1: Output is enabled,R/W
+4,26-25,OBDF[1:0],GTIOCnB Pin Disable Value Setting 0 0: None of the below options are specified 0 1: GTIOCnB pin is set to Hi-Z in response to control the output negation. 1 0: GTIOCnB pin is set to 0 in response to control the output negation. 1 1: GTIOCnB pin is set to 1 in response to control the output negation.,R/W

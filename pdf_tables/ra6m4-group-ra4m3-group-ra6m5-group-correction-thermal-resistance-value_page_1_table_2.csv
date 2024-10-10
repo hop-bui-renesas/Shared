@@ -1,0 +1,11 @@
+,Parameter,Package,Symbol,Value*1,Unit,Test conditions
+1,Thermal Resistance,64-pin LQFP (PLQP0064KB-C),thja,38.0,degC/W,JESD 51-2 and 51-7 compliant
+2,,100-pin LQFP (PLQP0100KB-B),,35.0,,
+3,,144-pin LQFP (PLQP0144KA-B),,33.0,,
+4,,64-pin BGA (PLBG0064JC-A),,38.0,,JESD 51-2 and 51-9 compliant
+5,,144-pin BGA (PLBG0144KB-A),,40.5,,
+6,,64-pin LQFP (PLQP0064KB-C),Yjt,0.80,degC/W,JESD 51-2 and 51-7 compliant
+7,,100-pin LQFP (PLQP0100KB-B),,0.76,,
+8,,144-pin LQFP (PLQP0144KA-B),,0.63,,
+9,,64-pin BGA (PLBG0064JC-A),,0.74,,JESD 51-2 and 51-9 compliant
+10,,144-pin BGA (PLBG0144KB-A),,0.81,,

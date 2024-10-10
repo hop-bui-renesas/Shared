@@ -1,0 +1,7 @@
+,Target MCU,Break Function,RAM Monitor,DMM (Rewriting memories during RUN),Time Measurement (from the start of execution to break),,,,
+1,Family,Hardware Break,,,,Series/ Core,Group,Software Break,Forcible break
+2,,2 points *1 (Shared by an execution and access),,,Measurement resolution: 100 u s,,V850E1 V850ES V850E2,ROM area: 4 points RAM area: 2000 points,Supported *2
+3,V850,Before-execution break : 4 points Access break : 4 points * Sequential breaks are specifiable.,Supported,Supported,Max. measurement time: Approx. 100 hours,,V850E2M V850E2S,ROM area: 8 points RAM area: 2000 points,Supported
+4,,1 point (Shared by an execution and access),Pseudo-Real RAM Monitor (RRM) : Supported,Supported,Measurement resolution: 100 A s Max. measurement time: Approx. 100 hours,78K0R,,2000 points,Supported
+5,78K0,Before-execution break : 1 point (Not supported when software breaks are used) Access break : 1 point,Pseudo-Real RAM Monitor (RRM) : Supported,Supported,Measurement resolution: 100 A s Max. measurement time: Approx. 100 hours,,,2000 points,Supported
+6,78K0S,Not supported,Not supported,Not supported,Measurement resolution: 100 us Max. measurement time: Approx. 100 hours,,,2000 points,Supported (Not supported while interrupts are inhibited )

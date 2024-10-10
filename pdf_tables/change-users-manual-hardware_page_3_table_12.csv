@@ -1,0 +1,3 @@
+,Address,Module Symbol,Register Name,Register Symbol,Number of Bits,Access Size,Number of Access States,Module Name,Reference Page,Remarks,
+1,,,,,,,ICLK >= PCLK,,,,ICLK < PCLK
+2,0008 73DFh,ICU,Interrupt Source Priority Register 223,IPR223,8,8,2 ICLK,ICUb,306,"Not present in versions with 100, 64, or 48 pins.",

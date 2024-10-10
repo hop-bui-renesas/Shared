@@ -1,0 +1,6 @@
+,Bit,Symbol,Function,R/W
+1,8:0,TDAT[8:0],"Serial transmit data TDAT is a 9-bit register for setting transmit data. Transmit data is set in [6:0] when 7-bit data is selected, in [7:0] when 8-bit data is selected, and in [8:0] when 9-bit data is selected. When byte access, write TDR [15:8] and then write TDR [7:0].",R/W
+2,9,MPBT,"Multi-processor transfer bit flag Value of the multi-processor bit in the transmission frame. This bit is use in Asynchronous and Manchester mode. When writing to this bit when not used, write the initial value. 0: Data transmission cycles 1: ID transmission cycles",R/W
+3,11:10,-,These bits are read as 1. The write value should be 1.,R/W
+4,12,TSYNC,"Transmit SYNC data It is valid when MCR.SBSEL = 1 and MCR.SYNSEL = 1 in Manchester mode. When this bit is not used, write the initial value. 0: The Start Bit is transmitted as DATA SYNC. 1: The Start Bit is transmitted as COMMAND SYNC.",R/W
+5,31:13,-,These bits are read as 1. The write value should be 1.,R/W

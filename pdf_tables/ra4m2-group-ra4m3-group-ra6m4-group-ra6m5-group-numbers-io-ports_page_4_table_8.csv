@@ -1,0 +1,6 @@
+,Parts number,R7FA6M5XX2CBG,R7FA6M5XX3CFC,R7FA6M5XX3CFB,R7FA6M5XX3CFP,
+1,I/O ports,132,,109,75,I/O pins
+2,,1,,1,1,Input pins
+3,,133,,110,76,Pull-up resistors
+4,,132,,109,75,N-ch open-drain outputs
+5,,17,,21,14,5-V tolerance

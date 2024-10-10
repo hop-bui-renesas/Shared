@@ -1,0 +1,27 @@
+,,IDE Support,,
+1,Example Project,e2 studio/GCC,IAR,Keil MDK
+2,qspi_blockmedia_usb_composite,Supported,,
+3,rtc,Supported,Supported,Supported
+4,sci_i2c,Supported,,
+5,sci_spi,Supported,,
+6,sci_uart,Supported,Supported,Supported
+7,ssi,Supported,,
+8,ssi_slave,Supported,,
+9,usb_composite,Supported,,
+10,usb_hcdc,Supported,,
+11,usb_hhid,Supported,,
+12,usb_hmsc,Supported,,
+13,usb_hmsc_baremetal,Supported,,
+14,usb_hvnd,Supported,,
+15,usb_pcdc,Supported,,
+16,usb_phid,Supported,,
+17,usb_pvnd,Supported,,
+18,vee_flash,Supported,,
+19,wdt,Supported,Supported,Supported
+20,wifi,Supported,,
+21,wifi_on_chip_udp_freertos,Supported,,
+22,trustzonelagt,Supported,Supported,Supported
+23,trustzone/doc,Supported,Supported,Supported
+24,trustzone/iic_master,Supported,Supported,Supported
+25,trustzone/rtc,Supported,Supported,Supported
+26,trustzone/usb_phid,Supported,Supported,Supported

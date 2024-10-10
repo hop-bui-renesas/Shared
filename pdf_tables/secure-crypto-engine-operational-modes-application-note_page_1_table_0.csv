@@ -1,0 +1,22 @@
+,1.,Overview of RA Family MCU Secure Crypto Engine,2
+1,1.1,General Structure of the Secure Crypto Engine.,2
+2,1.2,Cryptographic Capabilities of the Secure Crypto Engine.,3
+3,1.3,Key Handling Capabilities of the Secure Crypto Engine,3
+4,1.3.1,Support for Wrapped Keys,3
+5,1.3.2,Support for Plaintext Keys.,4
+6,2.,Compatibility Mode of the Secure Crypto Engine,4
+7,2.1,Advantages of Compatibility Mode.,4
+8,2.2,Disadvantages of Compatibility Mode.,4
+9,2.3,Compatibility Mode Support with Renesas RA Family FSP.,4
+10,3.,The Protected Mode of the Secure Crypto Engine,4
+11,3.1,Advantages of Protected Mode,4
+12,3.2,Disadvantages of Protected Mode,5
+13,3.3,Protected Mode Support with Renesas RA Family FSP and Renesas Flash Programmer,5
+14,4.,Secure Crypto Engine Operational Modes Summary.,5
+15,5.,Mode Selection based on Application Use Cases,"6
+:unselected:"
+16,5.1,Trusted Firmware M (TF-M),6
+17,5.2,Internet Connectivity.,6
+18,5.3,Private Infrastructure Connectivity,6
+19,5.4,Production Support and Supply Chain Considerations,6
+20,6.,References,6

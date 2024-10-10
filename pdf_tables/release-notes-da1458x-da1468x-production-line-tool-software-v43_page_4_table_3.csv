@@ -1,0 +1,4 @@
+,#,OPEN ISSUES & LIMITATIONS
+1,1,DA1458x_DA1468x_CLI_PLT.exe needs all fields in params.xml configuration file to be filled-in even if these are not actually used by the current test setup.
+2,2,"The DA1458x memory programming may fail at 1M UART baud rate at some specific PCs and at a rate of around 1-2%. This is solved by splitting the data to be burned into chunks (3960bytes is a good tested chunk) or lowering the UART baud rate to 115200. This PLT version has configurable chunk sizes through the PLT configuration tool, with the default set to 3960 bytes and tested to be safe to operate at 1M UART baud rate."
+3,3,"Sleep current measurement tests need production test firmware changes in order to power down the external peripherals used (e.g. sensors, memory flashes, etc.)."

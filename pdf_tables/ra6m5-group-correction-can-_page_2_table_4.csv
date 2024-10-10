@@ -1,0 +1,8 @@
+,Baud rate calculation formula,"(DLL clock) (baud rate prescaler divide-by-N value""1) x (number of TQs in one bit)",
+1,,40 MHZ,20 MHZ
+2,Nominal 1 Mbps Data 8 Mbps,40TQ(1),20TQ (1)
+3,,5TQ ( 1),Not possible
+4,Nominal 1 Mbps Data 5 Mbps,40TQ (1),20TQ (1)
+5,,8TQ (1),Not possible
+6,Nominal 500 Kbps Data 2 Mbps,80TQ (1),40TQ (1)
+7,,20TQ (1),10TQ (1)

@@ -1,0 +1,46 @@
+,Target MCU,Break Function,Performance Measurement Function,Invalid External extension Mode of Embedded ROM,Trace Function,,,,
+1,Family,Hardware Break,,,Internal Trace,Series/ Core,Group,Software Break,AUD Trace
+2,SuperH,Address/Data/R/W/Execution-count condition break : 2 points + Address/R/W condition break : 4 points + Data/R/W condition break : 2 points + System bus condition break : 2 points * Sequential breaks are specifiable.,Supported,No Mode,8 branches @,SH-4A (Except for Multi-core MCUs),,255 points,Up to 64K events *1 (Up to 32K of branch information can be acquired when branch trace is the only target) *
+3,,Address/Data/R/W : 2 points + Address/R/W condition break : 4 points * Sequential breaks are specifiable.,Supported,No Mode,8 branches,SH-4,SH7760 SH7751R,,Up to 64K events *1 (Up to 32K of branch information can be acquired when branch trace is the only target) *
+4,,,,No Mode,,,SH7750R,,-
+5,,Address/Data/R/W/Execution-count condition break : 1 point + Address/R/W condition break : 1 point * Sequential breaks are specifiable.,Supported,No Mode,8 branches,SH-3,SH7721 SH7720 SH7712 SH7710 SH7705,,Up to 64K branches *1 (Only branch-destination information) @
+6,,,,No Mode,,,SH7727 SH7709S,,Up to 26214 branches *1
+7,,,,,,,SH7706,,
+8,,Address break : 8 points + Address/Data/R/W/Execution-count condition break : 1 point + Address/Data/R/W condition break : 1 point * Sequential breaks are specifiable.,Supported,No Mode,1000 cycles Select the target info from: Address/Data/Status/ Time stamp bus.,SH-2A (Except for Multi-core MCUs),SH7206,,Up to 64K events *1 (Up to 32K of branch information can be acquired when branch trace is the only target) *
+9,,,,,,,SH72AY SH72AW SH72A0 SH72A2,,
+10,,,,Supported,,,"SH7211 SH7216 (SH7216, SH7214) SH7231",,
+11,,,,,,,SH7237,,
+12,,,,,,,SH7239 SH7243 SH7285,,
+13,,,,,,,SH7286,,
+14,,,,No Mode,256 cycles Select the target info from: Address/Data/Status/ Time stamp bus.,,SH7670 SH726A,,
+15,,,,,,,SH726B,,
+16,,,,,,,SH7269 SH7268 SH7267,,
+17,,,,,,,SH7266,,
+18,,,,,,,SH7264,,
+19,,,,,,,SH7262,,
+20,,,,,,,SH7203 SH7263,,
+21,,,,No Mode,-,,SH7201 SH7261,,
+22,,,-,Supported,,,SH7256R SH7254R,,
+23,,,,No Mode,,,SH7253,,-
+24,,Address/Data/R/W/Execution-count condition break : 1 point + Address/R/W condition break : 1 point * Sequential breaks are specifiable.,-,No Mode,4 branches,SH-2,SH7619 SH7618,,-
+25,,Address break : 4 points * Sequential breaks are specifiable.,,-,-,,SH7145F SH7144F SH7047F,,Up to 64K events *2 (Up to 32K of branch information can be acquired when branch trace is the only target)
+26,,Address break : 2 points + Address/Data/R/W/Execution-count condition break : 1 point + Address/Data/R/W condition break : 1 point * Sequential breaks are specifiable.,Supported,Supported,4 branches,,R5F71494A R5F71464A R5F70865A R5F70855A R5F70854A R5F70845A R5F70844A R5F70835A R5F70834A,,-
+27,,,-,Supported,,,SH7137,,
+28,,,,No Mode,,,SH7136 SH7125 SH7124,,
+29,,Address break : 8 points + Address/Data/R/W/Execution-count condition break : 1 point + Address/Data/R/W condition break : 1 point * Sequential breaks are specifiable.,Supported,Supported,1000 cycles Select the target info from: Address/Data/Status/ Time stamp bus.,,R5E71494R R5E71491R R5E71464R R5E70865R,,Up to 64K events *1 (Up to 32K of branch information can be acquired when branch trace is the only target) *
+30,,,,,,,R5E70855R R5E70845R R5E70835R,,
+31,H8SX,Address break : 3 points + Address/Data/Satisfaction-count condition break : 1 point * Sequential breaks are specifiable.,Supported,- * 3,8 branches,H8SX/1700,H8SX/1720S H8SX/1720,,-
+32,,,,,,H8SX/1600,,,
+33,,,"-
+:unselected:",,,H8SX/1500,,,
+34,H8S,Address break : 6 points + Address/Data condition break : 2 points,-,-,4 branch sources,H8S/2400,H8S/2472 H8S/2463 H8S/2462,,-
+35,,,,Supported,4 branch sources or Bus trace : 1024 cycles,,H8S/2456R H8S/2456,,
+36,,,,,,,"H8S/2454
+H8S/2426R H8S/2426 H8S/2424",,
+37,,,,,8 branch sources,,H8S/2427R H8S/2427 H8S/2425,,
+38,,Address/Data condition break : 2 points,,"-
+:unselected:",4 branch sources or Bus trace : 512 cycles,H8S/2300,H8S/2378 H8S/2378R H8S/2368 H8S/2319 *4,,
+39,,,,Supported,4 branch sources,,H8S/2339 *5 H8S/2329 *6,,
+40,,Address/Data condition break : 2 points,"-
+:unselected:","-
+:unselected:",4 branch sources,H8S/2200,H8S/2218 H8S/2215 *7 H8S/2212,,-

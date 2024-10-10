@@ -1,0 +1,24 @@
+,,RAM Name,RAM Property,RAM Area Calculation Method,MRAM Values
+1,,,No. of Channels,(n+1),2
+2,,TXMB,No. of TX MBs per channel,16/ch,16
+3,,,Max no. of TX MBs,(n+1) * No. of TX MBs per channel,32
+4,,,No. of Bytes needed for each TX MB,Fixed,76
+5,,,Number of Bytes in TX MB area,(n+1) * No. of TX MBs per channel * No. of Bytes needed for each TX MB,2432
+6,,THL,No. of entries in 1 THL buffer,Fixed,32
+7,,,Max no of THL entries,(n+1) * No. of entries in 1 THL buffer,64
+8,,,No. of Bytes needed for each THL entry,Fixed,8
+9,,,Number of Bytes in THL area,Max no. of THL entries * No. of Bytes needed for each THL entry,512
+10,,OTB,Avg. number of buffers for each channel,,2
+11,,,Max no. of OTB entries,(n+1) * Avg. number of buffers for each channel,4
+12,,,No. of Bytes for OTB entry,Fixed,80
+13,,,Number of Bytes in OTB area,Max no. of OTB entries * No. of Bytes for OTB entry,320
+14,,Message Buffer,No. of RX MBs per channel,Fixed,16
+15,,,Max no. of RX MBs,(n+1) * No. of RXMBs per channel,32
+16,,,No. of RX FIFOs,Fixed,8
+17,,,No. of Common FIFOs per channel,Fixed,3
+18,,,Max no. of common FIFOs,(n+1) * No. of Common FIFOs per channel,6
+19,,,Avg. number of messages for RXMB and FIFO buffers for each channel,32/ch,32
+20,,,No. of Bytes for each stored message,Fixed,-
+21,,,Average size of a Message Buffer in Bytes,,76
+22,,,Number of Bytes in Message Pool area,(n+1) * Avg. number of messages for RXMB and FIFO buffers for each channel * (No. of Bytes for each stored message or Average size of a Message Buffer in Bytes),4864
+23,,,Number of Bytes Message RAM,Number of Bytes in Message Pool area + Number of Bytes in OTB area + Number of Bytes in THL area,8128

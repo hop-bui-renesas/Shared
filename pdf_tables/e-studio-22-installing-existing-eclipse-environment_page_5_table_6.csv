@@ -1,0 +1,21 @@
+,Name,Version,Id 4
+1,D C/C++ Development Tools,8.2.1.201311181559,org.eclipse.cdt.feature.group
+2,C/C++ GDB Hardware Debugging,7.2.0.201311181559,org.eclipse.cdt.debug.gdbjtag.feature.c
+3,C/C++ Memory View Enhancements,2.2.0.201311181559,org.eclipse.cdt.debug.ui.memory.featu
+4,CDT Common GDB Support,7.2.1.201311181559,org.eclipse.cdt.gdb.feature.group
+5,Code Generation Feature,2.0.0.201311182025,com.renesas.cg.feature.feature.group
+6,Debugger Services Framework Communication,1.0.1.201311182025,com.micrium.plugin.eclipse.ucprobe.U
+7,Direct JLink,1.0.1.201311182025,com.micrium.plugin.eclipse.ucprobe.U
+8,e2 studio Integration Service Feature,2.2.0.201311182025,com.renesas.is.feature.feature.group
+9,EPL Source,2.0.0.201311182025,com.renesas.epl.source.feature.feature.
+10,GDB Server Feature,1.1.0.201311182025,com.renesas.gdb.server.feature.group
+11,Green Hills MULTI for Eclipse (V800),2.1.7,ghs.multi.v800.feature.group
+12,IAR Common Components,1.0.0.201310181559,com.iar.common.feature.feature.group
+13,IAR Common Components (Renesas targets),1.0.0.201310181559,com.iar.common.renesas.feature.featu
+14,DIAR Toolchain for RL78,2.0.0.201310181559,com.iar.cdt.rl78.sdk.feature.feature.gro
+15,DIAR Toolchain for RX,2.0.0.201310181559,com.iar.cdt.rx.sdk.feature.feature.group
+16,DIAR Toolchain for V850,2.0.0.201310181559,com.iar.cdt.v850.sdk.feature.feature.gre
+17,10 View Feature,1.1.0.201311182025,com.renesas.cdt.debug.ioview.feature.1
+18,Japanese Support,1.1.0.201311182025,com.renesas.japanese.feature.feature.g
+19,4 KPIT ARM-RZ Toolchain Integration,1.0.0.201311182025,com.renesas.cdt.arm.rz.feature.feature.
+20,Renesas ADM Feature,1.1.0.201311182025,com.renesas.adm.feature.feature.group -

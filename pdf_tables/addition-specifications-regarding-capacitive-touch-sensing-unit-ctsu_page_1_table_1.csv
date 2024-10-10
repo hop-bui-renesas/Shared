@@ -1,0 +1,7 @@
+,Bit,Symbol,Bit Name,Description,R/W
+1,,,,Omitted,
+2,b5 to b4,"-
+:unselected:",Reserved,These bits are read as 0. The write value should be 0.,R/W
+3,b6,CTSUCLKSEL1,Calibration Setting 3,0: Capacitance measurement mode 1: Calibration setting 3,R/W
+4,b7,CTSUTSOC,Calibration Setting 2,0: Capacitance measurement mode 1: Calibration setting 2,R/W
+5,,,,Omitted,

@@ -1,0 +1,11 @@
+,History Table,,
+1,Version Date Comments,,
+2,B00,25 / Jul / 2015,Initial Release
+3,B01,18 / Sep / 2015,"Changed R72, R79 to 33 ohm Changed R121 to 3.9k Changed R112, R113 to 10M Changed R128 to 0 ohm"
+4,C00,21 / Oct / 2015,Added space for version control label
+5,C01,15 / Dec / 2015,Changed LP1 to 0.56 ohm resistor
+6,DOC,18 / Dec / 2015,Optimizations on the current measurement circuit Changed reset button logic (so that it will work independed fron the precense of power in the support circuits) Added D11 in series with RST (avoid leakage on RESET pressing) Added U20 (negative bias for U9)
+7,D01,30 / Mar / 2016,Changed R119 to 100k Changed R118 to 10k Changed R113 to 0.56ohm Changed C43 to 100nF
+8,EO,18 / Apr / 2016,"Added option for battery charging analysis (not populated) Added D12 (blue LED sleep/awake status) Changed TP28, TP29 to 1206 probe pins (cost reduction) Modified power input of U18 to VDD_3V3_PERF Added C115, LDO FC cap Added R134, TP64 (option for future expansion) Added J18 (oprion for battery connector) Modified power input of U20 to VDD_3V3_PERF Changed LP1 part reference to R133 Changed R71 to 10k Changed R85 to 0 ohm"
+9,,29 / Jun / 2016,"Added resistor 174k, 0.5% in place of C100"
+10,,,

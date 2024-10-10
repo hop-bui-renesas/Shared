@@ -1,0 +1,16 @@
+,Board or Kit,OTA sample projects(including RTOS)
+1,CK-RX65N,- FreeRTOS v202107.00-rx-1.0.1
+2,,- AzureRTOS 6.2.1_rel-rx-1.0.1
+3,,- AzureRTOS 6.2.1_rel-rx-1.0.0
+4,RX65N-Cloud-Kit,- FreeRTOS v202107.00-rx-1.0.1
+5,,- FreeRTOS v202107.00-rx-1.0.0
+6,,- FreeRTOS v202012.00-rx-1.0.2
+7,,- FreeRTOS v202012.00-rx-1.0.1
+8,,- FreeRTOS v202012.00-rx-1.0.0
+9,RX65N-2MB-Starter-Kit-Plus,- FreeRTOS v202107.00-rx-1.0.1
+10,,- FreeRTOS v202107.00-rx-1.0.0
+11,,- FreeRTOS v202012.00-rx-1.0.2
+12,,- FreeRTOS v202012.00-rx-1.0.1
+13,,- FreeRTOS v202012.00-rx-1.0.0
+14,RX72N-ENVISION-KIT,- FreeRTOS v202012.00-rx-1.0.2
+15,RX671-Starter-Kit-Plus,- FreeRTOS v202012.00-rx-1.0.2

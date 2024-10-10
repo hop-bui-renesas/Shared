@@ -1,0 +1,18 @@
+,Product Category,MPU/MCU,Document No.,TN-RX *- A126A/E,Rev.,1.00,
+1,Title,Notes on Selecting Open-Drain Outputs for the Serial Peripheral Interface (RSPI),Information Category,Technical Notification,,,
+2,Applicable Product,RX63T Group,Reference Document,RX63T Group User's Manual: Hardware Rev.2.10 (R01UH0238EJ0210),,,Lot No.
+3,,,,,,,All lots
+4,We have found that correctly selecting open-drain outputs for the serial peripheral interface (RSPI) of the above,,,,,,
+5,"products by using the manual for guidance was not possible due to incorrect and incomplete descriptions in the manual. Therefore, we would like to inform you of the correct method for selecting open-drain outputs and the accompanying change to the manual.",,,,,,
+6,"How to select open-drain outputs for the serial peripheral interface (RSPI) The open-drain outputs are selectable in products in 144-, 120-, 112-, and 100-pin packages, but not in those in 64- and 48-pin packages. However, even in the 144-, 120-, 112, and 100-pin versions, the open-drain output cannot be selected by following the guidance of the description in the current manual.
+:selected:",,,,,,
+7,"In the following,","the method for selecting the open-drain output in the 144-, 120-, 112, and 100-pin products will be described.",,,,,
+8,"Setting the ODRn.Bi bit to 1 described in Section 32.3.2, Controlling RSPI Pins, in RX63T Group User's Manual: Hardware Rev.2.10 does not select the open-drain output. Selecting it requires setting of the SPOM bit, which is listed as a reserved bit in Section 32.2.3, RSPI Pin Control Register (SPPCR). The changes to Section 32.2.3, RSPI Pin Control Register (SPPCR) are shown below.",,,,,,
+9,32.2.3 RSPI Pin Control Register (SPPCR),,,,,,
+10,"Address(es): RSPI0.SPPCR 0008 8382h, RSPI1.SPPCR 0008 83A2h",,,,,,
+11,,b7 b6 b5 b4 b3 b2 b1 b0,,,R/W,,
+12,Value after reset:,"- - MOIFE MOIFV - SPOM
+:unselected: :unselected: :unselected:",,,,,SPLP2 SPLP
+13,,0 0 0 0 0 0,,,,,0 0
+14,Bit,Bit Name,,,,,
+15,b0,RSPI Loopback,,,R/W,,0: Normal

@@ -1,0 +1,7 @@
+,sec 4.9 table 18: Application ADC Characteristics,,,
+1,parameter,min,min,unit
+2,SINAD SE,67,66,dB
+3,SNR SE,68,66,dB
+4,SFDR SE,78,70,dB
+5,parameter,max,max,unit
+6,THD SE,-75,-72,dB

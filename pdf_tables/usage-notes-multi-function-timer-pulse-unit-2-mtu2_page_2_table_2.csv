@@ -1,0 +1,8 @@
+,Bit,Symbol,Bit Name,Description,R/W
+1,b0,OLS1P,"Output Level Select 1P*1, +2",This bit selects the output level on MTIOC3B in reset-synchronized PWM mode and complementary PWM mode. See Table 17.34.,R/W
+2,b1,OLS1N,"Output Level Select 1N*1, *2",This bit selects the output level on MTIOC3D in reset-synchronized PWM mode and complementary PWM mode. See Table 17.35.,R/W
+3,b2,OLS2P,"Output Level Select 2P*1, *2",This bit selects the output level on MTIOC4A in reset-synchronized PWM mode and complementary PWM mode. See Table 17.36.,R/W
+4,b3,OLS2N,"Output Level Select 2N*1, *2",This bit selects the output level on MTIOC4C in reset-synchronized PWM mode and complementary PWM mode. See Table 17.37.,R/W
+5,b4,OLS3P,"Output Level Select 3P*1, *2",This bit selects the output level on MTIOC4B in reset-synchronized PWM mode and complementary PWM mode. See Table 17.38.,R/W
+6,b5,OLS3N,"Output Level Select 3N*1, *2",This bit selects the output level on MTIOC4D in reset-synchronized PWM mode and complementary PWM mode. See Table 17.39.,R/W
+7,"b7, b6",BF[1:0],TOLBR Buffer Transfer Timing Select,These bits select the timing for transferring data from TOLBRj to TOCR2. See Table 17.40 for details.,R/W

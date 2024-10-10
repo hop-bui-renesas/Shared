@@ -1,0 +1,3 @@
+,Name,Address,Access size,R/W,Initial value
+1,PID4,0x4001_BFDO,32 bits,R,0x00000004
+2,PID5,0x4001_BFD4,32 bits,R,0x00000000

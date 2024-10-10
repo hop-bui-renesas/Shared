@@ -1,0 +1,6 @@
+,Communication,SCI*1,4,
+1,,IIC,,1
+2,,SPI,1,
+3,,CAN,1,
+4,,USBFS,,Yes
+5,,QSPI,Yes,No

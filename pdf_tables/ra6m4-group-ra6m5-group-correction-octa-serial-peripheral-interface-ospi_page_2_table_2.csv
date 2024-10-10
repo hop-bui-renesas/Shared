@@ -1,0 +1,5 @@
+,Bit,Symbol,Function,R/W
+1,29:0,DVOSZ[29:0],Device 0 size setting Set a 30-bit value for the size of memory connected as device 0. Settings larger than 8-Mbyte for OctaRAM is prohibited. -0x00000000: 120-Mbyte memory- -0x01000006. 16-Mbyte memory Example 0x00800000: 8-Mbyte,R/W
+2,31:30,DVOTYP[1:0],"memory
+Device 0 type setting 00: flash on device 0 0 1: RAM on device 0",R/W
+3,,,10: no connection on device 0 1 1: forbidden,

@@ -1,0 +1,27 @@
+,Parameter,Symbol,Conditions,MIN.,TYP.,MAX.,Unit,
+1,Detection voltage,VLVD0,Power supply rise time,4.62,4.74,5.22,"V
+:selected:",Supply voltage level
+2,,,Power supply fall time,4.52,4.64,5.11,"V
+:selected:",
+3,,VLVD1,Power supply rise time,4.50,4.62,5.09,"V
+:selected:",
+4,,,Power supply fall time,4.40,4.52,4.98,"V
+:selected:",
+5,,VLVD2,Power supply rise time,4.30,4.42,4.87,"V
+:selected:",
+6,,,Power supply fall time,4.21,4.32,4.76,"V
+:selected:",
+7,,VLVD3,Power supply rise time,3.13,3.22,3.66,"V
+:selected:",
+8,,,Power supply fall time,3.07,3.15,3.47,"V
+:selected:",
+9,,VLVD4,Power supply rise time,2.95,3.02,3.44,"V
+:selected:",
+10,,,Power supply fall time,2.89,2.96,3.23,"V
+:selected:",
+11,,VLVD5,Power supply rise time,2.74,2.81,3.22,"V
+:selected:",
+12,,,Power supply fall time,2.68Note,2.75,3.00,"V
+:selected:",
+13,Minimum pulse width,tLW,,300,,,us,
+14,Detection delay time,tLD,,,,300,us,

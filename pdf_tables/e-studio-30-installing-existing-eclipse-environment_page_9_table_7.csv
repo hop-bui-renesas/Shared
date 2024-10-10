@@ -1,0 +1,11 @@
+,ID,Description
+1,3804,Code Generator not fully installed if it is added after installation of other e2 studio plugins.
+2,,If installing the Code Generation Feature after installing other e2 studio plugins you may need to manually register the COM service before Code Generation becomes available during Project Generation.
+3,,"To do this create a new CCRX, GNURX or GNURL78 project, then select ""New Code Generator"" from the toolbar."
+4,,010
+5,,"er X typedefine.h .c 1_0
+:unselected:"
+6,3884,HEW Project Converter does not function in a 64-bit Eclipse Environment
+7,3888,Code Generator does not function in a 64-bit Eclipse Environment
+8,3899,Emulator Selection does not function in a 64-bit Eclipse Environment
+9,-,Issues may be encountered if any part the Eclipse or Project path contains spaces.

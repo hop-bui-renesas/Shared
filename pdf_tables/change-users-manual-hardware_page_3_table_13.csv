@@ -1,0 +1,4 @@
+,Address,Module Symbol,Register Name,Register Symbol,Number of Bits,Access Size,Number of Access States,Module Name,Reference Page,Remarks,
+1,,,,,,,ICLK >= PCLK,,,,ICLK < PCLK
+2,0008 9806h,AD,A/D Channel Select Register 1,ADANSA1,16,16,"2, 3 PCLKB",AD,1591,"Not present in versions with 120, 112, 100, 64, or 48 pins.",2 ICLK
+3,0008 980Ah,AD,A/D-Converted Value Addition Mode Select Register 1,ADADS1,16,16,"2, 3 PCLKB",,1593,"Not present in versions with 120, 112, 100, 64, or 48 pins.",2 ICLK

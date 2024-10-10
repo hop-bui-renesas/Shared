@@ -1,0 +1,10 @@
+,A-phase,B-phase,Phase Counting Mode,,,
+1,,,1,2,3,4
+2,High,Rising edge,Incremented,Not changed,Not changed,Incremented
+3,Low,Falling edge,,,,
+4,Rising edge,Low,,,,Not changed
+5,Falling edge,High,,Incremented,Incremented,
+6,High,Falling edge,Decremented,Not changed,Decremented,Decremented
+7,Low,Rising edge,,,Not changed,
+8,Rising edge,High,,,,Not changed
+9,Falling edge,Low,,Decremented,,

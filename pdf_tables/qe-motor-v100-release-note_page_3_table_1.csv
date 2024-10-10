@@ -1,0 +1,4 @@
+,Speed control period [s],0.0005F
+1,Reference Speed,
+2,Step of speed climbing [rpm],0.5F
+3,Max rotational speed [rpm],2000

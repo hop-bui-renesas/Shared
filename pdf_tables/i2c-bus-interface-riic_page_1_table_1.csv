@@ -1,0 +1,2 @@
+,Bit,Symbol,Bit name,Description,R/W
+1,b3,TMWE,Timeout internal counter write enable bit,"0: Writing to internal counter of timeout detection function is disabled 1: Writing to internal counter of timeout detection function is enabled When this bit is set to ""1"", the address of timeout internal counter (TMOCNT_L/U) is allocated to the address of SARL0/SARU0.",R/W

@@ -1,0 +1,29 @@
+,Name,Version,3,
+1,,4.3.0.v20131123020001,org.eclipse.babel.nls,Babel Language Pack for datatools in Japanese (92.14%)
+2,@,4.3.0.v20131123020001,org.eclipse.babel.nis,Babel Language Pack for eclipse in Japanese (93.9%)
+3,4,4.3.0.v20131123020001,org.eclipse habel.nis,Babel Language Pack for modeling.emf in Japanese (64.49%)
+4,,4.3.0.v20131123020001,org.eclipse.babel.nis,Babel Language Pack for mylyn in Japanese (89.49%)
+5,,4.3.0.v20131123020001,org.eclipse.babel.nis,Babel Language Pack for technology.subversive in Japanese (86.59%
+6,,4.3.0.v20131123020001,org.eclipse.habel.nls,Babel Language Pack for tools.cdt in Japanese (81.93%)
+7,,8.3.0.201403251534,org.eclipse.cdt.gdb.f,B C/C++ Common GDB Support
+8,,8.3.0.201403251534,org.eclipse.cdt platfr,C/C++ Development Platform
+9,,83.0.201403251534,org.eclipse.cdt.featu,3 C/C++ Development Tools
+10,,8.3.0.201403251534,org.eclipse.cdt.gnu.c,C/C++ DSF GDB Debugger Integration
+11,,8.3.0.201403251534,org.eclipse.cdt.debu,C/C++ GDB Hardware Debugging
+12,,8.3.0.201403251534,org.eclipse.cdt.gnu.t,C/C++ GNU Toolchain Build Support
+13,,8.3.0.201403251534,org.eclipse.cdt.gnu.,@T C/C++ GNU Toolchain Debug Support
+14,,8.3.0.201403251534,org.eclipse.cdt.debu,C/C++ Memory View Enhancements
+15,,1.0.1.201404170922,com.micrium.plugir,Debugger Services Framework Communication
+16,4,1.0.1.201404170922,com.micrium.plugir,Direct JLink
+17,,1.4.1,com.tetrade.eclipse.,Easy Shell Feature
+18,,3.2.0.201312181205-r,org.eclipse.mylyn.gi,Eclipse GitHub integration with task focused interface
+19,,2.9.2.v20140203-1126,org-eclipse.emf.feat,EMF - Eclipse Modeling Framework Runtime and Tools
+20,,29.0.v20140203-1126,org.eclipse.emf.code,EMF Code Generation
+21,,2.7.0.v20140203-1126,org.eclipse.emf.code,4 EMF Code Generation UI
+22,,2.8.0.v20140203-1126,org.eclipse.emf.com,EMF Common UI
+23,,13.0.v20140203-1126,org.eclipse.emf.data,EMF Data Binding
+24,,2.9.1.v20140203-1126,"org.eclipse.emf.code "" .",BEMF Ecore Code Generator
+25,Size: Unknown,,,
+26,Details Eclipse C/C++ development platform. Contains no toolchain integrations. Included in C/C++ Development Tools. Mare,,,
+27,,,,
+28,? < Back Next > Finish Cancel,,,

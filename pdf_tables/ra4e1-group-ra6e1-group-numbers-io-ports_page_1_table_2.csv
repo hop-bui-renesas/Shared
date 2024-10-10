@@ -1,0 +1,6 @@
+,Parts number,R7FA4E10D2CFM R7FA4E10B2CFM,R7FA4E10D2CNE R7FA4E10B2CNE,
+1,I/O ports,43,29,I/O pins
+2,,1,1,Input pins
+3,,44,30,Pull-up resistors
+4,,43,29,N-ch open-drain outputs
+5,,9,4,5-V tolerance

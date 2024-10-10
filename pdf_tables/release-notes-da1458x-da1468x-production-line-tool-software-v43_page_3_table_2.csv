@@ -1,0 +1,39 @@
+,#,DESCRIPTION
+1,OVERVIEW,
+2,This is a full release of the DA1458x/DA1468x Production Line Tool (PLT) v4.3.,
+3,NEW FEATURES,
+4,1,Automated GU firmware upgrade.
+5,2,External 32KHz connection test.
+6,3,HID barcode scanner support.
+7,4,DA14585 range extender tests.
+8,5,Option to burn OTP image and header as a single binary.
+9,7,Improvements for DA14683 secure boot.
+10,8,DA14683 32MHz hardware support.
+11,9,Warning pop-up window when any OTP write is enabled.
+12,10,Peripheral current measurements.
+13,11,GPIO toggle for external watchdog.
+14,12,DA1468x DK power profiler as current measurement instrument.
+15,13,Set/Get GPIO status test.
+16,14,DA1458x configurable SPI and EEPROM memories.
+17,15,DA1458x memory enable GPIO.
+18,16,DA1458x sleep clock selection (needed for boost mode).
+19,17,OTP TCS section write.
+20,18,Scan advertisements using the production test firmware.
+21,19,Added PER limits in RF RSSI tests.
+22,FIXES / IMPROVEMENTS,
+23,1,Updated Homekit setup code generator.
+24,2,Configurable firmware download retries.
+25,3,CSV OTP re-burn protection.
+26,4,Support latest Anritsu MT8852B firmware (5.00.009).
+27,5,Barcode scanner improvements.
+28,6,Increase QSPI operation timeouts.
+29,7,Remove all DA1468x QSPI dependencies from production test firmware.
+30,8,DA1468x uartboot QSPI initialization only when required. Uartboot and plt_fw now operate even with no QSPI mounted.
+31,9,Improve external script execution.
+32,10,Idle current measurement removed.
+33,11,Added DUT IC name in DUT logs.
+34,12,DA14585 SPI boot header fix.
+35,13,Fix DA1468x configurable UART boot pins.
+36,DOCUMENTATION,
+37,UM-B-040,DA1458x_DA1468x_Production_Line_Tool_libraries_4v3.pdf
+38,UM-B-041,DA1458x_DA1468x_Production_Line_Tool_4v3.pdf

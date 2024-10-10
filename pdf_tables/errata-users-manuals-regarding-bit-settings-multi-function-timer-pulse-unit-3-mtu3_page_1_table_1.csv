@@ -1,0 +1,14 @@
+,Bit 7,Bit 6,Bit 5,Bit 4,Description,
+1,IOB[3],IOB[2],IOB[1],IOB[0],TGRB Register Function MTIOC8B Pin Function,
+2,,,,,(Omitted),
+3,1,"x
+:selected:",0,0,Input capture register,Input capture at rising edge
+4,1,"x
+:selected:",0,1,,Input capture at falling edge
+5,1,"x
+:selected:",1,"x
+:selected:",,Input capture at both edge
+6,1,"1
+:unselected:","x
+:selected:","x
+:selected:",,Capture input source is the clock source for counting in MTU1. Input capture on counting up or down by MTU1.TCNT (LWA = 0) or MTU1.TCNTLW (LWA = 1).

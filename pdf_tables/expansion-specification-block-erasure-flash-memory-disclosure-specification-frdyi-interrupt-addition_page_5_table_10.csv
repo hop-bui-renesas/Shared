@@ -1,0 +1,4 @@
+,Item,Symbol,FCLK = 4 MHZ,FCLK = 8 MHZ,Unit,,,,,
+1,,,min,min,,typ,max,typ,max,
+2,omitted,,,,,,,,,
+3,Erasure time,tBE1K,-,-,ms,17.5,457,7.76,259,1-Kbyte

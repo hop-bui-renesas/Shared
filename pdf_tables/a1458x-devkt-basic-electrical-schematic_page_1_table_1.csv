@@ -1,0 +1,5 @@
+,History Table Version Date Comments,,
+1,A00,19 /Oct / 2016,Initial Schematic
+2,A01,02 /Jan / 2017,"1. R17, R18, R19: changed from 4.7k to 6.8k 2. U6 inverter NC7SZ04P5X changed to populated"
+3,A02,02 /May / 2017,3.Xtall Y2 changed to TXC 9HT11-32.768KDZB-T (6pF)
+4,B00,08 /May / 2018,4. Critical change on the footprint of U4

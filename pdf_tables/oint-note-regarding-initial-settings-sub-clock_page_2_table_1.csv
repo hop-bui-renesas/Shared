@@ -1,0 +1,3 @@
+,Library,Time until the SOSTP bit is set to 1,Order of Clock Setting,Reference Document
+1,Initial settings example,2.6 ms*1,"Oscillation is started in the order sub-clock, main clock, and then HOCO.",R01AN1918EJ (https://www.renesas.com/document/apn/rx64 m-group-initial-settings-example)
+2,BSP FIT module,12.9 ms*1,"Oscillation is started in the order HOCO, main clock, and then sub-clock.",R01AN1685EJ (https://www.renesas.com/document/apn/rx-fa mily-board-support-package-module-using-firm ware-integration-technology)

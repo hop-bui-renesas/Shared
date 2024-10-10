@@ -1,0 +1,4 @@
+,Channel,Input Pin,
+1,,A-phase,B-phase
+2,MTU1,MTCLKA,MTCLKB
+3,MTU2,MTCLKC,MTCLKD

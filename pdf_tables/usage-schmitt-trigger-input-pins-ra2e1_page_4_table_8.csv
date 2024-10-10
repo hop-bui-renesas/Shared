@@ -1,0 +1,9 @@
+,,Pin,
+1,PSEL[4:0] settings,Function P913 P914,P915
+2,00000b,(initial),
+3,00001b,"AGT 1 1
+:selected:","-
+:unselected:"
+4,00010b,"GPT 8 1
+:selected:","-
+:unselected:"

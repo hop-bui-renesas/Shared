@@ -1,0 +1,26 @@
+,Functions,SCE9,SCE7,"SCE5, SCE5_B",
+1,RSA,Up to 4K (RSA 3K/4K - Verify only),Up to 2K,-,"Key Generation, Sign/Verify"
+2,ECC,Up to 512 bit,Up to 384 bit,-,"Key Generation, ECDSA, ECDH"
+3,AES,128/192/256,128/192/256,128/256,"ECB, CBC, CTR"
+4,,128/192/256,128/192/256,-,GCTR
+5,,128/256,128/256,-,XTS
+6,,128/192/256,128/192/256,128/256,"CCM, GCM, CMAC"
+7,Hash,"Y
+:selected:","Y
+:selected:",Y,GHASH
+8,,SHA224/256,SHA224/256,"-
+:unselected:",HMAC
+9,,"Y
+:selected:","Y
+:selected:","-
+:unselected:",SHA2 (224/256)
+10,TRNG,"Y
+:selected:","Y
+:selected:","Y
+:selected:","HW Entropy, DRBG-AES-128"
+11,Wrapped,"Y
+:selected:","Y
+:selected:",Y,"Key confidentiality, authenticity"
+12,Plaintext,"Y
+:selected:",Y,Y,Legacy compatibility
+13,Modes,"Compatibility Mode, Protected Mode",Compatibility Mode,Compatibility Mode,Operational Modes

@@ -1,0 +1,3 @@
+,Bit,Symbol,Bit name,Description,R/W
+1,b15-8,TMOCNT_U,Timeout internal counter,Timeout internal counter high-order *1,W *2
+2,b7-0,TMOCNT_L,,Timeout internal counter low-order,

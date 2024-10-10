@@ -1,0 +1,20 @@
+,2.2 Known Issues or Limitations,
+1,#,DESCRIPTION
+2,1,"S/W flow control method can be used with Extended Sleep mode only if the device connected on UART interface does send Xon/Xoff flow control bytes during sleep period, DA14580 flows off UART data traffic but control bytes can be sent during the flow off period. The flow off signal will be lost in this case."
+3,2,Binary files cannot be transferred with s/w flow control method.
+4,3,Data loss is possible to happen in case of disconnection during data transfer. BLE Tx Buffers are flashed at disconnection and Tx pending data will be lost.
+5,ROM PATCHES,
+6,1,Kernel timer issue. Root cause is a fault mixed 16bit/32bit arithmetic. Patched function: cmp_abs_time(). Function app_timer_set() must be used as wrapper of the ke_timer_set(). It ensures that the delay parameter of the call to ke_timer_set() is within limits.
+7,2,Rejection of Peer request issue.
+8,,SW implementation was rejecting any peer device request (read/write) when server had sent indication and was waiting for confirmation.
+9,,"Patched Function: l2cc_pdu_recv_ind_handler(). Changes applied also in the profiles (cscp, glp, rscp, prf_utils)."
+10,3,"Security manager issue Reserved bits checked in Pairing PDU leads to PTS test TC_BV_04_C Failure. Patched Functions: smpc_send_pairing_req_ind(), smpc_check_pairing_feat(),"
+11,,smpc_pairing_cfm_handler(). smpc_pairing_cfm_handler() patch was updated to fix hard fault when SMPC_PAIRING_CFM is received after the passkey entry procedure has timed out.
+12,4,"Channel Map update When operating as a slave and the Slave Latency of an established connection is not 0 then upon reception of an LL_CHANNEL_MAP_UPD or LL_CONN_PARAMS_UPD message with a connInstant value set at a ""latency anchor point"", the connection is dropped immediately at the next wake-up. If the connInstant is set at a ""connection anchor point"" that the 580 has scheduled to wake-up to serve it then no problem occurs."
+13,,The patched functions are: llc_con_update_req_ind() and llc_ch_map_req_ind().
+14,5,"Enable broadcast mode for connected peripheral, Support Multiple ""Service Data"" structures in AD BLE 4.0 specification permits a peripheral to be connected to a central and perform non-connectable advertising at the same time (this is required by CPP tests in PTS). The stack did not allow this. BLE 4.0 specification permits multiple instances of ""Service Data"" structures in AD. The stack allowed only 1 instance of this AD type. The patched function is gapm_adv_op_sanity()"
+15,6,Prohibit a peripheral device from sending llcp_start_enc_rsp and data packets in the same connection event The patched function is llc_start_enc_rsp_ind()
+16,7,FIX wrong LLC state set The patched function is llc_llcp_tx_cfm_handler()
+17,Documentation,
+18,1,Software documentation for Dialog Serial Port Service application is available on Dialog customer support portal The document reference number is UM-B-038.
+19,,

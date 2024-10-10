@@ -1,0 +1,65 @@
+,,,,,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,,,,J10,TRSTin
+2,,,,,VDDIN,,,,,,,,,,,,,,,,,,PA0/PGMNCMD,H9,TRSTout
+3,,,,,,VDDOUT,,VDDUTMI,VDDIO1,VDDIO2,,VDDIO3,VDDBU,VDDPLL,VDDCORE1,VDDCORE2,VDDCORE3,VDDCORE4,VDDCORE5,VDDCORE6,ADVREF,AD12BVREF,"PA1/PGMRDY
+VDDANA",H10,
+4,3V3D,TP29,,,,,,,,,,,,,,,,,,,,,PA2/PGMNOE,G8,
+5,C,NRST,,,,,,,,,,,,,,,,,,,,,PA3/PGMNVALID,G10,"PA4
+R22"
+6,,,,,,,,,,,,,,,,,,,,,,,PA4/PGMM0,G9,
+7,,,,B7,NRST,,,,,,,,,,,,,,,,,,PA5/PGMM1,X,
+8,,,,,,,,,,,,,,,,,,,,,,,,E10,
+9,,C32 10nF,NRSTB,C8,NRSTB,,,,,,,,,,,,,,,,,,"PA7/PGMM3
+PA6/PGMM2",E10,
+10,,R42 M 0,FWUP,D8,,,,,,,,,,,,,,,,,,,PA8/PGMD0 PA9/PGMD1 PA10/PGMD2,E9 E8 Dg,S_nCTS S_nRTS S_RXD
+11,,,,,FWUP,,,,,,,,,,,,,,,,,,"PA11/PGMD3/URXD
+PA12/PGMD4/UTXD",H5,"D10_S_TXD
+TDIin"
+12,,,,,,,,,,,,,,,,,,,,,,,PA13/PGMD5 PA14/PGMD6,K6,
+13,,TP30,ERASE,D6,,,,,,,,,,,,,,,,,,,,P16,PA15
+14,,ERASE,,,ERASE,,,,,,,,,,,,,,,,,,"PA15/PGMD7
+PA16/PGMD8",J6,
+15,,TP31,,,,,,,,,,,,,,,,,,,,,PA19/PGMD11,A7,PA18
+16,,TMS_SWDIO,,C9,,,,,,,,,,,,,,,,,,,PA18/PGMD10,K7,PA17
+17,,,,,JTAGSEL,,,,,,,,,,,,,,,,,,PA17/PGMD9,K8,TDIout
+18,,-O,TMS/SWDIO,C7,TMS/SWDIO,,,,,,,,,,,,,,,,,,"PA20/PGMD12
+PA21/PGMD13",J8,
+19,,,,,,,,,,,,,,,,,,,,,,,PA22/PGMD14,A4,PA22
+20,,,TCK/SWCLK,A7,,,,,,,,,,,,,,,,,,,,K9,
+21,TP32,,,,TCK/SWCLK,,,,,,,,,,U4,,,,,,,,"PA23/PGMD15
+PA24",A8,
+22,"O TCK_SWCLK
+:selected:",TP330,TDI,B9,TDI,,,,,,,,,,,,,,,,,,,K10,
+23,,TDI,SWO/TDO,B8,TDO/TRACESWO,,,,,,,,,ATSAM3U2CA-CU,,,,,,,,,"PA25
+PA26 PA27",J9 83,
+24,,,,D7,TST,,,,,,,,,,,,,,,,,,PA28 PA29,"E3
+J4",PA29
+25,TP35 SWO/TDO,,,,,,,,,,,,,,TFBGA-100,,,,,,,,"PA30
+PA31","F4 *
+:selected:",
+26,,,,A10,XIN32,,,,,,,,,,,,,,,,,,,,
+27,C31 18pF,,,B19,XOUT32,,,,,,,,,,,,,,,,,,PB0 PB1 PB2,G3 L1 G2 J5,
+28,,,XIN,A2,XIN,,,,,,,,,,,,,,,,,,"PB3
+PB4",R5,
+29,,Y3,,,,,,,,,,,,,,,,,,,,,PB5,"P2
+J1",
+30,:unselected:,12.0000MHZ,XOUT,A3,XOUT,,,,,,,,,,,,,,,,,,PB6 PB7 PB8,"Rs1 J2
+:selected: :selected:",
+31,C30 18pF,,,D2,DHSDM,,,,,,,,,,,,,,,,,,PB9 PB10,"E4
+B4 G1
+:selected:",
+32,,R41 / 39,DFSDM,D1,,,,,,,,,,,,,,,,,,,"PB11
+PB12",L2 94,
+33,,,,,DFSDM,,,,,,,,,,,,,,,,,,PB13,:selected: :selected:,
+34,,,,C2,DHSDP,,,,,,,,,,,,,,,,,,PB14,"G7
+:selected:",
+35,,,,,,,,,,,,,,,,,,,,,,,PB15,:selected:,
+36,,R40 M 39,DFSDP,C1,DFSDP,,,,,,,,,,,,,,,,,,PB16,A4,
+37,,,,,,,,,,,,,,,,,,,,,,,PB17,"B5
+:selected:",
+38,,,VBG,A1,VBG,,,,,,,,,,,,,,,,,,"PB18
+PB19","DS
+:selected:",
+39,,R39 6.8k,C29 10pF,==,,,,,,,,,,,,,,,,,,,"PB20
+PB21 PB22 PB23",C6 A6 86 :selected:,
+40,,,,,,,,,,,,,,,,,,,,,,,PB24,:selected:,

@@ -1,0 +1,17 @@
+,,IDE Support,,
+1,Example Project,e2 studio/GCC,IAR,Keil MDK
+2,usb_composite,Supported,,
+3,usb_hcdc,Supported,,
+4,usb_hhid,Supported,,
+5,usb_hmsc,Supported,,
+6,usb_hmsc_baremetal,Supported,,
+7,usb_hvnd,Supported,,
+8,usb_multiport,Supported,,
+9,usb_pcdc,Supported,,
+10,usb_phid,Supported,,
+11,usb_pmsc,Supported,,
+12,usb_pvnd,Supported,,
+13,vee_flash,Supported,,
+14,wdt,Supported,Supported,Supported
+15,wifi,Supported,,
+16,wifi_on_chip_udp_freertos,Supported,,

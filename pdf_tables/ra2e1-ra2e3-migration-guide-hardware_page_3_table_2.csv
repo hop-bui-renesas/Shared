@@ -1,0 +1,10 @@
+,Function name,RA2E1,RA2E3
+1,Data flash memory (KB),4,2
+2,AES engine,:unselected:,-
+3,True random number generator (TRNG),:unselected:,-
+4,Internal voltage regulator,:unselected:,
+5,Package,LQFP64/48/32,LQFP48/32
+6,,BGA64,-
+7,,HWQFN48/32,
+8,,LGA36,-
+9,,WLCSP25,-

@@ -1,0 +1,11 @@
+,1.,About QE for Motor,2
+1,1.1,Overview,2
+2,1.2,Features,2
+3,1.3,Changes in V1.2.0,4
+4,1.3.1,"Support for RL78/G1F, RA4T1, RA6T3 and RX26T",4
+5,1.3.2,Addition of supported motor middleware,4
+6,1.3.3,Addition of motor middleware configuration GUI for RX26T,4
+7,1.4,Supported Software,4
+8,2.,"Installation, Uninstallation and Updating the Product",4
+9,3.,Functional Restrictions,4
+10,Revision History,,5

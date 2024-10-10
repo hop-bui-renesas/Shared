@@ -1,0 +1,6 @@
+,RCU state,Indication
+1,RCU connected,Green LED blinks once
+2,RCU disconnected,Green LED blinks 3 times
+3,RCU advertising,Red LED is on for 0.5 second every second
+4,Battery low,Red LED blinks briefly every 2 seconds
+5,Motion active,Green LED blinks once every second

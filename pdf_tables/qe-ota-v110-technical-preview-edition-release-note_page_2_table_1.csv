@@ -1,0 +1,23 @@
+,OTA Main (QE) X,,,,,,,
+1,Cloud,0 Prepare,OTA,0 IOT,,,,
+2,1.Cloud Settings,,,,,,Sign-in to Cloud,
+3,"Sign-in to Cloud
+:selected:",Setup to sign-in to Cloud,,Cloud,,,,
+4,"Cloud resource setting
+:selected:",,,,,,,
+5,2.Prepare projects,,Azure,,,,,
+6,"Select projects
+:selected:",,,,,Settings,,Sign-in
+7,"Select provisioning
+:selected:",,,,,URL,,
+8,3.Manage IoT device -,,,,,,,
+9,:selected: Manage IoT device,Sign-in to Azure,,,,,,
+10,:selected: Create initial firmware,"- Install Azure CLI . Create new Azure account - Sign-in to Azure Install Azure CLI 1. Download and install the Azure CLI from Microsoft website. https://learn.microsoft.com/cli/azure/ Create new Azure account 1. If have not Azure account, need to create a Microsoft Azure
+and create an account. Create Azure account Sign-in to Azure",,,,,,
+11,:selected: Write program to IoT devices,,,,,,,
+12,4.OTA,,,,,,,
+13,"Create update firmware
+:selected:",,,,,,,
+14,:selected: Execute OTA and check status,,Please refer to the following,,,,,
+15,,,,,,,,
+16,,,,,account.,,,

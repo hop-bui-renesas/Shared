@@ -1,0 +1,8 @@
+,Bit,Symbol,Function,,,,R/W
+1,23:22,FRM[1:0],Selects Frame Word Number*1,,,,R/W
+2,,,Communication format (SSIOFR.OMOD[1:0]),,,,
+3,,,FRM[1:0],12s (00b),Monaural (10b),TDM (01b),
+4,,,00b,2,1,Setting prohibited,
+5,,,01b,Setting prohibited,Setting prohibited,4,
+6,,,10b,,,6,
+7,,,11b,,,8,

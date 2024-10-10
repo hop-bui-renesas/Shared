@@ -1,0 +1,11 @@
+,Bit 4,Bit 3,Bit 2,Bit 1,Bit 0,,Description
+1,IOC[4],IOC[3],IOC[2],IOC[1],IOC[0],"MTU5.TGRU,MTU5.TGRV,
+MTU5.TGRW Function","MTIC5U, MTIC5V, MTIC5W Pin Function"
+2,,,,,,- Omitted -,
+3,1,1,0,0,1,Input capture register,Measurement of low pulse width of external input signal Capture at trough in complementary PWM mode
+4,1,1,0,1,0,,Measurement of low pulse width of external input signal Capture at crest in complementary PWM mode
+5,1,1,0,1,1,,Measurement of low pulse width of external input signal Capture at crest and trough in complementary PWM mode
+6,1,1,1,0,0,,Setting prohibited
+7,1,1,1,0,1,,Measurement of high pulse width of external input signal Capture at trough in complementary PWM mode
+8,1,1,1,1,0,,Measurement of high pulse width of external input signal Capture at crest in complementary PWM mode
+9,1,1,1,1,1,,Measurement of high pulse width of external input signal Capture at crest and trough in complementary PWM mode

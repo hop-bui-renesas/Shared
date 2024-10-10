@@ -1,0 +1,16 @@
+,#,CHANGES
+1,1,Moved updating of app_env from gapc_connection_req_ind_handler() to default_app_on_connection()
+2,2,Easy timer ID is passed as a parameter to timer callback function
+3,3,SUOTA callback is called with parameter SUOTAR_IN_PROGRESS to notify the application that SUOTA is ongoing
+4,4,Changed HOGPD_NB_REPORT_INST_MAX to 8
+5,5,Added skip slave latency feature
+6,6,Added BLE_THROUGHPUT_METRICS feature
+7,7,Increased SCT_BLE_TX_DESC_DATA size
+8,8,Changed CFG_NB_PRF to 5
+9,9,Added MEASURE_CPU_LOAD and INDICATE_IDLE_STATE features
+10,10,Fixed arch_console not to block in interrupt context
+11,11,Added i2c_core.c from SDK5
+12,12,Added spi_flash_block_erase_no_wait() function
+13,13,Added llc_con_update_ind() patch in system library
+14,14,Changed mkimage utility to search for both SW_VERSION and SDK_VERSION symbols in the version file
+15,15,Changed rf_rssi_convert() to return the RSSI in dBm

@@ -1,0 +1,5 @@
+,Bit,Symbol,Bit Name,Description,R/W
+1,b0,PGS,Group-A Priority Control Setting*1,0: Operation is without group A priority control 1: Operation is with group A priority control,R/W
+2,b1,GBRSCN,Group B Restart Setting*2,(Enabled only when PGS = 1. Reserved when PGS = 0.) 0: Scanning for group B is not restarted after having been discontinued due to group A priority control. 1: Scanning for group B is restarted after having been discontinued due to group A priority control.,R/W
+3,b14 to b2,-,Reserved,These bits are read as 0. The write value should be 0.,R/W
+4,b15,GBRP,Group B Single Scan Continuous Start*3,(Enabled only when PGS = 1. Reserved when PGS = 0.) 0: Single scan for group B is not continuously activated. 1: Single scan for group B is continuously activated,R/W

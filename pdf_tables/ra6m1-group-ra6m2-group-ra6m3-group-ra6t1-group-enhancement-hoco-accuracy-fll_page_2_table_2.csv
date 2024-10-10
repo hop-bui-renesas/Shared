@@ -1,0 +1,11 @@
+,Parameter,Symbol,Min,Typ,Max,Unit,Test conditions,
+1,-,,,,,,,
+2,HOCO clock oscillator oscillation frequency,THOCO16,15.78,16,16.22,MHZ,-20 <= Ta <= 105C,Without FLL
+3,,THOCO18,17.75,18,18.25,,,
+4,,THOCO20,19.72,20,20.28,,,
+5,,THOCO16,15.71,16,16.29,,-40 <= Ta <=-20degC,
+6,,THOCO18,17.68,18,18.32,,,
+7,,THOCO20,19.64,20,20.36,,,
+8,,THOCO16,15.960,16,16.040,,-40 <= Ta <= 105C Sub-clock frequency accuracy is +50 ppm.,With FLL
+9,,THOCO18,17.955,18,18.045,,,
+10,,THOCO20,19.950,20,20.050,,,

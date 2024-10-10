@@ -1,0 +1,7 @@
+,ROM size,Code flash memory (00000H to xxxxxH)
+1,48 Kbytes,49152 x 8 bits (00000H to 0BFFFH) Note2
+2,64 Kbytes,65536 x 8 bits (00000H to 0FFFFH)
+3,96 Kbytes,98304 x 8 bits (00000H to 17FFFH) Note3
+4,128 Kbytes,131072 x 8 bits (00000H to 1FFFFH)
+5,192 Kbytes,196608 x 8 bits (00000H to 2FFFFH)
+6,256 Kbytes,262144 x 8 bits (00000H to 3FFFFH)

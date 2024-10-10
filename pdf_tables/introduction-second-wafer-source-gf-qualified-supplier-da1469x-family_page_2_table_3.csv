@@ -1,0 +1,3 @@
+,sec 5.9 table 13: GP_ADC - DC Characteristics,,,
+1,parameter,min/max,min/max,unit
+2,EG_CALIBRATED,-0.8 / +0.8,-1 / +1,%

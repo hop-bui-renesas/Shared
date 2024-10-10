@@ -1,0 +1,3 @@
+,Step,Read/ Write,Address (Register),Data,Data Length (Bytes),Description
+1,1,Write,DSRO,0x40800000,4,Specifies the type and size of device 0 The device 0 connects 64 Mbit OctaRAM
+2,2,Write,DSR1,0x08000000,4,Specifies the type and size of device 1 The device 1 connects 1 Gbit OctaFlash

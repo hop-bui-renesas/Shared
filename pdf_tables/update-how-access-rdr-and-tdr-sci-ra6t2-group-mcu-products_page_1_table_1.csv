@@ -1,0 +1,12 @@
+,Bit,Symbol,Function,R/W
+1,8:0,RDAT[8:0],"Serial receive data RDAT is a 9-bit register for storing received data. Received data is stored in [6:0] when 7-bit data is selected, in [7:0] when 8-bit data is selected, and in [8:0] when 9-bit data is selected. And 0 is stored in the unused bit.",R
+2,9,MPB,Multi-processor flag 0: Data transmission cycles 1: ID transmission cycles,R
+3,10,DR,Receive data ready flag FRSR.DR can be read.,R
+4,11,FPER,FIFO parity error flag Valid only in Asynchronous mode 0: There is no parity error in the data read from the receive-FIFO 1: There is parity error in the data read from the receive-FIFO,R
+5,12,FFER,FIFO framing error flag Valid only in Asynchronous mode 0: There is no framing error in the data read from the receive-FIFO 1: There is framing error in the data read from the receive-FIFO,R
+6,23:13,-,These bits are read as 0.,R
+7,24,ORER,Overrun Error flag CSR.ORER can be read.,R
+8,26:25,-,These bits are read as 0.,R
+9,27,PER,Parity error flag CSR.PER can be read.,R
+10,28,FER,Framing error flag CSR.FER can be read.,R
+11,31:29,-,These bits are read as 0.,R

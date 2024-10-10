@@ -1,0 +1,7 @@
+,Rev.,Date,Description,
+1,,,Page,Summary
+2,1.00,2021.3.17,-,First edition release
+3,1.01,2021.5.21,3,- Change the project name. - Add buzzer control source file and header file to the file structure.
+4,,,4,- Change operation voltage to 5.0V. - Update the version of IDE. - Update the version of Capacitive Touch Development Tool.
+5,,,,- Change the Figure2.1 - Add buzzer control initialization to the initialization of touchless button demo solution.
+6,,,5,- Add buzzer control function to result notification. - Add 'Build Option'.

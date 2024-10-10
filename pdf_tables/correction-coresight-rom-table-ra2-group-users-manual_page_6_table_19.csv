@@ -1,0 +1,6 @@
+,#,Address,Access size,R/W,Value,Target module pointer
+1,0,0x4001_A000,32 bits,R,0x9FFF4003,SCS
+2,1,0x4001_A004,32 bits,R,0x9FFE7003,DWT
+3,2,0x4001_A008,32 bits,R,0x9FFE8003,FPB
+4,3,0x4001_A00C,32 bits,R,0xFFFFF003,MTB
+5,4,0x4001_A010,32 bits,R,0x00000000,End of entries

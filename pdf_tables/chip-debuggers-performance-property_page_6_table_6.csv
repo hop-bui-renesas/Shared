@@ -1,0 +1,17 @@
+,Target MCU,Connection system,Break Function,,Trace Function,"Memory reference
+&change while executing program","Performanc
+e measureme nt",Real-time RAM monitor,C0 coverage,Hot plug- in,,,,,
+1,Family,,Hardware Break,Special Break,Internal trace,,,,,,Series/Core,Group,Software Break,External Trace,
+2,V850 *1 *2,"JTAG, double-wire or 4-wire Serial (data x 2, clock and handshake)",2 points being shared by an execution address and data access * Sequential breaks are specifiable.,"Forcible break by selecting ""Stop"" on emulator debugger",Not supported,Supporte d,"Not supported; the time Stop is measurable.
+b/w Go and","Not
+supported","Not
+supported",Not supported,V850E1 V850ES V850E2,,4 points for ROM area 2000 points for RAM area,Not supported,
+3,,Nexus or Single-wire Serial,"[When using JTAG I/F]
+Before-execution: 4 points After-execution: 8 points Access: 6 points * Sequential breaks",,,,,,,Supporte d,V850E2M V850E2S,,8 points for ROM area 2000 points for RAM area,,"[When using Serial I/F]
+are specifiable. Before-execution: 4 points After-execution: Not supported Access: 4 points"
+4,78K0R,Single-wire Serial or double-wire Serial (clock and data),1 point being shared by an execution address and data access,,,,,,,Not supported,,,2000 points,,
+5,78K0,double-wire Serial (clock and data),1 point for a before-execution break (only when software breaks are not used) + 1 point for an access break,,,,,,,,,,,,
+6,R8C,,8 points for an address break + 2 points for a data condition break * Sequential breaks are specifiable.,,Obtains the information of 4 branches (sum of the branch-source and branch-destination PC) or the information of up to 8 cycles of specified data access,,,,,,"R8C/L35C, R8C/L36C, R8C/L38C and R8C/L3AC Groups R8C/L35M, R8C/L36M, R8C/L38M and R8C/L3AM Groups R8C/LA6A and R8C/LA8A Groups R8C/LA3A and R8C/LA5A Groups R8C/LAPS Group",,256 points at the max,,
+7,,,,,,,,,,,R8C/5x,,,,
+8,,,,,,,,,,,"R8C/3xT-A R8C/32C, R8C/33C, R8C/34C, R8C/35C, R8C/36C, R8C/38C, R8C/3GC and R8C/3JC Groups R8C/32M, R8C/33M, R8C/34M, R8C/35M, R8C/36M, R8C/38M, R8C/3GM and R8C/3JM Groups R8C/33T, R8C/3JT and R8C/3NT Groups R8C/34W, R8C/36W and R8C/38W Groups R8C/34X, R8C/36X and R8C/38X Groups R8C/34Y, R8C/36Y and R8C/38Y Groups R8C/34Z, R8C/36Z and R8C/38Z Groups R8C/32G, R8C/32H, R8C/33G, R8C/33H, R8C/34P and R8C/34R Groups R8C/34K, R8C/34U, R8C/3MK and R8C/3MU Groups R8C/3MQ Group",,,,
+9,,Single-wire Serial,,,,,,,,,,,,,

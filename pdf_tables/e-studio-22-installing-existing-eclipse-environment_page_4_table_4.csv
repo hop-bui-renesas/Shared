@@ -1,0 +1,5 @@
+,Select All,Deselect All,
+1,Details,,
+2,,,
+3,:selected: Show only the latest versions of available software :unselected: Hide items that are already installed :selected: Group items by category What is already installed? :unselected: | Show only software applicable to target environment :selected: ] Contact all update sites during install to find required software,,
+4,?,,< Back Next > Finish Cancel

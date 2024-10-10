@@ -1,0 +1,11 @@
+,Item,Description
+1,Access control,"Access management circuit . In case of irregular access to the SCE5 due to a falsified program or runaway execution of a program, this circuit blocks all subsequent accesses and stops the output of data from the SCE5."
+2,Encryption engine,"Advanced Encryption Standard (AES): Compliant with NIST FIPS PUB 197 algorithm . Key sizes: 128 or 256 bits . Block size: 128 bits . Chaining modes - ECB, CBC, CTR: Compliant with NIST SP 800-38A - GCM: Compliant with NIST SP 800-38D - XTS: Compliant with NIST SP 800-38E. - GCTR . Throughput for 128-bit data - 44 PCLKA cycles for 128-bit key - 61 PCLKA cycles for 256-bit key. AES-GCM . AES-GCM is realized by combining AES-GCTR and GHASH. Key management . Wrapped keys are only valid within the SCE5."
+3,"Generation of random
+numbers",32-bit true random number generator
+4,Unique ID -Privileged,". An ID unique to the MCU (unique ID) is accessible from the access management circuit through the dedicated bus . Combining the unique ID with the key generation information prevents illicit copying of data to another MCU.
+and"
+5,mode,"The privileged mode access signal is conned
+is used to limit -control of the SCCS modulo to privileged modo only."
+6,Low power consumption,Setting of the module-stop state is possible
+7,,

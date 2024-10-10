@@ -1,0 +1,25 @@
+,Version,Date,Comments
+1,A,05/14/2014,Initial Approved Release
+2,B,07/14/2014,"- Replaced FET by LDO to slow down VDD_3V3_PERF ramp-up - Delayed switch-on of VANA_5V by placing C71 - Changed net name on Peripherals page from VDD_580_M to VBAT_580_M - Added off page connector on Peripherals page for RST and updated Block Diagram - Changed values of R50, R51, R52 and R53 from 1k to 0R - Changed LED resistor values to change illumination - Changed default value of R60 to 0R - Changed reset circuit on PCI-E page to facilitate reset generation from both the push button and the debugger"
+3,C,11/10/2014,This PCB only Modification: Move vias to the middle of the bga-pads of U8 (SAM3U2CA)
+4,,,
+5,,,
+6,,,
+7,,,
+8,,,
+9,,,
+10,,,
+11,,,
+12,,,
+13,,,
+14,,,
+15,,,
+16,,,
+17,,,
+18,,,
+19,,,
+20,,,
+21,,,
+22,,,
+23,,,
+24,,,

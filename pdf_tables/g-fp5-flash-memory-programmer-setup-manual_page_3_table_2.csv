@@ -1,0 +1,3 @@
+,Installation Order,Item,Method
+1,1,"Programming GUI, USB driver","Run the downloaded executable file (PG-FP5_Package_Vxxx.exe) and perform installation, following the directions on the installer screen. After installation, the USB driver detects the PG-FP5 by plug-and-play, and it is automatically added."
+2,2,PR5 file,"Decompress the downloaded file to any folder. A *. pr5 file is decompressed into any folder, so copy it to the FP5_PRJ folder where the programming GUI is installed."

@@ -1,0 +1,31 @@
+,Conditions under which self-calibration is required,Internal-circuit Calibration,Gain/Offset Calibration,Channel dedicated sample-and-hold circuit Gain and Offset Calibration *1
+1,After reset release,"v
+:selected:","v
+:selected:","v
+:selected:"
+2,After releasing the module stop,"v
+:selected:","v
+:selected:","v
+:selected:"
+3,When returning from Software Standby mode or Deep Software Standby mode,"v
+:selected:","v
+:selected:","v
+:selected:"
+4,When changed the ADCLK setting (When clock source or frequency is changed),"v
+:selected:","v
+:selected:","v
+:selected:"
+5,"When changed the operation mode or the scan mode of the A/D converter (When changed ADMDR.ADMDm bit (m = 0, 1))","v
+:selected:","v
+:selected:","v
+:selected:"
+6,"When changed A/D successive approximation time (When changed ADCNVSTR.CSTm bit (m = 0, 1))","v
+:selected:","v
+:selected:","v
+:selected:"
+7,When changed the operation setting of the channel-dedicated sample-and- hold circuit *1,"-
+:unselected:
+:unselected:","-
+:unselected:
+:unselected:","v
+:selected:"

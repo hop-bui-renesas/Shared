@@ -1,0 +1,3 @@
+,Feature,Functional description
+1,I/O ports,"- I/O ports for the 176-pin BGA, 176-pin LQFP - I/O pins : 124 - Input pins : 9 - Pull-up resistors : 125 - N-ch open-drain outputs : 124 - 5-V tolerance : 17 . I/O ports for the 145-pin LGA, 144-pin LQFP - I/O pins : 101 - Input pins : 9 - Pull-up resistors : 102 - N-ch open-drain outputs : 101 - 5-V tolerance : 21 . I/O ports for the 100-pin LQFP - I/O pins : 67 - Input pins : 9 - Pull-up resistors : 68 - N-ch open-drain outputs : 67 - 5-V tolerance : 14
+:selected: :unselected: :unselected: :unselected: :unselected: :selected: :unselected: :unselected: :unselected: :unselected: :selected: :unselected: :unselected: :unselected: :unselected:"

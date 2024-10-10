@@ -1,0 +1,4 @@
+,#1.0,DESCRIPTION
+1,OVERVIEW,
+2,This is the first Full (LA) release of the software driver of the DA14585 Range Extender. The most important features of this initial version are listed below:,
+3,"System - SKY66111-11 Power Amplifier Driver supporting programmable output power levels: BYPASS, 0, +2, +4, +6, +8 and MAX_POWER",

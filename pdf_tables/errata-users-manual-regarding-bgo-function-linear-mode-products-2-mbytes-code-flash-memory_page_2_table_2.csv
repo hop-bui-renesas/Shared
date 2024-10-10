@@ -1,0 +1,6 @@
+,,Range for Rewriting,Range for Reading,
+1,Common to linear and dual modes,Data flash memory,Code flash memory,
+2,Linear mode,First half (2 Mbytes) of the code flash memory (addresses FFC0 0000h to FFDF FFFFh),Second half (2 Mbytes) of the code flash memory (addresses FFE0 0000h to FFFF FFFFh) Data flash memory,Products with 4 Mbytes of code flash memory
+3,,Second half (2 Mbytes) of the code flash memory (addresses FFE0 0000h to FFFF FFFFh),First half (2 Mbytes) of the code flash memory (addresses FFC0 0000h to FFDF FFFFh) Data flash memory,
+4,Dual mode,Bank 1 area of the code flash memory,Bank 0 area of the code flash memory Data flash memory,When the BANKSEL.BANKSWP[2:0] bits are 111b:
+5,,Bank 0 area of the code flash memory,Bank 1 area of the code flash memory Data flash memory,When the BANKSEL.BANKSWP[2:0] bits are 000b:

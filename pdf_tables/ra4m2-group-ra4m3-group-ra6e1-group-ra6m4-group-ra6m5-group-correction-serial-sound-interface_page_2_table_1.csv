@@ -1,0 +1,5 @@
+,,Bit,Symbol,Function,R/W
+1,,,,,
+2,,13:8,RDC[5:0],Number of Receive FIFO Data Indication Flag Number of receive FIFO data indication flag,R
+3,,,,,
+4,,29:24,TDC[5:0],Number of Transmit FIFO Data Indication Flag Number of transmit FIFO data indication flag,R

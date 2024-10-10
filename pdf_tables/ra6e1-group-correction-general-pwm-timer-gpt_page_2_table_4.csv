@@ -1,0 +1,10 @@
+,Event number,Interrupt request source,Name,Description
+1,0xOFF,GPT7,GPT7_CCMPA,Compare match A
+2,0x100,,GPT7_CCMPB,Compare match B
+3,0x101,,GPT7_CMPC,Compare match C
+4,0x102,,GPT7_CMPD,Compare match D
+5,0x103,,GPT7_CMPE,Compare match E
+6,0x104,,GPT7_CMPF,Compare match F
+7,0x105,,GPT7_OVF,Overflow
+8,0x106,,GPT7_UDF,Underflow
+9,0x150,GPT-,GPT UVWEDGE,UVWedge event

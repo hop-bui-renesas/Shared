@@ -1,0 +1,4 @@
+,Target MCU,Break Function,Performance Measurement Function,Invalid External extension Mode of Embedded ROM,Trace Function,,,,
+1,Family,Hardware Break,,,Internal Trace,Series/ Core,Group,Software Break,AUD Trace
+2,SuperH,10 points (Using UBC module),Supported,No Mode,60 sets of branch sources and destinations,SH-4A (Multi-core MCU),SH7786,255 points (for each core in MCU),Up to 128K events (Up to 64K of branch information can be acquired when branch trace is the only target) *
+3,,,,,"1024 cycles (When acquiring trace info by core in MCU, 512 cycles respectively.)",SH-2A (Multi-core MCU),SH7205 SH7265,,

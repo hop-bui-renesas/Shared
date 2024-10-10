@@ -1,0 +1,16 @@
+,Name of File,Meassure
+1,cpu_test.c,1.1 CPU Register
+2,CPU_Test_Control.asm,
+3,cpu_test_coupling.c,
+4,CPU_Test_General_High.asm,
+5,CPU_Test_General_Low.asm,
+6,fpu_control.asm*,
+7,fpu_exten.asm*,
+8,fpu_test_coupling.c*,
+9,TestFPUCouplingEnd.asm*,
+10,TestFPUCouplingStart_A.asm*,
+11,TestFPUCouplingStart_B.asm*,
+12,TestGPRsCouplingEnd.asm,
+13,TestGPRsCouplingStart_A.asm,
+14,TestGPRsCouplingStart_B.asm,
+15,TestFPUCouplingS0_S3_A.asm*,

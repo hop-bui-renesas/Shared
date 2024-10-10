@@ -1,0 +1,4 @@
+,Parameter,Specifications
+1,Communication,CAN functionality conforms to CAN-FD ISO 11898-1 (2015)
+2,Gateway function,CAN 2.0 +> CAN 2.0 CAN 2.0 +> CAN-FD gateway (only 8-byte payload)*1 CAN-FD <> CAN-FD*1
+3,Data transfer rate,"Up to 1 Mbps for arbitration phase and up to 5 Mbps for data phase, individually for each CAN channel"

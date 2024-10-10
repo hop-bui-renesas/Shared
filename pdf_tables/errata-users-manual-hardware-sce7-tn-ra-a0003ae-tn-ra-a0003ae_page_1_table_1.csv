@@ -1,0 +1,4 @@
+,Parameter,Specifications
+1,Unique ID,. An ID unique to the MCU (unique ID) is accessible from the access management circuit through the dedicated bus . Combining the unique ID with the key generation information prevents illicit copying of data to another MCU.
+2,Privileged mode,The privileged mode-signal ie-connected-to-the-ace mit control of the -OSE7 module to privileged mode only.
+3,Low power consumption,Setting of the module-stop state is possible

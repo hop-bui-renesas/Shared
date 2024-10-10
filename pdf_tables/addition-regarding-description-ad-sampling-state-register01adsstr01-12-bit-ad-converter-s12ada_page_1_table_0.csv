@@ -1,0 +1,19 @@
+,Product Category,MPU/MCU,,Document No.,TN-RX *- A167A/E,Rev.,1.00,
+1,Title,Addition Regarding the Description on A/D Sampling State Register 01 (ADSSTR01) of 12-Bit A/D Converter (S12ADa),,Information Category,Technical Notification,,,
+2,Applicable Product,"RX630 Group, RX63N Group, RX631 Group",Lot No.,Reference Document,"See below ""Reference Documents""",,,
+3,,,All Lots,,,,,
+4,This document describes an addition regarding the description on A/D Sampling State Register 01 (ADSSTR01) of 12-Bit A/D Converter (S12ADa) in the user's manual: Hardware.,,,,,,,
+5,"The description is added as follows to ""SST1[7:0]
+(ADSSTR01).",,Bits (Sampling,"Time 1 Setting)"" in A/D Sampling State Register 01",,,,
+6,[Before Correction],,,,,,,
+7,SST1[7:0] Bits (Sampling Time 1 Setting),,,,,,,
+8,These bits are used to set the sampling time for the analog input of the selected channel.,,,,,,,
+9,"One state refers to one cycle of the A/D conversion clock (ADCLK), so when the frequency of the clock is 50 MHZ, one state becomes 20 ns. The default setting is 20 states. The sampling time can be adjusted if the source impedance of the analog input signal is high enough that the sampling time is too short or the ADCLK frequency is too low for the current setting. Only set the SST1[7:0] bits while the ADSCR.ADST bit is 0.",,,,,,,
+10,"The sampling time setting should be in the range from 10 to 255 states, so that the sampling time is longer than 0.4 us.",,,,,,,
+11,[After Correction] SST1[7:0] Bits (Sampling Time 1 Setting),,,,,,,
+12,These bits are used to set the sampling time for the analog input of the selected channel.,,,,,,,
+13,"One state refers to one cycle of the A/D conversion clock (ADCLK), so when the frequency of the clock is 50 MHZ, one state becomes 20 ns. The default setting is 20 states. The sampling time can be adjusted if the source impedance of the analog input signal is high enough that the sampling time is too short or the ADCLK frequency is too low for the current setting. Only set the SST1[7:0] bits while the ADSCR.ADST bit is 0.",,,,,,,
+14,"The sampling time setting should be in the range from 10 to 255 states, so that the sampling time is longer than 0.4 us, for channels AN008 to AN020. The sampling state of the channels AN000 to AN007 is fixed to 20 states.",,,,,,,
+15,[Reference Documents],,,,,,,
+16,Group,Title,,,Document No.,Object page,,Rev.
+17,RX630,RX630 Group User's Manual: Hardware,,,R01UH0040EJ0160,1427,,1.60

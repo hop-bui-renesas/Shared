@@ -1,0 +1,15 @@
+,@Motor Main (QE) X 000 Workflow Diagram,,,
+1,Evaluating Renesas Motor Solutions,1. Preparation Prepare software for motor control and make tool setting.,2. Tuning 7 Run the tuning program to obtain the motor control parameters.,3. Analyze 7 Analyze and monitor the motor system operation.
+2,Obtain More Information Renesas has a diverse portfolio of motor solutions to support a wide range of motor application. Find out more by clicking the button below,Select Target Project Select a target project from the e studio workspace,Prepare Tuning Program Select Tuning Program,Build Application Program Build Project Download Application Program Application Program: Download Settings
+3,,RX26T MCILV1 SPM,Generate Tuning Program,
+4,Explore,Series : RX26T,"Download Tuning Program
+Tuning Program",HardwareDebuoYRX26T MCILV1 SP
+5,,Device : R5F526TFCxFP,Download Settings,Download
+6,Introduce Sample Program,Configure Motor Software,OE Motor TunerYRX26T Sensorless,Start Analyzer Select a configuration file for Analyzer RX26T MCILV
+7,"Download and import sample
+programs for motors.",Start Configuration,"Download
+Start Tuner",
+8,Start,"Introduce Related Tool
+Download and install Renesas Motor Workbench","Select a configuration file for Tuner
+RX26T MCILV1 Launch Renesas Motor Workbench Tuner",Launch Renesas Motor Workbench Analyzer :unselected: Offline mode Launch Settings
+9,,Start Configure Tool Open QE Setting,Launch Settings Launch <Tuner>,Launch <Analyzer>

@@ -1,0 +1,34 @@
+,Memory Size,Flash Device,Manufacturer,DA1453x,DA14585
+1,512 kBit,MX25R512F,Macronix,"Y
+:selected:","Y
+:selected:"
+2,1 Mbit,P25X10U,Puya,"Y
+:selected:","Y
+:selected:"
+3,,P25Q10H,Puya,"Y
+:selected:","Y
+:selected:"
+4,,GD25WD10CTIG,GigaDevice,"Y
+:selected:","Y
+:selected:"
+5,,W25X10CL,Winbond,"Y
+:selected:","Y
+:selected:"
+6,2 Mbit,MX25R2035F,Macronix,"Y
+:selected:","Y
+:selected:"
+7,,GD25VQ20C,GigaDevice,"Y
+:selected:","Y
+:selected:"
+8,,GD25WD20CTIG,GigaDevice,"Y
+:selected:","Y
+:selected:"
+9,,W25X20CL,Winbond,"Y
+:selected:","Y
+:selected:"
+10,4 Mbit,GD25WD40CTIG,GigaDevice,"Y
+:selected:","Y
+:selected:"
+11,,W25X40CL,Winbond,"Y
+:selected:","Y
+:selected:"

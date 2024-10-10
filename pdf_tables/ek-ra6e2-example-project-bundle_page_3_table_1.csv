@@ -1,0 +1,12 @@
+,,IDE Support,,
+1,Example Project,e2 studio/GCC,IAR,Keil MDK
+2,tfu,Supported,,
+3,usb_pcdc,Supported,,
+4,usb_phid,Supported,,
+5,usb_pvnd,Supported,,
+6,vee_flash,Supported,,
+7,wdt,Supported,Supported,Supported
+8,trustzonelagt,Supported,Supported,Supported
+9,trustzone/doc,Supported,Supported,Supported
+10,trustzone/rtc,Supported,Supported,Supported
+11,trustzone/usb_phid,Supported,Supported,Supported

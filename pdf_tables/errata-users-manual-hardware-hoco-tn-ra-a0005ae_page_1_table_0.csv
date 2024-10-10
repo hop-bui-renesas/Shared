@@ -1,0 +1,29 @@
+,Product Category,MPU/MCU,Document No.,TN-RA *- A0005A/E,Rev.,1.00,
+1,Title,Errata for User's Manual: Hardware for HOCO,Information Category,Technical Notification,,,
+2,Applicable Product,RA2A1 Group RA4M1 Group RA4W1 Group,Reference Document,RA2A1 Group User's Manual Hardware Rev.1.00 RA4M1 Group User's Manual Hardware Rev.1.00 RA4W1 Group User's Manual Hardware Rev.1.00,,,Lot No.
+3,,,,,,,All
+4,The following descriptions should be changed.,,,,,,
+5,1. OSCSF,,,,,,
+6,"RA2A1 Page 132, RA4M1 Page 141, RA4W1 Page 131",,,,,,
+7,- Incorrect :selected:,,,,,,
+8,Note 1. The value after reset depends on the OFS1.HOCOEN bit setting.,,,,,,
+9,"When OFS1.HOCOEN = 0, the value after reset of HOCOSF bit is 0.",,,,,,
+10,"When OFS1.HOCOEN = 1, the HOCOSF value becomes 0 after reset is released, and the HOCOSF value
+:unselected:",,,,,,
+11,"becomes 1 after the HOCO oscillation stabilization wait time elapses.
+:unselected:",,,,,,
+12,:selected: :black_circle: Correct,,,,,,
+13,Note 1. The value after reset depends on the OFS1.HOCOEN bit setting.,,,,,,
+14,"When OFS1.HOCOEN = 1, the value after reset of HOCOSF bit is 0.",,,,,,
+15,"When OFS1.HOCOEN = 0, the HOCOSF value becomes 0 after reset is released, and the HOCOSF value",,,,,,
+16,"becomes 1 after the HOCO oscillation stabilization wait time elapses.
+:unselected:",,,,,,
+17,:selected: :black_circle: Incorrect,,,,,,
+18,HOCOSF flag (HOCO Clock Oscillation Stabilization Flag),,,,,,
+19,"The HOCOSF flag indicates the operating status of the counter that measures the wait time for the high-speed clock oscillator (HOCO). When OFS1.HOCOEN is set to 1, confirm that OSCSF.HOCOSF is also set to 1 before using the HOCO clock.",,,,,,
+20,:selected: :black_circle: Correct,,,,,,
+21,HOCOSF flag (HOCO Clock Oscillation Stabilization Flag),,,,,,
+22,"The HOCOSF flag indicates the operating status of the counter that measures the wait time for the high-speed clock oscillator (HOCO). When OFS1.HOCOEN is set to 0, confirm that OSCSF.HOCOSF is alse set to 1 before using the HOCO clock.",,,,,,
+23,2. HOCOCR,,,,,,
+24,"RA2A1 Page 130, RA4M1 Page 139, RA4W1 Page 129 :selected: :black_circle: Incorrect",,,,,,
+25,,,,,,,

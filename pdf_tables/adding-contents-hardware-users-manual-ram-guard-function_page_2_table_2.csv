@@ -1,0 +1,5 @@
+,GRAM1,GRAMO,RAM guard space Note
+1,0,0,Disabled. RAM can be written to.
+2,0,1,The 128 bytes starting at the lower RAM address
+3,1,0,The 256 bytes starting at the lower RAM address
+4,1,1,The 512 bytes starting at the lower RAM address

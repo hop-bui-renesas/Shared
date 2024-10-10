@@ -1,0 +1,11 @@
+,Target MCU,Break Function,Performance Measurement Function,Invalid External extension Mode of Embedded ROM,Trace Function,,,,
+1,Family,Hardware Break,,,Internal Trace,Series/ Core,Group,Software Break,AUD Trace
+2,H8S,Address break : 6 points + Address/Data condition break : 2 points,Not supported,No Mode,4 branch sources,H8S/2100,H8S/2168,255 points,Not supported
+3,,,,,,,H8S/2153,,
+4,,,,,,,H8S/2164,,
+5,,,,,,,H8S/2117 H8S/2117R,,
+6,,,,,,,H8S/2125,,
+7,,,,,,,H8S/2116,,
+8,,,,,,,H8S/2113,,
+9,,,,,,,H8S/2112 H8S/2112R,,
+10,,Address break : 6 points + Address/Data condition break : 2 points,,,4 branch sources or Bus trace : 512 cycles,,H8S/2189R H8S/2114R,,

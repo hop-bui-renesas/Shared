@@ -1,0 +1,6 @@
+,Package,Enclosure Environment,PWB Environment,0 ja[degC/W]
+1,100-pin LQFP PLQP0100KB-B,304.8*304.8*304.8mm (JESD51-2 compliant),4 layers (JESD 51-7 compliant),36
+2,64-pin LQFP PLQP0064KB-C,304.8*304.8*304.8mm (JESD51-2 compliant),4 layers (JESD 51-7 compliant),39
+3,48-pin LQFP PLQP0048KB-B,304.8*304.8*304.8mm (JESD51-2 compliant),4 layers (JESD 51-7 compliant),60
+4,64-pin QFN PWQN0064LB-A,304.8*304.8*304.8mm (JESD51-2 compliant),4 layers (JESD 51-7 compliant),26
+5,48-pin QFN PWQN0048KC-A,304.8*304.8*304.8mm (JESD51-2 compliant),4 layers (JESD 51-7 compliant),28

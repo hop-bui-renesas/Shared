@@ -1,0 +1,6 @@
+,,:unselected: config01,,:unselected:,dummy
+1,Button00(self),:selected: Available,,:selected: Available,
+2,Button01(self),:selected: Available,,:unselected:,
+3,Button02(self),:selected: Available,,:unselected:,
+4,Shield00(self),:selected: Available,,:unselected:,
+5,,,,,

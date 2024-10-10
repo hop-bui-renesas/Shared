@@ -1,0 +1,5 @@
+,Part number,Memory size,Allocated area addresses
+1,R7FA4M2AB3xxx,Original: 256 KB,Original: 0x0000_0000 to 0x0004_0000
+2,,Reduced: 128 KB,Reduced: 0x0000_0000 to 0x0002_0000
+3,R7FA4M2AC3xxx,Original: 384 KB,Original: 0x0000_0000 to 0x0006_0000
+4,,Reduced: 256 KB,Reduced: 0x0000_0000 to 0x0004_0000

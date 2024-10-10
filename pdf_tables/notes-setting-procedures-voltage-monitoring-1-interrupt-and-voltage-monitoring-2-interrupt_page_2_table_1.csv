@@ -1,0 +1,5 @@
+,Step,Voltage Monitoring 1 Interrupt Voltage Monitoring 1 ELC Event Output,Voltage Monitoring 1 Reset
+1,(Omitted),,
+2,7,Set the LVD1CR0.LVD1CMPE bit to 1 (voltage monitoring 1 circuit comparison results output enabled).,
+3,8,Set the LVD1SR.LVD1DET bit to 0.,-
+4,9,Set the LVD1CR0.LVD1RIE bit to 1 (voltage monitoring 1 interrupt/reset enabled).,-

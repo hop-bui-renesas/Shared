@@ -1,0 +1,15 @@
+,Product Category,MPU/MCU,Document No.,TN-RX *- A0257A/E,Rev.,1.00,
+1,Title,Point to Note regarding the Initial Settings of the Sub-Clock,Information Category,Technical Notification,,,
+2,Applicable Product,"RX65N Group, RX651 Group, RX72M Group, RX72N Group, RX66N Group, RX671 Group",Reference Document,User's Manual: Hardware for applicable products (see the table on the last page),,,Lot No.
+3,,,,,,,All
+4,This document describes a point to note regarding the procedure of stopping oscillation by the sub-clock oscillator while its,,,,,,
+5,initial setting is being made following the power being turned on.,,,,,,
+6,1. Point to Note,,,,,,
+7,"The CPU may hang so that execution of the subsequent programs does not proceed when a standard CL crystal unit is connected to the sub-clock oscillator. The condition for this is 1 being written to the SOSCCR.SOSTP bit after the counter of the oscillation stabilization wait circuit has overflowed, which takes approximately two seconds, since release from the reset state following the power being turned on. This effect does not occur when a low CL crystal unit is connected.",,,,,,
+8,2. Cause of this Effect,,,,,,
+9,"The load capacitance (CL) of the crystal does not match the drive capacity of the sub-clock oscillator, so oscillation by the sub-clock becomes unstable. This prevents updating of the internal state of the sub-clock oscillator. An effect of this is that the cycle of writing to the SOSCCR register is not completed. Since the address range where the SOSCCR register is located does not lead to a bus error in the case of a timeout, the CPU hangs.",,,,,,
+10,3. Conditions for this Effect,,,,,,
+11,The CPU will hang when all of the following conditions are met.,,,,,,
+12,(1) A standard CL crystal is in use.,,,,,,
+13,(2) The drive capacity (specified in the RCR3.RTCDV[2:0] bits) of the sub-clock oscillator on release from the reset state is not sufficient for the crystal's CL.,,,,,,
+14,"(3) The sub-clock is oscillating after release from the reset state, but the oscillation stops before the counter of the oscillation stabilization wait circuit overflows, that is, before the OSCOVFSR.SOOVF flag becomes 1. (4) The SOSCCR.SOSTP bit is set to 1 after the counter of the oscillation stabilization wait circuit has overflowed.",,,,,,

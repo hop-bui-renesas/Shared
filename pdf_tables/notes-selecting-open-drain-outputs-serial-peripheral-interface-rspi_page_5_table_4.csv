@@ -1,0 +1,27 @@
+,Mode,Pin,Pin State*2,
+1,,,SPPCR.SPOM = 0,SPPCR.SPOM = 1*6
+2,"Single-master mode (SPI operation) (MSTR = 1, MODFEN = 0, SPMS = 0)",RSPCKn,CMOS output,Open-drain output
+3,,SSLn0 to SSLn3,CMOS output,Open-drain output
+4,,MOSIn,CMOS output,Open-drain output
+5,,MISOn,Input,Input
+6,"Multi-master mode (SPI operation) (MSTR = 1, MODFEN = 1, SPMS = 0)",RSPCKn*3,CMOS output/Hi-Z,"Open-drain output/Hi-Z
+:unselected:"
+7,,SSLn0,Input,Input
+8,,SSLn1 to SSLn3*3,CMOS output/Hi-Z,"Open-drain output/Hi-Z
+:unselected:"
+9,,MOSIn*3,CMOS output/Hi-Z,Open-drain output/Hi-Z
+10,,MISOn,Input,Input
+11,"Slave mode (SPI operation) (MSTR = 0, SPMS = 0)",RSPCKn,Input,Input
+12,,SSLn0,Input,Input
+13,,SSLn1 to SSLn3*5,Hi-Z*1,Hi-Z*1
+14,,MOSIn,Input,Input
+15,,MISOn*4,CMOS output/Hi-Z,"Open-drain output/Hi-Z
+:unselected:"
+16,"Master mode (Clock synchronous operation) (MSTR = 1, MODFEN = 0, SPMS = 1)",RSPCKn,CMOS output,Open-drain output
+17,,SSLn0 to SSLn3*5,Hi-Z*1,Hi-Z*1
+18,,MOSIn,CMOS output,Open-drain output
+19,,MISOn,Input,Input
+20,"Slave mode (Clock synchronous operation) (MSTR = 0, SPMS = 1)",RSPCKn,Input,Input
+21,,SSLn0 to SSLn3*5,Hi-Z*1,Hi-Z*1
+22,,MOSIn,Input,Input
+23,,MISOn,CMOS output,Open-drain output

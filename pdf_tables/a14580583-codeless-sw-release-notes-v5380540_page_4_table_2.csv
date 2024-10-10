@@ -1,0 +1,22 @@
+,NEW FEATURES,
+1,1,Port Codeless application to da14580 implementing the same feature set as da14585.
+2,2,"Queuing of UART message to support parallel command paths (local, remote and sequencer)."
+3,3,"Create generic AT command parser, new local command sources can be easily added."
+4,4,AT commands jump table.
+5,5,Error reporting mechanism and ATF command to turn on/off.
+6,6,ATR command to trigger platform reset.
+7,7,Python lib for interacting with codeless devices over UART and BLE.
+8,8,Add 580 support for AT+PIN - align with 585.
+9,FIXES / IMPROVEMENTS,
+10,1,Delayed wake up process has been changed. UART buffers are flushed before command parsing is started. Extra logic has been added to parser in order to have predictable command parsing after wake up.
+11,2,Handling of failed I2C read operations. An error is returned if i2c read operation is not successful
+12,3,On startup codeless device is peripheral role and starts advertising.
+13,4,Change command interpreter logic to detect for incoming reply to support parallel command paths.
+14,5,Fix sleep activate timer cancelation.
+15,6,Port to latest SDK version.
+16,7,Restructure project source (common src files for 580/585).
+17,8,Add project readme.
+18,9,"AT+IOCFG command has an extra optional argument that can set a GPIO output pin immediately after configuration. i.e AT+IOCFG=10,4,1 will set GPIO P1_0 as output and high."
+19,10,Restructure project for smaller binary size.
+20,Documentation,
+21,,"Codeless tutorial, https://support.dialog-semiconductor.com/resource/codeless-tutorial-html, Dialog Semiconductor."

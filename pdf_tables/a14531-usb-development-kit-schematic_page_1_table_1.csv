@@ -1,0 +1,11 @@
+,History Table,,
+1,Version Date,Comments,
+2,A00,Draft Release,19 / Feb / 2019
+3,,"Added R13, R14 (NP, option for 1-pin UART)",28 / Feb / 2019
+4,,"Changed user button to P0_11 (R16->270,R33->NP) Added pull-up (R36) and testpoint on U3.3 Added option (R37,NP) for HW RESET (K2 button on P0_0) Added testpoints R33. . R36 (Segger 4-pin UART) Added ground point for aligator clip (TP28)",01 / Mar / 2019
+5,A01,Release to manufacturing,06 / Mar / 2019
+6,B01,"Changed user led colour to orange Changed K2 button to active high and assigned P0_0 as default (POR) Added inverter (U6) for J-Link reset signal Swapped P0_6 and P0_1 for the respective functions in the MikroBUS socket (for compatibility with the pro-devkit) Add U5 analog switch (FSA2259UMX) for single UART functionality Add CLC filter (Z6, Z7, Z8) J2 Connector set as no-pop and resistor R50, R51 added for power selection",24 / Jun / 2019
+7,C01,Swapped P0_8 and P0_10 for the respective functions in the MikroBUS socket (for compatibility with the pro-devkit) [PCB change) Button K1 part ref. changed to SW2 [PCB change) Button K2 part ref. changed to SW1 [PCB change),08 / Aug / 2019
+8,C02,Added alternative part number for S1 (BOM change) Supplemented 1-wire UART function in default configuration note,30 / Sep / 2019
+9,C03,PCB Layout modification (mask layer around FCGQFN-24),22 / Nov / 2019
+10,D01,PCB Layout modification (mask layer around FCGQFN-24),22 / Nov / 2019

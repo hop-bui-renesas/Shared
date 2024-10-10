@@ -1,0 +1,7 @@
+,History Table,,
+1,Version Date,Comments,
+2,A.1,Release,15/JULY/2021
+3,B.1,"R27, R28= 0 OHM",3/AUG/ 2021
+4,c.1,"Major PCB changes C10, C11 : changed to pop 1uF",2/NOV/2021
+5,D.1,"1. Major PCB changes: Lcd placement changed by 180 degrees 2. R17, R18 changed from NP to 10K",2/MAR/2022
+6,E.1,"1. R3, R23 (previously NP) removed 2. R46, Res pulldown 10 Kohm added on IM0/ R45 changed to Pullup 10Kohm added ohm IM1 3. Test Point on T3p, T3N, T3CP, T3CN removed. Short to GND added 4. R27, R28 changed to NP 5.R17, R18 changed to 10K from NP 6. Switch NCP333FCT2G added on VCI path. Is enabled by the P107 GPio (DCDC_EN) 7.R2 changed to NP 8. C14: 1uF added",6/APR/2022

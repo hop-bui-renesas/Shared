@@ -1,0 +1,2 @@
+,Issue Number,Description
+1,1020.05,DA14531: The peripheral examples inside the SDK do not work in boost mode due to the deactivation of the internal DCDC converter in the system initialization function.

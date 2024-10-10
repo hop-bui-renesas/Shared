@@ -1,0 +1,10 @@
+,#,DESCRIPTION
+1,,
+2,Software,
+3,1,"For the Interrupt driven project S/W flow control method can be used with Extended Sleep mode only if the device connected on UART interface does send Xon/Xoff flow control bytes during sleep period, DA 14585 flows off UART data traffic but control bytes can be sent during the flow off period. The flow off signal will be lost in this case."
+4,2,Binary files cannot be transferred with S/W flow control method.
+5,3,DMA driven project does not support S/W flow control method.
+6,4,"Device DMA driven project will not work if any UART input happen between BLE connection and CCC enable complete, and it will not recover after BLE reconnection, only reset will recover it."
+7,Documentation,
+8,1,Software documentation for Dialog Serial Port Service application is available on Dialog customer support portal The document reference number is UM-B-088.
+9,,

@@ -1,0 +1,15 @@
+,Version,Date,Comments
+1,A0.1,13/Aug/2020,Release for internal review
+2,A0.2,01/Sep/2020,Release for internal review
+3,A0.3,09/Sep/2020,"Updated DA1470x symbol to the final pinout (3/9/2020) Added V30 overcurrent protection circuit Changed C1, C2 to 47uF Added C21, C22, C23 Release for review"
+4,A0.4,21/Sep/2020,Release for review
+5,,25/Sep/2020,Added PGA connections to VAD circuit
+6,A1.0,20/Oct/2020,Changed flash package option (U2x -- > WSON8 6x5mm) Re-assigned software trigger GPIO from P0_10 to P0_06 (J1.24) Released for manufacturing
+7,A2.0,04/Nov/2020,BOM modification: . Changed manufacturing part number of U2 to MX66UM1G45GXDI00
+8,A2.1,04/Nov/2020,"BOM modification: - Use alternate flash option (U2 -- > NP, U2x -- > W25Q64JWZPIM)"
+9,A2.2,04/Dec/2020,"BOM modification: R1, R2 : Not populated Y2: populate"
+10,A2.3,10/Dec/2020,"BOM modification: . Use original flash option (U2x -- > NP, U2 -- > MX66UM1G45GXDI00)"
+11,B1.0,11/Dec/2020 25/Jan/2021 12/Feb/2021 06/Apr/2021 16/Jun/2021 14/Jul/2021 06/Aug/2021 09/Aug/2021 17/Sep/2021,"Changed connection for UART RX to P2_01 (J1.64) Increased values of C6 to 47uF, C14 to 2.2uF Option for shorting V18p/V18F (R22) Added testpoints for ESD testing (TP6, TP19) Changed U3 to NCP367DPMUECTBG (higher current limit) Changed U1 part number to DA14706 and added note for the not connected MIPI interface signals Added NP resistor (R25) for board id Changed C15, C16, C25, C26 to GMK105ABJ105KV-F (35V) Changed U2 to not-populated Changed U2x part number to MX2506432FZNI02"
+12,B1.1,11/Nov/2021,"Changed Y2 part number to ABS07-32.768KHZ-7-T Changed R34, R35, R36, R37 from NP to 0 ohm Changed R19, R20 from 0 ohm to NP Changed D1 part number to CLY6D-FKC-CK1N1D1BB7D3D3 Renamed net VLDO to VBLDO Released for manufacturing"
+13,B1.2,12/Apr/2022,"Renamed references to MIPI signals as ""NUxx"""
+14,,,

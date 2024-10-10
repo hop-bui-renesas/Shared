@@ -1,0 +1,10 @@
+,,Module name,Peripheral Variant
+1,,ELC,ELC_B
+2,,AGTW,AGTW_B
+3,,SCI,SCI_B
+4,,IIC,IIC_B
+5,,CANFD,CANFD_B
+6,,SPI,SPI B
+7,,SCE5,SCE5_B
+8,,ADC,ADC_B
+9,,DOC,DOC_B

@@ -1,0 +1,3 @@
+,sec 5.12 table 21: LDO_1v8 - AC Characteristics,,,
+1,parameter,min,min,unit
+2,PSRRLDO_1V8,40,30,dB

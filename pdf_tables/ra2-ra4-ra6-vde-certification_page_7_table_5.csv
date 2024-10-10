@@ -1,0 +1,5 @@
+,StartProcTestAssemly.ams,
+1,gpio.c,7.1 Digital I/O
+2,test_adc.c,7.2.1 A/D- and D/A- converter
+3,Remark:,
+4,Routine marked with * are to applicable for RA2 with Arm(R) Cortex(R)-M23 family.,

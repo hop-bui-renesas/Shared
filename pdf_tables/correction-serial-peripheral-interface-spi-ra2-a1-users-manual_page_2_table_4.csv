@@ -1,0 +1,7 @@
+,Mode,"7 7
+Slave (SPI operation)","77
+Single-master (SPI operation)+",Multi-master (SPI operation),Slave (clock+ synchronous operation),Master (clock synchronous operation)
+1,SSLn0 signale,Input,Output,Input,Hi-Z*1,Hi-Z*1
+2,SSLn1 to SSLn3 signals,Hi-Z*1g,Output-,Output/Hi-Ze,Hi-Z*1g,Hi-Z*1g
+3,SSL polarity change function(,Supported,Supported,Supported,,
+4,Transfer rate,Up to PCLKB/6,Up to PCLKB/2+,Up to PCLKB/2+,Up to PCLKB/6e,Up to PCLKB/2+

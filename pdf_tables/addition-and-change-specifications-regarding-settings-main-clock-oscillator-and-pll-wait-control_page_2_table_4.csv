@@ -1,0 +1,12 @@
+,Item,Symbol,Min.,Typ.,Max.,Unit,
+1,PLL lock time,tPLL1,"-
+:unselected:","-
+:unselected:",500,us,The PLL starts operating after the main clock oscillation is stabilized
+2,PLL clock oscillation stabilization wait time,tPLLWT1,"-
+:unselected:","-
+:unselected:",See Note 1,ms,
+3,PLL lock time,tPLL1,"-
+:unselected:","-
+:unselected:",tMAINOSC + tPLL1,ms,The PLL starts operating before the main clock oscillation is stabilized
+4,PLL clock oscillation stabilization wait time,tPLLWT1,"-
+:unselected:",-,See Note 1,ms,

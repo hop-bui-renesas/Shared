@@ -1,0 +1,17 @@
+,,IDE Support,,
+1,Example Project,e2 studio/GCC,IAR,Keil MDK
+2,sci_i2c,Supported,,
+3,sci_spi,Supported,,
+4,sci_uart,Supported,Supported,Supported
+5,sdhi,Supported,,
+6,spi,Supported,Supported,Supported
+7,ssi,Supported,,
+8,ssi_slave,Supported,,
+9,usb_composite,Supported,,
+10,usb_composite_phid_phid,Supported,,
+11,usb_pcdc,Supported,,
+12,usb_phid,Supported,,
+13,usb_pmsc,Supported,,
+14,usb_pvnd,Supported,,
+15,vee_flash,Supported,,
+16,wdt,Supported,Supported,Supported

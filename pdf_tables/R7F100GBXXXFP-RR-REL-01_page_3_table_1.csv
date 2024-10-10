@@ -1,0 +1,9 @@
+,Test Items,Test Conditions,Results Failure/Size,N.B.
+1,High Temperature Operating Life (HTOL),"Ta=125 C, Vccmax, 1000 hrs",0/22,
+2,High Temperature Storage Life (HTSL),"Ta=150 C, 1000 hrs",0/22,
+3,Temperature Humidity bias (THB),"Ta=85 C, RH=85 %, Vccmax, 1000 hrs",0/22,
+4,Temperature Cycling (TC),"Ta =- 65 C to 150 C , 300 cycles",0/22,
+5,Latch-Up (LU),"Pulse Current Injection, I=+/-100 mA",0/3,
+6,Electrostatic discharge (ESD-HBM),"1.5 k(2, 100 pF, +/-1000 V, 1 time",0/3,
+7,Solderability (SD),"245 C, 5 s, Solder coverage >=95 %",0/5,
+8,Resistance to Soldering Heat (PC),MSL3(Moisture Sensitivity Level 3),0/22,

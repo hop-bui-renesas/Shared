@@ -1,0 +1,13 @@
+,,Rev 3.1,Rev 3.2,
+1,sec 4.2 table 4: Recommended Operating Conditions,,,
+2,parameter,max,max,unit
+3,VBUS,5.5,5.75,V
+4,sec 4.3 table 5: DC Characteristics parameter,typ,typ,unit
+5,BAT_RUN_32MHz,2.53,2.7,mA
+6,BAT_DP_SLP,14.8,16.9,HA
+7,BAT_EX_SLP_caches_256K,19.5,19.7,
+8,IBAT_EX_SLP_caches_512K,22.2,22.5,HA
+9,BAT_EX_SLP_caches_1MB,27.4,27.9,HA
+10,BAT_EX_SLP_caches_1.5MB,32.4,33.2,HA
+11,BAT_SensorNode,1.85,2.05,mA
+12,IBAT_BLE_RX_32M,4.48,4.6,mA

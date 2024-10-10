@@ -1,0 +1,7 @@
+,Address,Module Symbol,Register Name,Register Symbol,Number of Bits,Access Size,Number of Access States,Module Name,Reference Page,Remarks,
+1,,,,,,,ICLK >= PCLK,,,,ICLK < PCLK
+2,0008 70DFh,ICU,Interrupt Request Register 223,IR223,8,8,2 ICLK,ICUb,304,"Not present in versions with 100, 64, or 48 pins.",
+3,0008 70E0h,ICU,Interrupt Request Register 224,IR224,8,8,2 ICLK,,304,"Not present in versions with 100, 64, or 48 pins.",
+4,0008 70E1h,ICU,Interrupt Request Register 225,IR225,8,8,2 ICLK,,304,"Not present in versions with 100, 64, or 48 pins.",
+5,0008 7121h,ICU,DTC Activation Enable Register 033,DTCER033,8,8,2 ICLK,,308,"Not present in versions with 112, 100, 64, or 48 pins.",
+6,0008 7122h,ICU,DTC Activation Enable Register 034,DTCER034,8,8,2 ICLK,,308,"Not present in versions with 112, 100, 64, or 48 pins.",

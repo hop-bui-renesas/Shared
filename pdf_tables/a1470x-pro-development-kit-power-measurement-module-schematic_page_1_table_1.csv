@@ -1,0 +1,40 @@
+,History Table Version Date,,,,
+1,,Comments,,,
+2,A0.1,Release for internal review,06 /,Apr,/ 2021
+3,A1.0,Release for manufacturing,22 /,Apr,/ 2021
+4,B0.1,Changes after debugging the version A,09 / Sept / 2021,,
+5,,1.R29 changed to 0 ohm populated,,,
+6,,2. R31 changed to 0 ohm populated,,,
+7,,3. R40 changed to 33 ohm,,,
+8,,4. C12 changed to Resistor 0 Ohm,,,
+9,,"5. Connect VREFN (U1, pin 13) to AGND",,,
+10,,Added features,,,
+11,,"6. Remove U9, U10 (not needed)",,,
+12,,7. Added TRIG_[0:7] connections to J1,,,
+13,,8. Disconnected ADC DONE pin from FD4_SYNC and removed R42 9. Reassigned FD4_SYNC to ADS131 RESET,,,
+14,,"10. Removed Q1, R5, R11 (SW trigger circuit shorting DO)",,,
+15,,"11. Added shift register U14 to control CH3, CH4, MUX A[0:3]",,,
+16,,12. Added ESD protection to external AIN,,,
+17,,13. Replaced V18 with VBAT on CH4 MUX,,,
+18,,14. Added switchable 0.75x divider to CH4,,,
+19,,15. Modifications for activating double sense circuit,,,
+20,,16. Removed 3.3VA rail and ADC power option from 3.3V,,,
+21,,17. Removed FCx and TRIGx connections ( implemented on MB),,,
+22,,18. Added optional feedback network to U3A,,,
+23,,19. Added optional memory U16,,,
+24,,20. Removed ADC synchronous master option R15,,,
+25,,1. Corrected MUX bit order from shift register,23 / Dec / 2021,,
+26,,2. Added U19 to eliminate the current drawn by I/V stage,,,
+27,,3. Changed Q2 control circuit,,,
+28,,4. Added analog swith to change sampling point of low rng,,,
+29,,5. Added U19 + associated logic U20,,,
+30,,"6. Rearranged U7, U8 inputs to detect VBAT_CC with single gate",,,
+31,,"7. R59, R60 divider values x10 to reduce input current",,,
+32,,8. Replaced Q1 with dual NMOS to also invert HIB_EN,,,
+33,C0.1,Released for manufacturing,10 / Jan,,/ 2022
+34,C1.0,"Changed C1 .. C6, C40 part number to CC0201JRNPO9BN101",21 /,Feb,/ 2022
+35,D1.0,"Changed Q2 to SSM3J133TU, LF",28 /,,
+36,,Released for manufacturing,,Feb,/ 2022
+37,D1.1,R31 made NP,04 / April/,,2022
+38,D2.1,"LP2 made NP, D5 1N4148 & D6 RB521G-30T2R diodes added",29 / April/,,2022
+39,,,,,

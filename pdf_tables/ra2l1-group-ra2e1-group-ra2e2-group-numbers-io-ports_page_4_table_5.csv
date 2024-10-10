@@ -1,0 +1,3 @@
+,Feature,Functional description
+1,I/O ports,". I/O ports for the 24-pin HWQFN - I/O pins : 19 - Input pins : 1 - Pull-up resistors : 19 - N-ch open-drain outputs : 15 - 5-V tolerance : 2 . I/O ports for the 20-pin HWQFN - I/O pins : 15 - Input pins : 1 - Pull-up resistors : 15 - N-ch open-drain outputs : 12 - 5-V tolerance : 2
+:selected: :unselected: :unselected:"

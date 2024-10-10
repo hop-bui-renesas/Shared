@@ -1,0 +1,4 @@
+,Function,Signal,I/O,Description
+1,ADC12,"AN000 to AN003,
+AN005 to AN007, AN016 to AN018, AN020",Input,Input pins for the analog signals to be processed by the ADC12
+2,,"AN100 to AN102, AN105 to AN107, AN116, AN117",Input,

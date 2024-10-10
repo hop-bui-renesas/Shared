@@ -1,0 +1,26 @@
+,LPM Application,
+1,+ r11an0481eu0103-ra-low-power-get-started-package.pdf,Application note outlining package contents
+2,- RA2 Application Projects,
+3,"clock_change_and_Ipm_ek_ra211.zip
+:unselected:",Clock Changing and LPM application
+4,- OLT_Timer_App_EK_RA2L1.zip,Operable Long Timer in LPM Mode
+5,"L r11an0480eu0103-ra-low-power-get-started-ra2group.pdf
+:unselected:",RA2 Group LPM Application Note
+6,RA6 Application Projects,
+7,"- clock_change_and_lpm_ek_ra6m3.zip
+:unselected:",Clock Changing and LPM application
+8,"clock_change_and_Ipm_fpb_ra6e1.zip
+:unselected:",Clock Changing and LPM application
+9,"OLT_Timer_App_EK_RA6M3.zip
+:unselected:",Operable Long Timer in LPM Mode
+10,"OLT_Timer_App_FPB_RA6E1.zip
+:unselected:",Operable Long Timer in LPM Mode
+11,"L r11an0471eu0105-ra-low-power-get-started_ra6_ra4_groups.pdf
+:unselected:",RA4 and RA6 LPM Application Note
+12,RA4 Application Projects,
+13,"clock_change_and_Ipm_fpb_ra4e1.zip
+:unselected:",Clock Changing and LPM application
+14,"- OLT_Timer_App_FPB_RA4E1.zip
+:unselected:",Operable Long Timer in LPM Mode
+15,"L r11an0471eu0105-ra-low-power-get-started_ra6_ra4_groups.pdf
+:unselected:",RA4 and RA6 LPM Application Note

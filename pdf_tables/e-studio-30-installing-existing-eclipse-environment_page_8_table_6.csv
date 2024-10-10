@@ -1,0 +1,10 @@
+,Name,Version,Id
+1,Autotools support for CDT,3.0.1.201307181744,org.eclipse.cdt.autotools.feature.group
+2,Die C/C++ Development Tools,8.1.2.201307181744,org.eclipse.cdt.feature.group
+3,D & C/C++ Development Tools SDK,8.1.2.201307181744,org.eclipse.cdt.sdk.feature.group
+4,C/C++ GCC Cross Compiler Support,1.1.0.201307181744,org.eclipse.cdt.build.crossgcc.feature.group
+5,C/C++ GDB Hardware Debugging,7.0.0.201307181744,org.eclipse.cdt.debug.gdbjtag.feature.gro ...
+6,C/C++ Memory View Enhancements :selected:,2.2.0.201307181744,org.eclipse.cdt.debug.ui.memory.feature ....
+7,C/C++ Remote Launch :selected:,6.0.0.201307181744,org.eclipse.cdt.launch.remote.feature.group
+8,C/C++ Unit Testing Support,7.0.0.201307181744,org.eclipse.cdt.testsrunner.feature.feature ....
+9,CDT Visual C++ Support,1.0.0.201307181744,org.eclipse.cdt.msw.feature.group

@@ -1,0 +1,6 @@
+,Classification,Channel,Conditions,Remarks
+1,High-precision channel,"AN005, AN006, AN009, AN010",AVCC0 = 1.6 to 5.5 V,"Pins AN005, AN006, AN009, AN010 cannot be used as"
+2,Normal-precision channel,AN019 to AN022,,"general I/O, TS transmission,
+when the A/D converter is in use."
+3,Internal reference voltage input channel,Internal reference voltage,AVCCO = 1.8 to 5.5 V,-
+4,Temperature sensor input channel,Temperature sensor output,AVCCO = 1.8 to 5.5 V,-

@@ -1,0 +1,38 @@
+,PSEL[4:0] settings,Function,pin,,,,,
+1,,,P500,P501,P502,P503,P504,P505
+2,00000b (value after reset),Hi-Z/JTAG/SWD,Hi-Z,,,,,
+3,00001b,AGT,AGTOAD,AGTOBO,AGTOA2,AGTOB2,AGTOA3,AGTOB3
+4,00010b,"GPT""1",GTIU,GTIV,GTIW,GTETRGC,GTETRGD,-
+5,00011b,"GPT""1",-,-,-,-,-,-
+6,00100b,SCI,,-,CTS6,CTS6_RTS6/ SS6,SCK6,RXD6/MISO6/ SCL6
+7,00101b,SCI,CTS5,TXD5/MISO5/ SDA5,RXD5/MISO5/ SCL5,SCK5,CTS5_RTS5/S S5,-
+8,00111b,IIC,-,-,-,-,-,-
+9,01010b,CAC/ADC12,CACREF,-,-,-,-,-
+10,10000b,CAN,-,-,-,-,-,-
+11,10001b,QSPI,QSPCLK,QSSL,QIOD,QIO1,QIO2,QIO3
+12,10011b,USBFS,USB_VBUSEN,USB_OVRCURA,USB_OVRCURB,USB_EXICEN,USB_ID,-
+13,ASEL bit,,AN116,AN117,AN118,AN119,AN120,AN121
+14,ISEL bit,,-,IRQ11,IRQ12,-,"-
+:unselected:",IRQ14
+15,DSCR[1:0] bits,Drive capacity control,L/M/H,L/M/H,L/M/H,L/M/H,L/M/H,L/M/H
+16,NCODR bit,N-ch open-drain,"1
+:selected:","1
+:selected:",:selected:,"1
+:selected:","1
+:selected:","1
+:selected:"
+17,PCR bit,Pull-up,:selected:,:selected:,:selected:,:selected:,:selected:,:selected:
+18,100 pins product,,:selected:,:selected:,"1
+:selected:",:selected:,:selected:,:selected:
+19,64 pins product,,:selected:,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+20,48 pins product,,:selected:,"-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected: :unselected:"

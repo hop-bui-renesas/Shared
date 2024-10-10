@@ -1,0 +1,15 @@
+,Unit,Pin name,I/O,Function
+1,Unit 0,AVCCO,Input,Analog block power supply pin
+2,,AVSSO,Input,Analog block power supply ground pin
+3,,VREFHO,Input,Reference power supply pin
+4,,VREFLO,Input,Reference power supply ground pin
+5,,"AN000 to AN007, ANO16 to AN020",Input,Analog input pins 0 to 7 and 16 to 20
+6,,ADTRGO,Input,"External trigger input pin for starting A/D conversion, active low"
+7,,PGAVSS000,Input,Differential input pin
+8,Unit 1,AVCCO,Input,Analog block power supply pin
+9,,AVSSO,Input,Analog block power supply ground pin
+10,,VREFH,Input,Reference power supply pin for ADC12 unit 1 and DAC
+11,,VRELF,Input,Reference power supply ground pin for ADC12 unit 1 and DAC
+12,,"AN100 to AN103, AN105 to AN107, AN116 to AN119",Input,"Analog input pins 0 to 3, 5 to 7, and 16 to 19"
+13,,ADTRG1,Input,"External trigger input pin for starting A/D conversion, active low"
+14,,PGAVSS100,Input,Differential input pin

@@ -1,0 +1,13 @@
+,Bit position,31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16
+1,Bit field:,-,-,-,CKEG[1:0],,,TPCS[3:0],,,-,-,-,,MD[3:0],,
+2,Value after reset,0,0,0,0,0,0,0,0,0,0,"0
+:unselected:","0
+:unselected:","0
+:unselected:","0
+:unselected:","0
+:unselected:","0
+:unselected:"
+3,Bit position,15,14,13,12,11,10,9,8,7,6,"5
+:unselected:",4,3,"2
+:unselected:",1,"0
+:unselected:"

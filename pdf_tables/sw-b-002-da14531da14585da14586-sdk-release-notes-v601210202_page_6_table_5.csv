@@ -1,0 +1,34 @@
+,Feature Number,Description
+1,1020/036,DCDC converter API to control VBAT_H for OTP and GPIOs in Boost mode.
+2,1020/037,Use of temperature sensor to trigger RF calibration during run-time.
+3,1020/038,Secondary bootloader project.
+4,1020/039,Proximity reporter example.
+5,1020/040,Prox_reporter application wakeup using RTC or Timer 1 (apart from GPIO).
+6,1020/041,Template example.
+7,1020/042,Prod_Test firmware.
+8,1020/043,OTA example project.
+9,1020/044,Security example.
+10,1020/045,Sleep Example.
+11,1020/046,Add support for shipping (hibernation) mode.
+12,1020/047,ADC Driver with DMA support.
+13,1020/048,RCX-only operation - no need for XTAL32K.
+14,1020/049,Added extra power optimization method using the XTAL16M adaptive settling time algorithm. It is enabled by default and can offer power savings of up to 10% for 10ms connection interval.
+15,1020/050,Used the default XTAL16M trim value when the XTAL 16M is uncalibrated.
+16,1020/051,POR on Vbat high / low Voltage Monitor.
+17,1020/052,Deep sleep support.
+18,1020/053,Timer1/2 support.
+19,1020/054,Disabled DC-DC auto calibration (Buck and Boost mode).
+20,1020/055,Added 38K4 baud rate support in production test f/w.
+21,1020/056,Added support for Boost mode.
+22,1020/057,"Added API for AES-CCM, AES-CBC and AES-CMAC operations."
+23,1020/101,Compliant to BLE 5.0 (DA14585/6) and BLE 5.1 (DA14531) Core specification.
+24,1020/102,Data Packet length Extension.
+25,1020/103,Enhanced Privacy 1.2.
+26,1020/104,Efficient non connectable advertising.
+27,1020/105,Added API to support controller privacy (peripheral role).
+28,1020/106,BLE LE Secure Connections.
+29,1020/107,Function for the unique static random BD address generation using OTP header values.
+30,1020/108,Adds a key renewal command that can be called after a number of failed pairing attempts
+31,1020/109,Added support to disable the ROM ECC key generation calculations if the Secure Connections feature is not used.
+32,1020/110,Added support for URI advertising data type.
+33,1020/111,Added support for GATT service layer changed characteristic to application layer.

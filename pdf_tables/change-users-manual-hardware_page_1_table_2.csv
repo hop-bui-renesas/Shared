@@ -1,0 +1,3 @@
+,Address,Module Symbol,Register Name,Register Symbol,Number of Bits,Access Size,Number of Access States,Module Name,Reference Page,Remarks,
+1,,,,,,,ICLK >= PCLK,,,,ICLK < PCLK
+2,0008 705Ah,ICU,Interrupt Request Register 090,IR090,8,8,2 ICLK,ICUb,304,"Not present in versions with 112, 100, 64, or 48 pins.",

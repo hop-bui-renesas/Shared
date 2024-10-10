@@ -1,0 +1,12 @@
+,"sec 5.12 table 32:
+parameter","LDO_CORE_RET -
+min/max","Characteristics
+min/max",unit
+1,VLDO_CORE_RET_0v75,0.70/0.80,0.68/0.84,"V
+:selected:"
+2,VLDO_CORE_RET_Ov8,0.75/0.85,0.72/0.89,"V
+:selected:"
+3,VLDO_CORE_RET_0v85,0.80/0.90,0.77/0.94,"V
+:selected:"
+4,VLDO_CORE_RET_0v9,0.84/0.96,0.82/0.99,"V
+:selected:"

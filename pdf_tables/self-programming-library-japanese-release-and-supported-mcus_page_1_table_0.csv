@@ -1,0 +1,92 @@
+,maikurokontorora Microcontrollers,kodofuratsushiyuraiburari (furatsushiyuserufupuroguraminguraiburari) Code Flash Libraries (Flash Self Programming Libraries),Ver,EEPROMemiyureshiyonraiburari EEPROM emulation Libraries,Ver.,detafuratsushiyuraiburari Data Flash Libraries,Ver,
+1,RL78 note1,,V2.20,RL78-Pack01,V1.15,RL78-Type04,V1.05,CA78K0RkonpairaYongserufupuroguraminguraiburari
+2,,RL78-Type01,,RL78-Pack02 (kodosaizuSuoXiaoBan Code size shrink version),V1.01,,,SelfProgramming Libraries for the CA78K0R Compiler
+3,,RL78-Type01,V2.21,RL78-Pack02,V1.01,RL78-Type04,V1.05,CC-RLkonpairaYongserufupuroguraminguraiburari SelfProgramming Libraries for the CC-RL Compiler
+4,78K0,78K0-Type01,V3.10,78K0-Type01,V2.10,,:selected:,78K0/Dx2
+5,,78K0-Type01,V3.10,178KO-Type01,V2.10,,,78K0/Fx2
+6,,78K0-Type01,V3.10,78K0-Type01,V2.10,,,78K0/Fx2-L
+7,,78K0-Type01,V3.10,78KO-Type01,V2.10,,,78K0/Ix2
+8,,78K0-Type01,V3.10,78K0-Type01,V2.10,,,"78K0/Kx2 (UPD78F05xxA,78F05xxDA)"
+9,,78K0-Type01,V3.10,78K0-Type01,V2.10,,,78K0/Kx2-A
+10,,78K0-Type01,V3.10,|78K0-Type01,V2.10,,,78K0/Kx2-C
+11,,78K0-Type01,V3.10,78K0-Type01,V2.10,,,78K0/Kx2-L
+12,,78K0-Type01,V3.10,78K0-Type01,V2.10,,,78K0/Lx3
+13,,78K0-Type01,V3.10,78K0-Type01,V2.10,,,78K0/Lx3-M
+14,,78K0-Type01,V3.10,78K0-Type01,V2.10,,,UPD179F1xx
+15,,,,,:selected:,,,UPD78F071x
+16,,78K0-Type01,V3.10,78K0-Type01,V2.10,,,UPD78F0730
+17,,78K0-Type01,V3.10,78K0-Type01,V2.10,,,UPD78F8025
+18,,78K0-Type01,V3.10,78K0-Type01,V2.10,,,UPD78F8032
+19,78K0R,78KOR-Type03,V1.01,,,,,78K0R/Fx3
+20,,78KOR-Type03,"V1.01
+:selected:",,:selected:,,,78K0R/Hx3
+21,,78KOR-Type02,"V1.20
+:selected:",*,:unselected:,,,78K0R/Ix3
+22,,78KOR-Type01,V1.20,78K0R-Type01,V1.20,,,78K0R/Kx3
+23,,78KOR-Type02,V1.20,*,:unselected:,,,78K0R/Kx3-A
+24,,78KOR-Type02,V1.20,*,,,:selected:,78K0R/Kx3-C
+25,,78KOR-Type02,V1.20,*,:unselected:,,,78K0R/Kx3-L
+26,,78KOR-Type02,V1.20,*,:unselected:,,,78K0R/Kx3-L(USB)
+27,,78KOR-Type02,V1.20,**,:unselected:,,,78K0R/Lx3
+28,,78KOR-Type02,V1.20,*,:unselected:,,,78K0R/Lx3-M
+29,,78KOR-Type02,V1.20,*,:unselected:,,,UPD78F8043
+30,,78KOR-Type02,V1.20,,,,,UPD78F8058
+31,V850,,:selected:,,:selected:,,,V850E/Dx3
+32,,,:selected:,,:selected:,,,V850E/IA1
+33,,,,,:selected:,,,V850E/IA2
+34,,V850-Type01,V5.02,,:selected:,,,V850E/IA3
+35,,V850-Type01,V5.02,,:selected:,,,V850E/IA4
+36,,V850-Type02c,V1.07,,,,,V850E/IF3
+37,,V850-Type02c,V1.07,,:selected:,,:selected:,V850E/IG3
+38,,*,,,:selected:,,:selected:,V850E/IG4
+39,,*,:unselected:,,:selected:,,,V850E/IG4-H
+40,,*,,,:selected:,,,V850E/IH4
+41,,*,:unselected:,,:selected:,,,V850E/IH4-H
+42,,V850-Type01b,V2.00,,:selected:,,,V850E/MA3
+43,,,:selected:,,,,,V850E/ME2
+44,,*,:selected:,,:selected:,,,V850E/PHO3
+45,,V850-Type01,V5.02,,:selected:,,,V850E/RS1
+46,,,:selected:,,:selected:,,:selected:,V850E/RS2
+47,,V850-Type01,"V5.02
+:selected:",,:selected:,,,V850E/SV2
+48,,V850-Type04,V1.20,,:selected:,,,V850E/Sx3-H
+49,,*,:selected:,*,,,,V850E2/Dx4
+50,,,:selected:,,,,,V850E2/Dx4-H
+51,,*,:unselected:,*,:unselected:,,,V850E2/Fx4
+52,,*,:unselected:,,:selected:,*,,V850E2/Fx4-G
+53,,*,:unselected:,*,:unselected:,,:selected:,V850E2/Fx4-H
+54,,*,:selected:,,:selected:,*,,V850E2/Fx4-L
+55,,,,,,,,V850E2/ME3
+56,,*,:selected:,,:selected:,,:selected:,V850E2/Mx4
+57,,*,:unselected:,*,,,,V850E2/Px4
+58,,*,:unselected:,,:selected:,"*
+:selected:",,V850E2/Px4-L
+59,,*,:unselected:,*,:unselected:,,:selected:,V850E2/Sx4-H
+60,,V850-Type01,V5.02,,:selected:,,,V850ES/DG2
+61,,V850-Type01,V5.02,,,,,V850ES/DJ2
+62,,V850-Type01,V5.02,,:selected:,,,V850ES/Fx2
+63,,V850-Type04a,V1.20,,:selected:,,:selected:,V850ES/Fx3 (Code Flash : 256KB and less)
+64,,V850-Type04,V1.20,,:selected:,,:selected:,V850ES/Fx3-L
+65,,V850-Type04,V1.20,,,,,V850ES/Fx3 (Data Flash : 384KB and more)
+66,,V850-Type04a,V1.20,*,:unselected:,,:selected:,V850ES/Hx3 (except for UPD70F3757)
+67,,V850-Type04,V1.20,*,,,,V850ES/Hx3 (UPD70F3757)
+68,,V850-Type01,V5.02,,:selected:,,:selected:,V850ES/IE2
+69,,V850-Type01,V5.02,,:selected:,,:selected:,V850ES/IK1
+70,,/850-Type04,V1.20,*,:unselected:,,:selected:,V850ES/Jx3-L
+71,,V850-Type01,V5.02,,:selected:,,,V850ES/Jx2
+72,,V850-Type04,V1.20,,:unselected:,,:selected:,V850ES/Jx3
+73,,V850-Type04,V1.20,***,:unselected:,,:selected:,V850ES/Jx3-H
+74,,V850-Type04,V1.20,,,,,V850ES/Jx3-U
+75,,V850-Type04,V1.20,*,:unselected:,,:selected:,V850ES/Jx3-E
+76,,V850-Type04,V1.20,*,:unselected:,,:selected:,V850ES/Jx3-L(USB)
+77,,V850-Type03,V2.02,,:selected:,,,V850ES/Kx
+78,,V850-Type03,V2.02,,:selected:,,:selected:,V850ES/Kx1+
+79,,V850-Type03,V2.02,,:selected:,,:selected:,V850ES/Kx2
+80,,/850-Type01,V5.02,,,,,V850ES/SA2
+81,,V850-Type01,V5.02,,:selected:,,,V850ES/SA3
+82,,,,,:selected:,,:selected:,V850ES/SG1
+83,,V850-Type01,V5.02,,:selected:,,,"V850ES/SG2, V850ES/SJ2"
+84,,,,,:selected:,,,V850ES/SG2-H. V850ES/SJ2-H
+85,,V850-Type04,V1.20,,:selected:,,,"V850ES/SG3, V850ES/SJ3"
+86,,,:selected:,,:selected:,,,V850ES/ST2
+87,,V850-Type01,V5.02,,,,:selected:,V850ES/Hx2

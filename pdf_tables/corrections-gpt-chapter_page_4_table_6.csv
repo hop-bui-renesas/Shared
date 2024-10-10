@@ -1,0 +1,16 @@
+,Synchronous clear factor by inter channel cooperation,Setting register,Setting value
+1,GTCCRA register compare match/input capture,GTINTAD.SCFA,1b
+2,,GTCSR.CSCMSC[2:0],001b
+3,GTCCRB register compare match/input capture,GTINTAD.SCFB,1b
+4,,GTCSR.CSCMSC[2:0],010b
+5,GTCCRC register compare match,GTINTAD.SCFC,1b
+6,,GTCSR.CSCMSC[2:0],011b
+7,GTCCRD register compare match,GTINTAD.SCFD,1b
+8,,GTCSR.CSCMSC[2:0],100b
+9,GTCCRE register compare match,GTINTAD.SCFE,1b
+10,,GTCSR.CSCMSC[2:0],101b
+11,GTCCRF register compare match,GTINTAD.SCFF,1b
+12,,GTCSR.CSCMSC[2:0],110b
+13,Overflow of saw-wave up-count,GTINTAD.SCFPO,1b
+14,Underflow of saw-wave down-count,GTINTAD.SCFPU,1b
+15,Clear caused by GTIOCnA/GTIOCnB pin,GTCR.SCGTIOC,1b

@@ -1,0 +1,29 @@
+,Feature Number,Description
+1,061.0,GPU Driver
+2,063.1,Introduce new partition layout for DA1470x
+3,063.4,Add sys_boot functionality (repair corrupted Product Header)
+4,064.0,BT-LE 5.2 Protocol
+5,066.1,BLE Profiles support
+6,067.0,BT-LE Host & Controller
+7,069.1,OS Agnostic support
+8,073.0,SD ADC Driver
+9,077.0,DMA Drivers
+10,078.0,VAD Driver
+11,079.1,Support charger functionality
+12,081.0,Display Controller Driver
+13,087.0,UART Driver & Adapter
+14,088.0,SPI Driver & Adapter
+15,089.0,SPI3 48MHz support
+16,090.2,I3C Driver & Adapter
+17,091.0,I2C Driver & Adapter
+18,092.1,Audio Driver & System Manager
+19,093.0,GPADC Driver & Adapter
+20,094.0,Support XiP from QSPI & Octa-SPI Flash
+21,095.1,External NOR Flash support
+22,096.0,Support external QSPI RAM
+23,097.1,LED driver
+24,099.1,USB Interface
+25,100.0,Support GPIO configuration
+26,101.0,Control Power Rails & Power Domains
+27,102.0,Support Active & Sleep modes
+28,103.0,Radio Driver

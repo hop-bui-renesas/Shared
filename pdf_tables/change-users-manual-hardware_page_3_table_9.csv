@@ -1,0 +1,5 @@
+,Address,Module Symbol,Register Name,Register Symbol,Number of Bits,Access Size,Number of Access States,Module Name,Reference Page,Remarks,
+1,,,,,,,ICLK >= PCLK,,,,ICLK < PCLK
+2,0008 7328h,ICU,Interrupt Source Priority Register 040,IPR040,8,8,2 ICLK,ICUb,306,"Alot present in- versions with 144,- 420, 112, or 100 pins.",
+3,0008 7329h,ICU,Interrupt Source Priority Register 041,IPR041,8,8,2 ICLK,,306,"Net present in versions with 144,- 420, 112, or 100- pins.",
+4,0008 735Ah,ICU,Interrupt Source Priority Register 090,IPR090,8,8,2 ICLK,,306,"Not present in versions with 112, 100, 64, or 48 pins.",

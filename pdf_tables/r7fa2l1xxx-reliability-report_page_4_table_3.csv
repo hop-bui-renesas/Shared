@@ -1,0 +1,10 @@
+,Test Items,Reference,Test Conditions,Results Failure/Size,Comment
+1,High Temperature Operating Life (HTOL),JESD22-A108,"Ta=125 C, Vccmax, 1000 hrs",0/22,
+2,High Temperature Storage Life (HTSL),JESD22-A103,"Ta=150 degC, 1000 hrs",0/22,
+3,Temperature Humidity bias (THB) (*1),JESD22-A101,"Ta=85 C, RH=85 %, Vccmax, 1000 hrs",0/22,
+4,Temperature Cycling (TC) (*1),JESD22-A104,"Ta =- 65 C to 150 C , 300 cycles",0/22,
+5,Latch-Up (LU),JESD78,"Pulse Current Injection, I=+/-150 mA",0/3,
+6,Electrostatic discharge (ESD-HBM),JS-001,"1.5 k2, 100 pF, +/-1000 V, 1 time",0/3,Class: 1C
+7,Electrostatic discharge (ESD-CDM),JESD22-C101,"+/-500V,1time",0/3,Class: C2
+8,Solderability (SD),J-STD-002,"245 C, 5 s, Solder coverage >=95 %",0/5,
+9,Resistance to Soldering Heat (PC),"JESD22-A113, J-STD-020",MSL3(Moisture Sensitivity Level 3),0/22,

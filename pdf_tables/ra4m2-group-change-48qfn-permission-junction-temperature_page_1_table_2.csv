@@ -1,0 +1,2 @@
+,Parameter,Symbol,Typ,Max,Unit,Test conditions
+1,Permissible junction temperature,T;,-,125,C,High-speed mode Low-speed mode Subosc-speed mode

@@ -1,0 +1,15 @@
+,Item,Package,Symbol,Value,Unit,Test Conditions
+1,Thermal resistance value (reference value),PLQP0176KB-A,0 ja,39.4,C/W,JESD51-2 JESD51-7 conformant
+2,,PLQP0144KA-A,,40.7,,
+3,,PLQP0100KB-A,,41.7,,
+4,,PLBG0176GA-A,,28.5,,JESD51-2 JESD51-9 conformant
+5,,PTLG0177KA-A',,29.4,,
+6,,PTLG0145KA-A',,29.9,,
+7,,PTLG0100JA-A',,21.4,,
+8,,PLQP0176KB-A,W jt,0.5,degC/W,JESD51-2 JESD51-7 conformant
+9,,PLQP0144KA-A,,0.5,,
+10,,PLQP0100KB-A,,0.5,,
+11,,PLBG0176GA-A,,0.2,,JESD51-2 JESD51-9 conformant
+12,,PTLG0177KA-A',,0.2,,
+13,,PTLG0145KA-A',,0.2,,
+14,,PTLG0100JA-A',,0.2,,

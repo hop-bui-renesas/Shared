@@ -1,0 +1,13 @@
+,Pin #,Signal,Direction (relative to host),Alternate Signal,Direction (relative to host)
+1,1,CTS,In,GPIO,In/Out
+2,2,TXD,Out,,
+3,3,RXD,In,,
+4,4,RTS,Out,GPIO,In/Out
+5,,GND,,,
+6,,VCC,,,
+7,1,GPIO,In/Out,INT,In
+8,,PIO,In/Out,RESET,Out
+9,9,SPIO,In/Out,,
+10,10,PIO,In/Out,,
+11,,GND,,,
+12,12,VCC,,,

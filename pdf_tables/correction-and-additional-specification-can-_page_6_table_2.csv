@@ -1,0 +1,6 @@
+,,RAM Name,RAM Property,RAM Area Calculation Method,AFL RAM Values
+1,,,No. of Channels,(n+1),2
+2,,AFL,Avg. rule entries per channel,64/ch,64
+3,,,Max Rule entries,(n+1) * Avg. tule entries per channel,128
+4,,,No. of Bytes in a rule entry,Fixed,16
+5,,,Number of Bytes AFL RAM,Max Rule entries * No. of Bytes in a rule entry,2048

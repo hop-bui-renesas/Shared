@@ -1,0 +1,11 @@
+,Item,Description,Notes
+1,Board size,110*122[mm],
+2,Electrode film size,125*125[mm],
+3,Touch electrode,Electrodes: 9,1 electrode size: 30x30[mm]
+4,CPU*,RA2L1 (R7FA2L1AB2DFP),"ROM: 256KB, RAM : 32KB Data Flash: 8KB Package: 100-pin LFQFP(0.5mm pitch) Operating temperature: - 40~85degC"
+5,LED,36 white,4 LED per electrode
+6,Buzzer,1,Sounds with 2048kHz signal output
+7,Interface,16-pin connector,Connect to CN1 of CPU board
+8,,40-pin connector,Connect to Cn2 of CPU board
+9,,FPC connector,Connect to touch film electrode
+10,Power Supply,5.0V,Power supply to CPU board

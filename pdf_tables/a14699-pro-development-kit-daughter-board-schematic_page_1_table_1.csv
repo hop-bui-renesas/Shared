@@ -1,0 +1,34 @@
+,History Table,,
+1,Version,Date,Comments
+2,,10/Jul/2017 04/Oct/2017 17/Oct/2017,Draft Schematic
+3,,,Internal review release
+4,,,Formal review release
+5,,02/Nov/2017,"Added TP21 (bottom testpoint for V18F) Added D7, D8 (ESD protection on USB Data)"
+6,A1.0,03/Nov/2017 07/Nov/2017,Changed printed antenna type to reduced IFA
+7,,,Released to manufacturing
+8,A1.1,14/Nov/2017,"Changed C6, C7 value to 10uF Changed U1 part number to DA14699-00000HR2"
+9,A1.2,22/Mar/2018,"Removed R19, changed reset button circuit to directly short to GND"
+10,,,"Changed C4, C5 part number to GRM188R60J226MEA0D (22uF/6.3V/0603)"
+11,,,Changed L1 (DCDC inductor) to DFE201610E-R47M
+12,,,Added pull-down resistor R24 to P1_1 Changed C9 value to 10uF
+13,,,Changed Z1 value to 6.8nH
+14,,,Changed Z2 value to 2.0pF
+15,,,Changed Z3 value to 0. 6pF
+16,,,Changed the reference designator for the reset button to K2
+17,B1.0,04/Apr/2018,PCB layout updated to rev. B
+18,,10/Sep/2018,Added a current limiter mosfet on V30 (Q4) -> external loads now
+19,,,connect to the current limited rail (V30x)
+20,,,Corrected the mismatch of the UART signals on J4
+21,,,Added 0402 NP capacitor close to J3 pin-1 (C14)
+22,C1.0,18/Sep/2018,Released to manufacturing
+23,C1.1,23/Oct/2018,Changed C13 value to 2.2uF/25V
+24,,,Changed flash part number to MX25U3235FM2I-10G
+25,D1.0,15/Nov/2018,Modified options for the QSPI flash package:
+26,,,- U2 -- > 8SOIC 208mil
+27,,,- U2X -- > 8USON 2x3mm
+28,,,- U2Y -- > 8SOIC 150mil
+29,,,Changed ESD protection D7 D8 from ESD206B102ELSE6327XTSA1 (EOL) to ESD102U102ELSE6327XTSA1 (note: this part is polarized)
+30,,,"Updated several parts as obsoleted/EOL and some with environmental compliance problems (K2, J3)"
+31,E1.0,11/Dec/2018,Added 0 ohm resistor (R25) shorting V18F to V18P
+32,,,Changed USB connector (J3) type to Molex 67503-1020
+33,,,Changed default part# for 4.7uF capacitors to GRM155R61A475MEAAD

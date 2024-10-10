@@ -1,0 +1,4 @@
+,,Symbol,,Description,
+1,,SPLP,,"mode
+1: Loopback mode (reversed transmit data = receive data)",
+2,b1,SPLP2,RSPI Loopback 2,0: Normal mode 1: Loopback mode (transmit data = receive data),R/W

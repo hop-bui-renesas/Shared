@@ -1,0 +1,6 @@
+,PSEL[4:0] settings,Function,Pin
+1,,,P708
+2,00000b (value after reset),Hi-Z/JTAG/SWD,Hi-Z
+3,00001b,AGT,-
+4,00011b,GPT'1,-
+5,00101b,SCI,RXD1/MISO1/SCL1/RXDX1/SCL1

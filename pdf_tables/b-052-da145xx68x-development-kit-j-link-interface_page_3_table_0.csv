@@ -1,0 +1,7 @@
+,CIB,Communication Interface Board
+1,DK,Development Kit
+2,MCU,Microcontroller Unit
+3,USB,Universal Serial Bus
+4,SWD,Serial Wire Debug
+5,Tx,Transmit (UART signal)
+6,VCOM,Virtual COM (port)

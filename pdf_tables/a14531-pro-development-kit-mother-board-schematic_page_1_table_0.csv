@@ -1,0 +1,7 @@
+,Design Name,da145xxdevkt-p_vb
+1,Ref. Number,376-18-B
+2,Version,B1.0
+3,Date,"Aug 09, 2019"
+4,Designer,PR
+5,NOTE1,Supporting DA14585/6 and DA14531 PCIE-64 daughterboards
+6,NOTE2,Not supporting external 6.8V power (VPP) for OTP programming (used by older DA1458x chips)

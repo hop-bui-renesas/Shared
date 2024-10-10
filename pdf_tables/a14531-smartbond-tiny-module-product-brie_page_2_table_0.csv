@@ -1,0 +1,19 @@
+,Key Features:,Applications
+1,Bluetooth 5.1 core qualified,""" Beacons, Remote controls, Proximity tags, Toys,"
+2,""" Integrated antenna","Low power sensors, Bluetooth LE add-on ""pipe"""
+3,Worldwide certification,to existing applications
+4,Cortex-M0+ @16MHz,""" Provisioning of any type of equipment providing ease of use with smartphone APP-based based"
+5,loTMarkTM-BLE score of 18300,"setup and control, eliminating the need for"
+6,23.75uA/MHz MCU current,printed user manuals
+7,"Memory: 48KB RAM, 32KB OTP &1Mb FLASH",
+8,1.8-3.3V Supply Range,
+9,+2.2dBM max output power,"Based on the DA14531 with a powerful 32-bit Arm Cortex-M0+,"
+10,- - 93dBm sensitivity,integrated memories and a complete set of analog and digital
+11,Rx current 2mA at 3V,"peripherals, SmartBond TINYTM module is extremely power"
+12,Tx current 4mA at 3V at 0dBm,efficient. The DA14531's architecture and resources allow it to be
+13,"Interfaces: 2xUART, SPI, 12C",used as a standalone wireless microcontroller or as a Bluetooth
+14,4-channel 10-bit ADC,LE data pipe extension to designs with existing microcontrollers.
+15,= 8 GPIO,
+16,Built-in temperature sensor,It is complemented by a flexible Software Development Kit (SDK)
+17,""" Operating temperature: - 40degC to +85degC",supporting major compilers such as Keil(R) and GCC out of the box.
+18,Dimensions: 12.5x14.5x2.8 mm,"For simple applications, the Renesas CodeLess software will allow development without writing software code at all, using a comprehensive set of AT commands and pushing the boundaries of ease of use to the next level."

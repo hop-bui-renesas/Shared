@@ -1,0 +1,5 @@
+,Parameter,Description
+1,,
+2,DMAC/DTC activation,All the interrupt sources
+3,Brushless De motor control function-,Available
+4,Interrupt sources,9 sources . GTCCRA comare match/input capture(GPTn_CCMPA) . GTCCRB comare match/input capture(GPTn_CCMPB) . GTCCRC comare match(GPTn_CMPC) . CTCPDA camara match/CDTn CMDNI

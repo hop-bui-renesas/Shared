@@ -1,0 +1,7 @@
+,Item,Symbol,Min.,Typ.,Max.,Unit
+1,Main clock oscillator start-up time,tMAINOSC,"-
+:unselected:","-
+:unselected:",See Note 1,ms
+2,Main clock oscillation stabilization wait time,tMAINOSCWT,"-
+:unselected:","-
+:unselected:",See Note 2,ms

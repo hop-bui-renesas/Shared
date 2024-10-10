@@ -1,0 +1,30 @@
+,Features,DA14691,DA14695,DA14697,DA14699
+1,MCU,"Cortex-M33F, Cortex-M0+, SNC","Cortex-M33F, Cortex-M0+, SNC","Cortex-M33F, Cortex-M0+, SNC","Cortex-M33F, Cortex-M0+, SNC"
+2,RAM size,384KB,512KB,512KB,512kB
+3,Multi-core,:selected:,:selected:,:selected:,:selected:
+4,USB Controller and USB pins,:selected:,:selected:,:selected:,:selected:
+5,1.8V and 3.0V power rails,"V
+:selected:",:selected:,:selected:,"V
+:selected:"
+6,Audio Processing Unit,"V
+:selected:",:selected:,"V
+:selected:","V
+:selected:"
+7,Parallel LCD Controller,"X
+:selected:",:selected:,:selected:,"V
+:selected:"
+8,Charger,"X
+:selected:",:selected:,"V
+:selected:",:selected:
+9,QSPI RAM controller,"X
+:selected:",:selected:,:selected:,:selected:
+10,White LEDs,"X
+:selected:","X
+:selected:",:selected:,:selected:
+11,LRA/ERM,"X
+:selected:","X
+:selected:",:selected:,:selected:
+12,Motor Controller,"X
+:selected:","X
+:selected:","X
+:selected:",:selected:

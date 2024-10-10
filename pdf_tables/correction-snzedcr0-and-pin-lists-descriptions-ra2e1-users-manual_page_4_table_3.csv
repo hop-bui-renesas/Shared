@@ -1,0 +1,209 @@
+,Pin number,"Power,
+System, Clock, Debug, CAC",I/O ports,Timers,Communication interfaces,Analogs,HMI,,,,,,,,,,,,
+1,LQFP 64-pin,,,AGT,SCI,ADC,CTSU,BGA 64-pin,LQFP/QFN 48-pin,LGA 36-pin,LQFP/QFN 32-pin,WLCSP 25-pin,"GPT_OPS, POEG",GPT,RTC,IIC,SPI,ACMPLP,Interrupt
+2,31,,P301,AGTIO0_D,RxD2_A/ MISO2_A/ SCL2_A/ CTS9_RTS 9_D/SS9_D,"-
+:unselected:",TS9-CFC,H7,23,-,-,-,GTOULO A,GTIOC7B A,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:",IRQ6_A
+3,32,SWCLK,P300,-,-,"-
+:unselected:","-
+:unselected:",H8,24,F6,16,A4,GTOUUP_ C,GTIOCOA A,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+4,33,SWDIO,P108,-,CTS9_RTS 9_B/SS9_B,"-
+:unselected:","-
+:unselected:",G8,25,E6,17,B3,GTOULO C,GTIOCOB A,"-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:",-
+5,34,CLKOUT_B,P109,-,SCK1_E/ TXD9_B/ MOSI9_B/ SDA9_B,"-
+:unselected:",TS10-CFC,G6,26,D4,18,B4,GTOVUP A,GTIOC4A A,"-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:",-
+6,35,,P110,-,CTS2_RTS 2 B/ SS2_B/ RxD9_B/ MISO9_B/ SCL9_B,"-
+:unselected:",TS11-CFC,G7,27,D5,19,A5,GTOVLO A,GTIOC4B A,"-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:",VCOUT,IRQ3_A
+7,36,,P111,AGTOA0,SCK2_B/ SCK9_B,"-
+:unselected:",TS12-CFC,F7,28,D6,-,-,-,GTIOC6A A,"-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:",IRQ4_A
+8,37,,P112,AGTOB0,SCK1_D/ TXD2_B/ MOSI2_B/ SDA2_B,"-
+:unselected:",TSCAP,F8,29,C6,20,B5,-,GTIOC6B_ A,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:",-
+9,38,,P113,-,"-
+:unselected: :unselected:","-
+:unselected: :unselected:",TS27-CFC,E7,-,-,-,-,"-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:",-
+10,39,VCC,,-,"-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected:",E8,30,-,-,-,-,"-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:",-
+11,40,VSS,,-,"-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected:",D8,31,-,-,-,-,"-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:",-
+12,41,,P107,-,"-
+:unselected:","-
+:unselected:
+:unselected:","-
+:unselected:",F6,-,-,-,-,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:
+:unselected:","-
+:unselected:","-
+:unselected:",KR07
+13,42,,P106,-,"-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:",E6,-,-,-,-,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:
+:unselected:",SSLA3_A,"-
+:unselected:",KR06
+14,43,,P105,-,"-
+:unselected: :unselected:","-
+:unselected: :unselected:",TS34-CFC,D6,-,-,-,-,GTETRGA,GTIOC4A B,"-
+:unselected: :unselected:","-
+:unselected:
+:unselected:",SSLA2_A,"-
+:unselected:
+:unselected:",KR05 IRQ0_B
+15,44,,P104,"-
+:unselected:",RxD0_C/ MISO0_C/ SCL0_C,"-
+:unselected:",TS13-CFC,D7,32,-,-,-,GTETRGB B,GTIOC4B B,"-
+:unselected:","-
+:unselected: :unselected:",SSLA1_A,"-
+:unselected:",KR04/ IRQ1_B
+16,45,,P103,-,CTS0_RTS 0_A/SS0_A,AN019 **,TS14-CFC,C7,33,C3,21,D5,GTOWUP A,GTIOC5A A,"-
+:unselected:","-
+:unselected:",SSLA0_A,CMPREF1,KR03
+17,46,,P102,AGTO0,SCK0_A/ TXD2_D/ MOSI2_D/ SDA2_D,ADTRG0_A /AN020*,TS15-CFC,C8,34,C4,22,C5,GTOWLO A,GTIOC5B A,"-
+:unselected:",-,RSPCKA A,CMPIN1,KR02
+18,47,,P101,AGTEE0,TXD0_A/ MOSI0_A/ SDA0_A/ CTS1_RTS 1_A/SS1_A,AN021*1,TS16-CFC,B8,35,C5,23,E5,GTETRGB A,GTIOC8A A,"-
+:unselected:",SDA0_C,MOSIA_A,CMPREF0,KR01/ IRQ1_A
+19,48,,P100,AGTIO0_A,RxD0_A/ MISO0_A/ SCL0_A/ SCK1_A,AN022*1,TS26-CFC,A8,36,B6,24,C4,GTETRGA A,GTIOC8B A,-,SCL0_D,MISOA_A,CMPIN0,KR00/ IRQ2_A
+20,49,,P500,-,-,-,"-
+:unselected:",B7,37,-,-,-,GTIU_B,GTIOC5A B,"-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+21,50,,P501,-,TXD1_C/ MOSI1_C/ SDA1_C,AN017,-,C6,-,-,-,-,GTIV_B,GTIOC5B_ B,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+22,51,,P502,-,RxD1_C/ MISO1_C/ SCL1_C,AN018,"-
+:unselected:",C5,-,-,-,-,GTIW_B,-,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+23,52,,P015,-,"-
+:unselected: :unselected:",AN010,TS28-CFC,A7,38,A6,25,E4,-,-,"-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:",IRQ7_A
+24,53,,P014,-,"-
+:unselected:",AN009,"-
+:unselected:",A6,39,A5,26,D4,-,-,"-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:",-
+25,54,,P013,-,"-
+:unselected:",AN008,TS33-CFC,B6,40,B5,27,-,-,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+26,55,,P012,-,"-
+:unselected:",AN007,TS32-CFC,B5,41,B4,28,-,-,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+27,56,AVCC0,,-,"-
+:unselected:",-,"-
+:unselected:",A5,42,A4,29,-,-,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+28,57,AVSS0,,-,"-
+:unselected:",-,-,A4,43,A3,30,-,-,"-
+:unselected:","-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+29,58,VREFL0,P011,-,"-
+:unselected:",AN006,TS31-CFC,B4,44,B3,31,D2,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+30,59,VREFH0,P010,-,"-
+:unselected:",AN005,TS30-CFC,A3,45,A2,32,E2,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"
+31,60,,P004,-,"-
+:unselected:",AN004,TS25,C4,-,-,-,-,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:",IRQ3
+32,61,,P003,-,"-
+:unselected:",AN003,TS24,B3,-,-,-,-,-,"-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:","-
+:unselected:"

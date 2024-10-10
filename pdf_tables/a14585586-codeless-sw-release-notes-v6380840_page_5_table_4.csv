@@ -1,0 +1,6 @@
+,#,CHANGES
+1,1,Update licensing.txt
+2,2,Add callback app_on_pairing_failed in app_callbacks structure.
+3,3,Call app_on_pairing_failed when GAPC_PAIRING_FAILED arrives.
+4,4,Add svc1_long_val_att_info_rsp and svc1_rest_att_info_rsp in custom server 1.
+5,5,Add USER_APP_CMD_RECEIVED in enumeration of messages for CUSTS1.

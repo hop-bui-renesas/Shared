@@ -1,0 +1,7 @@
+,Parameter,Symbol,Conditions,MIN.,TYP.,MAX.,Unit
+1,Detection Supply voltage level voltage,VLVD3,Power supply rise time,3.13,3.22,3.55 3.66,"V
+:selected:"
+2,,VLVD4,Power supply rise time,2.95,3.02,3.33 3.44,"V
+:selected:"
+3,,VLVDS,Power supply rise time,2.74,2.81,3.11 3.22,"V
+:selected:"

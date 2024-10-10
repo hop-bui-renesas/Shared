@@ -1,0 +1,5 @@
+,Bit,Symbol,Function,R/W
+1,(omission),,,
+2,12,CPSCD,Complementary PWM Mode Synchronous Clear Disable*2 0: Enable synchronous counter clear by other channel other than the section of trough in complementary PWM mode 1: Disable synchronous counter clear by other channel other than the section of trough in complementary PWM mode,R/W*1
+3,(omission),,,
+4,19:16,MD[3:0],Mode Select*3 0 0 0 0: Saw-wave PWM mode 1(single buffer or double buffer possible) (omission),R/W*1

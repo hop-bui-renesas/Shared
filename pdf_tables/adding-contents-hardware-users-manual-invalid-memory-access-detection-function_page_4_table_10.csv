@@ -1,0 +1,7 @@
+,RAM size,RAM (yyyyyH to FFEFFH)
+1,4 Kbytes,4096 x 8 bits (FEF00H to FFEFFH)
+2,6 Kbytes,6144 x 8 bits (FE700H to FFEFFH)
+3,8 Kbytes,8192 x 8 bits (FDF00H to FFEFFH)
+4,10 Kbytes,10240 x 8 bits (FD700H to FFEFFH)
+5,16 Kbytes,16384 x 8 bits (FBF00H to FFEFFH)
+6,20 Kbytes,20480 x 8 bits (FAF00H to FFEFFH)

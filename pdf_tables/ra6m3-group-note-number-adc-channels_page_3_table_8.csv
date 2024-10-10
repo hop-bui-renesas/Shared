@@ -1,0 +1,4 @@
+,Parameter,Specifications
+1,Input channels,. Unit 0: Up to 13 channels
+2,,. Unit 1: Up to 11 channels
+3,,(2 channels share same port pin)

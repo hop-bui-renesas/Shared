@@ -1,0 +1,24 @@
+,RAM Name,RAM Property,RAM Area Calculation Method,RAM Values
+1,AFL,Avg. rule entries,,32
+2,,No. of Bytes in a rule entry,Fixed,16
+3,,No. of Bytes in AFL area,Avg. rule entries * No. of Bytes in a rule entry,512
+4,PFL,Avg. rule entries,,2
+5,,No. of Bytes in a rule entry,Fixed,36
+6,,No. of Bytes in PFL area,Avg. rule entries * No. of Bytes in a rule entry,72
+7,TX MB,No. of TX MBs,Fixed,4
+8,,No. of Bytes needed for each TX MB,Fixed,76
+9,,No. of Bytes in TX MB area,No. of TXMBs * No. of Bytes needed for each TXMB,304
+10,THL,No. of entries in 1 THL buffer,Fixed,8
+11,,No. of Bytes needed for each THL entry,Fixed,8
+12,,No. of Bytes in THL area,No. of entries in 1 THL buffer * No. of Bytes needed for each THL entry,64
+13,OTB,Avg. No. of buffers,,2
+14,,No. of Bytes for OTB entry,Fixed,80
+15,,No.of Bytes in OTB area,Avg. No. of buffers * No. of Bytes for OTB entry,160
+16,Message Buffer,No. of RXMBs,Fixed,32
+17,,No. of RXFIFOs,Fixed,2
+18,,No. of Common FIFO,Fixed,1
+19,,Avg. No. of messages for RXMB and FIFO buffers,,16
+20,,No. of Bytes for each stored message,Fixed,-
+21,,Average size of a Message Buffer in Bytes,,76
+22,,No. of Bytes in Message Pool area,Avg. No. of messages for RXMB and FIFO buffers * Average size of a Message Buffer in Bytes,1216
+23,,No. of Bytes Message RAM,No. of Bytes in Message Pool area + No. of Bytes in OTB area + No. of Bytes in THL area + No. of Bytes in TXMB area + No. of Bytes in PFL area + No. of Bytes in AFL area,2328

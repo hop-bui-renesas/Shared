@@ -1,0 +1,8 @@
+,Bit,Symbol,Bit Name,Description,R/W
+1,b0,SPLP,RSPI Loopback,0: Normal mode 1: Loopback mode (reversed transmit data = receive data),R/W
+2,b1,SPLP2,RSPI Loopback 2,0: Normal mode 1: Loopback mode (transmit data = receive data),R/W
+3,b2,SPOM,RSPI Output Pin Mode,"In 144-, 120-, 112-, and 100-pin products 0: CMOS output 1: Open-drain output In 64- and 48-pin products 0: CMOS output 1: Setting prohibited",R/W
+4,b3,-,Reserved,This bit is read as 0. The write value should be 0.,R/W
+5,b4,MOIFV,MOSI Idle Fixed Value,0: The level output on the MOSIn pin during MOSI idling is low. 1: The level output on the MOSIn pin during MOSI idling is high.,R/W
+6,b5,MOIFE,MOSI Idle Value Fixing Enable,0: MOSI output value equals final data from previous transfer 1: MOSI output value equals the value set in the MOIFV bit,R/W
+7,"b7, b6",-,Reserved,These bits are read as 0. The write value should be 0.,R/W

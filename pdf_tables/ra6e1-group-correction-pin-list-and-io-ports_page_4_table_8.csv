@@ -1,0 +1,41 @@
+,PSEL[4:0] settings,Function,Pin,,,,,,,,,,,
+1,,,P200deg4,P201,P205,P206,P207,P208,P209,P210,P211,P212,P213,P214
+2,00000b (value after reset),Hi-Z JTAG/SWD,Hi-Z,,,,,,,,,,,
+3,00001b,AGT,-,-,AGTO1,-,-,-,AGTEE5,AGTOB5,AGTOA5,AGTEE1,AGTEE2,AGTO5
+4,00010b,GPT'2,-,"-
+:unselected:",-,,,"-
+:unselected:",:unselected: :unselected:,:unselected: :unselected:,:unselected: :unselected:,"-
+:unselected:",:unselected:,:unselected: :unselected:
+5,00011b,GPT'2,-,-,GTIOC4A,-,:unselected:,"-
+:unselected:",:unselected:,"-
+:unselected: :unselected:","-
+:unselected:",-,-,"-
+:unselected: :unselected:"
+6,00100b,SCI,-,"-
+:unselected:",TXD4/ MOSI4/ SDA4,RXD4/ MISO4/ SCL4,TXD4/ MOSI4/ SDA4,:unselected:,"-
+:unselected:","-
+:unselected:",-,"-
+:unselected:",:unselected:,"-
+:unselected:"
+7,00101b,SCI,-,"-
+:unselected:",CTS9_RT S9/ SS9,CTS9,-,,-,"-
+:unselected:",-,RXD1/ MISO1/ SCL1/ RXDX1,TXD1/ MOSI1/ SDA1/ -TXBX+ -SIOX+,-
+8,00110b,"SPI""1",-,-,SSLAD_A,SSLA1_A,SSLA2_A,"-
+:unselected:",-,"-
+:unselected:","-
+:unselected:","-
+:unselected:",-,"-
+:unselected:"
+9,00111b,"IIC""1",-,-,SCL1_B,SDA1_B,-,"-
+:unselected:",-,"-
+:unselected:","-
+:unselected:",-,-,"-
+:unselected:"
+10,01001b,CLKOUT/ RTC,-,-,CLKOUT,-,-,-,"-
+:unselected:",-,"-
+:unselected:",-,-,-
+11,01010b,CAC/ADC12,-,-,-,-,-,-,"-
+:unselected:","-
+:unselected:",,"-
+:unselected:",-,"-
+:unselected:"

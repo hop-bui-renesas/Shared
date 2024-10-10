@@ -1,0 +1,25 @@
+,History Table Version Date,Comments,,,
+1,A0.0,Draft for internal review,04,/ Oct /,2017
+2,,Release for internal review,26,/ Oct /,2017
+3,,Release for final review,16 / Nov /,,2017
+4,A1.0,Release to manufacturing,22,/ Nov /,2017
+5,B0.0,"Set R4, D9 as not populated",05 / Jan /,,2018
+6,,"Changed TP3216 footprint to single pad (TP28, TP29)",30 / Jan /,,2018
+7,,Changed C88 to non-populated,05,/ Feb /,2018
+8,,"Changed Q1, Q2, 03 type to BSS138L",24 / Apr /,,2018
+9,,"Changed U21 OE pin connection - R4 populated, connected to VDDIO - R149 set as not populated",,,
+10,,Added options to drive BRSTn (MikroBUS/Arduino reset) - R309 -> always high (default) - R308 -> controlled by PO_12,,,
+11,,Set D3 as not populated (disable reset from J-Link),,,
+12,,Added options for current measurement circuit,,,
+13,,"- R310, R311 (N.P.)",,,
+14,,"- R312, R313 (0 ohm)",,,
+15,,"- C119, C120 (N.P.)",,,
+16,,"- C121, C122 (1uF)",,,
+17,,- R314 (N.P.),,,
+18,B1.0,Released to manufacturing,15,/ May /,2018
+19,co.C,"Changed R308 to 1k, R309 to N.P. (BRSTn controlled by P0 _ 12) Changed Q1, 02, 03 type to FDV301N",19 / Sep /,,2018
+20,,"Added bottom testpoints for T SWDIO, T SWCLK Changed Arduino/MikroBUS DO. . D5 to 3V-capable GPIOs Removed R86. . R91 Changed D3, D8 type to RB531SM-30",,,
+21,,Set D3 as populated -> allow J-Link hardware reset Rearranged the signals on J10 (haptic motor) and added a jumper shunt to enable/disable JTAG reset Changed R148 to N.P.,,,
+22,,Updated several parts as obsoleted/EOL and some with environmental compliance problems,,,
+23,C1.0,Released to manufacturing,21,/ Nov /,2018
+24,,,,,

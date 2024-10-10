@@ -1,0 +1,3 @@
+,Parameter,Symbol,Conditions,MIN.,TYP.,MAX.,Unit
+1,Interrupt and reset mode,VLVD3,Rising release reset voltage,3.13,3.22,3.55 3.66,"V
+:selected:"

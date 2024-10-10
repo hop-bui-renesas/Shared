@@ -1,0 +1,12 @@
+,Name,DAP port,Address,Access size,R/W,
+1,ID Authentication Code Register 0,Port 1,0x8000_0000,32 bits,W,IAUTH0
+2,ID Authentication Code Register 1,Port 1,0x8000_0100,32 bits,W,IAUTH1
+3,ID Authentication Code Register 2,Port 1,0x8000_0200,32 bits,W,IAUTH2
+4,ID Authentication Code Register 3,Port 1,0x8000_0300,32 bits,W,IAUTH3
+5,MCU Status Register,Port 1,0x8000_0400,32 bits,R,MCUSTAT
+6,MCU Control Register,Port 1,0x8000_0410,32 bits,R/W,MCUCTRL
+7,JTAG Boot Mode Entry Register*1,Port 1,0x8001_1100 0x4001_b100*2,32 bits,R/W,JBMDR
+8,JTAG Boot Receive Data Register*1,Port 1,0x8001_1120 0x4001_b120*2,8/16/32 bits,R/W,JBRDR
+9,JTAG Boot Transmit Data Register*1,Port 1,0x8001_1130 0x4001_b130*2,8/16/32 bits,R/W,JBTDR
+10,JTAG Boot Status Register*1,Port 1,0x8001_1140 0x4001_b140*2,32 bits,R/W,JBSTR
+11,JTAG Boot Interrupt Control Register*1,Port 1,0x8001_1150 0x4001_b150*2,32 bits,R/W,JBICR

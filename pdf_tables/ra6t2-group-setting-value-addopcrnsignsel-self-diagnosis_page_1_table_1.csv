@@ -1,0 +1,6 @@
+,Self-diagnosis mode,Register setting value,Expected value of A/D conversion data *1 *2,,,
+1,,ADSGDCRx,,ADCHCRy,ADDOPCRCy,
+2,,DIAGVAL[2:0],,CNVCS[6:0],SIGNSEL,AINMD
+3,Self-diagnosis mode 1,100b,0x0000 *3,0x60,0,1
+4,Self-diagnosis mode 2,101b,0x8000 *4,0x60,0,1
+5,Self-diagnosis mode 3,110b,0x7FFF *5,0x60,0,1

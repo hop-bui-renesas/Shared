@@ -1,0 +1,9 @@
+,Item,Clock source,Clock supply,Specification
+1,System clock (ICLK),MOSC/SOSC*1/HOCO/ MOCO/LOCO,"CPU, DTC, Flash, Flash-IF, SRAM",Up to 48 MHZ Division ratios: 1/2/4/8/16/32/64 1 MHz to 48 MHZ (P/E)
+2,Peripheral module clock B (PCLKB),MOSC/SOSC*1/HOCO/ MOCO/LOCO,"Peripheral modules (CAC, ELC, I/O Ports, KINT, POEG, GPT, AGT, RTC, WDT, IWDT, SCI, IIC, SPI, CRC, ADC12, ACMPLP, CTSU, DOC, AES, and TRNG)",Up to 32 MHZ Division ratios: 1/2/4/8/16/32/64
+3,Peripheral module clock D (PCLKD),MOSC/SOSC*1/HOCO/ MOCO/LOCO,"Peripheral modules (GPT count clock, ADC12 conversion clock)",Up to 64 MHZ Division ratios: 1/2/4/8/16/32/64
+4,AGT clock (AGTSCLK/ AGTLCLK),SOSC*1/LOCO,AGT,32.768 kHz
+5,CAC Main clock (CACMCLK),MOSC,CAC,Up to 20 MHZ
+6,CAC Sub clock (CACSCLK),SOSc*1,CAC,32.768 kHz
+7,CAC LOCO clock (CACLCLK),LOCO,CAC,32.768 kHz
+8,CAC MOCO clock (CACMOCLK),MOCO,CAC,8 MHZ

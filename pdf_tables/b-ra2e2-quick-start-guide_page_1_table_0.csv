@@ -1,0 +1,14 @@
+,Item,Specification
+1,Evaluation MCU,Part No: R7FA2E2A74CNK; package: 24-pin HWQFN
+2,,"On-chip memory: 64 KB ROM, 8 KB RAM, 2 KB data flash memory"
+3,Board size,Size: 53 mm x 85 mm; thickness: 11.5 mm
+4,Power-supply voltage,VCC: 3.3 V to 5.5 V. MCU operation voltage range 1.6 V to 5.5 V
+5,Power-supply circuit,USB connector: VBUS (5 V input); VBUS is converted to 3.3 V by LDO
+6,,2-pin external power-supply header*1
+7,Push switch,Reset switch x 1; user switch x 1
+8,LED,"Power indicator: green x 1, user: green x 2, On-board Debugger ACT LED: green x 1"
+9,USB connector,Connector: Micro USB Type-B
+10,PmodTM connector,"Connector: Angle type, 12-pin x 2"
+11,ArduinoTM connector,"Connector: 6-pin x 1, 8-pin x 2, 10-pin x 1 The interface is compatible with ArduinoTM UNO R3"
+12,MCU header*1,Header: 32 pins x 2
+13,Emulator,E2 Emulator On-Board programmer / debugger

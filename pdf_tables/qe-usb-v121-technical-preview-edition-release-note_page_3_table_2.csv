@@ -1,0 +1,23 @@
+,MCU,Firmware,Rev.
+1,"RX231, RX111",USB Basic Mini Host and Peripheral Driver (USB Mini Firmware) Firmware Integration Technology,1.01 - 1.02
+2,,USB Peripheral Mass Storage Class Driver for USB Mini Firmware Firmware Integration Technology,
+3,,USB Peripheral Communications Device Class Driver for USB Mini Firmware Firmware Integration Technology,
+4,,USB Peripheral Human Interface Device Class Driver for USB Mini Firmware Firmware Integration Technology,
+5,,USB Peripheral Mass Storage Class Driver for USB Mini Firmware Using Firmware Integration Technology Modules,
+6,,USB Peripheral Communications Devices Class Driver for USB Mini Firmware Using Firmware Integration Technology Modules,
+7,,USB Peripheral Human Interface Devices Class Driver for USB Mini Firmware Using Firmware Integration Technology Modules,
+8,"RX63N, RX631, RX64M, RX65N, RX651, RX71M",USB Basic Host and Peripheral Driver Firmware Integration Technology,1.11 - 1.20
+9,,USB Peripheral Mass Storage Class Driver (PMSC) Firmware Integration Technology,
+10,,USB Peripheral Communications Device Class Driver (PCDC) Firmware Integration Technology,
+11,,USB Peripheral Human Interface Device Class Driver Firmware Integration Technology,
+12,,USB Peripheral Human Interface Devices Class Driver Using Firmware Integration Technology Modules,
+13,,USB Peripheral Mass Storage Class Driver(PMSC) Using Firmware Integration Technology Modules,1.10 - 1.20
+14,,USB Peripheral Communications Device Class Driver(PCDC) Using Firmware Integration Technology Modules,
+15,"RX62N, RX621, RX63N, RX631",Renesas USB MCU and USB ASSP USB Basic Host and Peripheral firmware,2.10
+16,,Renesas USB MCU and USB ASSP USB Peripheral Mass Storage Class Driver(PMSC),"2.10 - 2.30 (RX62N,RX621) 2.10 (RX63N,RX631)"
+17,,Renesas USB MCU and USB ASSP USB Peripheral Communications Device Class Driver(PCDC),
+18,,Renesas USB MCU and USB ASSP Peripheral Human Interface Devices Class Driver(PHID),
+19,"RL78/G1C, RL78/L1C",USB Host and Peripheral Basic Mini Firmware,2.15
+20,,USB Peripheral Mass Storage Class Driver (PMSC) using Basic Mini Firmware,
+21,,USB Peripheral Communications Device Class Driver (PCDC) using USB Basic Mini Firmware,
+22,,USB Peripheral Human Interface Devices Class Driver (PHID) using Basic Mini Firmware,

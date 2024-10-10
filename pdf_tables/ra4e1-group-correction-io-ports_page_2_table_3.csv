@@ -1,0 +1,11 @@
+,PSEL[4:0] settings,Function,Pin,,,,,,,
+1,,,P200*4,P201,P205,P206,P207,P208,P212,P213
+2,00000b (value after reset),Hi-Z/JTAG/SWD,Hi-Z,,,,,,,
+3,00001b,AGT,-,-,AGTO1,-,"-
+:unselected:",-,AGTEE1,AGTEE2
+4,00010b,GPT'2,-,-,-,-,-,-,GTETRGD,GTETRGC
+5,00011b,GPT'2,-,-,GTIOC4A,-,"-
+:unselected:",-,-,-
+6,00100b,SCI,-,-,TXD4/MOSI4/ SDA4,RXD4/MISO4/ SCL4,TXD4/MOSI4/ SDA4,-,-,-
+7,00101b,SCI,-,-,CTS9_RTS9/ SS9,CTS9,-,-,-,-
+8,00111b,"IIC""1",-,-,SCL1_B,SDA1_B,-,-,-,-

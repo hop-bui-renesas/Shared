@@ -1,0 +1,6 @@
+,OTP,One Time Programmable (memory)
+1,SW,Software
+2,STX,Start of Text (ASCII character)
+3,SOH,Start of Heading (ASCII character)
+4,URX,UART Receive port
+5,UTX,UART Transmit port

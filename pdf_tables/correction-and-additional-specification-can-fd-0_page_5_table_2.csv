@@ -1,0 +1,12 @@
+,,,0x818
+1,,AFL area,0x718
+2,,PFL area,0x6D0
+3,,Unused area,0x640
+4,CFDCFCC.CFDC=1 (4 Message) CFDCFCC.CFPLS=0 (8byte) > 20byte per Message,COM FIFO 0,0x5F0
+5,CFDRFCC1.RFDC=2 (8 Message) CFDRFCC1.RFPLS=0 (8byte) -> 20byte per Message,RX FIFO 1,0x550
+6,CFDRFCC0.RFDC=3 (16 Message) CFDRFCC0.RFPLS=5 (32byte) > 44byte per Message,RX FIFO 0,0x290
+7,RXMD: CFDRMNB.NRXMB=4 (4 Message) CFDRMNB.RMPLS=3 (20byte) > 32byte per RXMB,RX MB,0x210
+8,,OTB,0x170
+9,,THL,0x130
+10,,TXMB[3] .,
+11,,. TXMB[0],0x000

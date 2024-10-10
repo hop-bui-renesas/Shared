@@ -1,0 +1,6 @@
+,Function,R7FA6M1AD2CLJ,R7FA6M1AD3CFP,R7FA6M1AD3CFM,R7FA6M1AD3CNB,
+1,,,,,,
+2,Analog,Unit0: 11 Unit1: 8,,Unit0: 7 Unit1: 3 Shared channel pin: 2*,,ADC12
+3,,Shared channel pin: 2*,,,,
+4,,Unit0: 1(3ch) Unit1: 1(3ch),,Unit0: 1(3ch),,3ch-S/H
+5,,Unit0: 3 Unit1: 3,,Unit0: 3,,PGA

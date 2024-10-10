@@ -1,0 +1,26 @@
+,Item,Symbol,min,typ,max,Unit,Condition,
+1,MTU3,tTICTF,"
+:unselected:","
+:unselected:",0.1,"us/V
+:selected:","When Input capture at rising edge, or Input capture at both edges is selected.",Input capture input fall time
+2,,tTCKTF,"
+:unselected:","
+:unselected:",0.1,"us/V
+:selected:",,Timer clock input fall time
+3,GPT,tGTICTF,"
+:unselected:","
+:unselected:",0.1,"us/V
+:selected:","When Input capture at rising edge, or Input capture at both edges is selected. When Count operation is started at rising edge, or Count operation is started at both edges is selected. When Count operation is stopped at rising edge, or Count operation is stopped at both edges is selected. When Counter is cleared at rising edge, or Counter is cleared at both edges is selected.",Input capture input fall time
+4,,tGTETRGTF,"
+:unselected:","
+:unselected:",0.1,"us/V
+:selected:","When Count operation is started at rising edge, or Count operation is started at both edges is selected. When Count operation is stopped at rising edge, or Count operation is stopped at both edges is selected. When Counter is cleared at rising edge, or Counter is cleared at both edges is selected.",External trigger input fall time
+5,SCI,tTICTF,"
+:unselected:","
+:unselected:",0.1,"us/V
+:selected:",When Noise Cancellation Function is not used.,Receive data fall time
+6,RSPI,tSPOKF,"
+:unselected:","
+:unselected:","0.1
+:selected:","us/V
+:selected:",,RSPCK clock Input fall time

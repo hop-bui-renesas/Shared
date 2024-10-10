@@ -1,0 +1,25 @@
+,Detailed Keys Capabilities,Compatibility Mode PSA Crypto API,Protected Mode FSP Crypto API
+1,Plaintext Symmetric and Private Keys,,
+2,Injection via factory bootloader,No,
+3,Injection via FSP,Yes,
+4,Creation via key generation,No,NO
+5,Usage within FSP,Yes,
+6,Standard Format Public Keys,,
+7,Injection via factory bootloader,No,No
+8,Injection via FSP,Yes,
+9,Creation via key generation,Yes,
+10,Usage within FSP,Yes,
+11,MCU-wrapped Symmetric and Private Keys,,
+12,Secure injection via factory bootloader,No,Yes
+13,Secure injection via FSP,Yes,No
+14,Secure update via FSP,Yes*,Yes
+15,Creation via key generation,Yes,Yes
+16,Usage within FSP,Yes,Yes
+17,Cross-mode compatibility,No,No
+18,MAC-tagged Public Keys,,
+19,Secure injection via factory bootloader,,Yes
+20,Secure injection via FSP,No,No
+21,Secure update via FSP,,Yes
+22,Creation via key generation,,Yes
+23,Usage within FSP,,Yes
+24,Cross-mode compatibility,No,No

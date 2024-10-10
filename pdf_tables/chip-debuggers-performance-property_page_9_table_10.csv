@@ -1,0 +1,8 @@
+,Target MCU,Break Function,Performance Measurement Function,Invalid External extension Mode of Embedded ROM,Trace Function,,,,
+1,Family,Hardware Break,,,Internal Trace,Series/ Core,Group,Software Break,AUD Trace
+2,SuperH,Address/Data/R/W/Execution-count condition break : 2 points + Address/R/W condition break : 4 points,Supported,No Mode,8 branches O,SH-4A,SH7456,255 points,Up to 64K events *1 (Up to 32K of branch information can be acquired when branch trace is the only target) *
+3,,+ Data/R/W condition break : 2 points + System bus condition break : 2 points * Sequential breaks are specifiable.,,,,,SH7455 SH7451,,
+4,,,,,,,SH7450,,
+5,,Address break : 8 points + Address/Data/R/W/Execution-count condition break : 1 point + Address/Data/R/W condition break : 1 point * Available to specify the sequential break,Supported,No Mode,1000 cycles Select the target one from Address/Data/Status/ Time stamp bus.,SH-2,SH7125 SH7124,,Up to 64K events *1 (Up to 32K of branch information can be acquired when branch trace is the only target.) *
+6,H8S,Address break : 6 points + Address/Data condition break : 2 points,Not supported,Supported,4 branch sources or Bus trace : 1024 cycles,H8S/2400,H8S/2456R H8S/2456,,Not supported
+7,,,,,,,H8S/2454 H8S/2426R H8S/2426 H8S/2424,,

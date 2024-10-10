@@ -1,0 +1,41 @@
+,PSEL[4:0] settings,Function,pin,,,,,,,,,,,,,,,
+1,,,P100,P101,P102,P103,P104,P105,P106,P107,P108,P109,P110,P111,P112,P113,P114,P115
+2,00000b (value after reset),Hi-Z JTAG/SW D,Hi-Z,,,,,,,,TMS/ SWDIO,TDO/S WO,TDI,Hi-Z,,,,
+3,00001b,AGT,AGTIO 0,AGTEE 0,AGTOO,AGTIO 2,AGTEE 2,AGTO2,AGTOB 0,AGTOA 0,AGTOA 3,AGTOB 3,AGTEE 3,AGTOA 5,AGTOB 5,AGTEE 5,AGTIO 5,-
+4,00010b,GPT'2,GTETR GA,GTETR GB,GTOW LO,GTOW UP,GTETR GB,GTETR GA,"-
+:unselected:",-,GTOUL O,GTOVU P,GTOVL O,-,"-
+:unselected:",:unselected:,:unselected:,"-
+:unselected:"
+5,00011b,GPT'2,GTIOC 5B,GTIOC 5A,-,-,GTIOC 1B,GTIOC 1A,"-
+:unselected:",,GTIOC DB,GTIOC 1A,GTIOC 1B,-,"-
+:unselected:",,,GTIOC 4A
+6,00100b,SCI,RXDO/ MISOO/ SCLO,TXDO/ MOSID/ SDAD,SCKO,CTSO RTSO/ SSO,RXD8/ MISO8/ SCL8,TXD8/ MOSI8/ SDA8,SCK8,CTS8 RTS8/ SS8,,,CTS2_ RTS2/ SS2,SCK2,TXD2/ MOSI2/ SDA2/ TXDX2/ SIOX2,RXD2/ MISO2/ SCL2/ RXDX2,,-
+7,00101b,SCI,SCK1,CTS1_ RTS1/ SS1,,,,-,"-
+:unselected:",,CTS9 RTS9/ SS9,TXD9/ MOSI9/ SDA9,RXD9/ MISO9/ SCL9,SCK9,SCK1,-,CTS9,-
+8,00110b,"SPI""1","MISOB A
+:selected:","MOSIB A
+:selected:",RSPCK BA,SSLBO A,SSLB1 A,"SSLB2 A
+:selected:","SSLB3 A
+:selected:",-,SSLAD B,MOSIA B,MISOA B,RSPCK A_B,SSLAD B,-,:unselected:,"-
+:unselected:"
+9,01001b,CLKOUT/ RTC,"-
+:unselected:",,:unselected:,"-
+:unselected:",:unselected:,:unselected:,:unselected:,:unselected:,-,CLKOU T,-,,-,,,
+10,01010b,CAC/ ADC12,"-
+:unselected:","-
+:unselected:",ADTRG 0,"-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:","-
+:unselected:",-,"-
+:unselected:",-,"-
+:unselected:",-,"-
+:unselected:",-,-,-
+11,10000b,CAN,"-
+:unselected:","-
+:unselected:",CRXO,CTXD,"-
+:unselected:","-
+:unselected: :unselected:","-
+:unselected: :unselected:",-,-,CTX1,CRX1,-,"-
+:unselected:","-
+:unselected: :unselected:",-,-

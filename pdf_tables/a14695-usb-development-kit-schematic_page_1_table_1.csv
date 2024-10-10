@@ -1,0 +1,14 @@
+,History Table Version Date Comments,,
+1,A0.0,28/May / 2018,Internal review release
+2,,28/Jun/2018,Added option for soic8-150mil package and changed default flash type to W25Q80EWSNIG (same as pro devkit)
+3,,29/Jun/2018,Added polarity notch mark on top silk for MikroBUS click boards
+4,,02/Jul/2018,"Added testpoints for USBDP_2, USBDM_2 Added testpoint for the red LED (D7)"
+5,,02/Jul/2018,"Added option (R51) to drive BRSTn from P0_12 Changed tactile switch (K1, K2) type to EVP-AKE31A (side-activated)"
+6,,12/Jul/2018,Added option to power the external 3.0V devices with an LDO (U8 - default option) instead of V30
+7,,17/Jul/2018,Added option for U5 in soic8-208mil package Changed default flash type to MX25U3235FM2I-10G (32 Mbit)
+8,A1.0,30/Jul/2018,"Changed default flash type to W25Q32JWSSIQ Changed part number for C29, Z5 to GRM1555C1H100GA01D Released B.O.M. to manufacturing"
+9,,03/Aug/2018 06/Sep/2018 08/Oct/2018,"Added testpoint (TP48) for VBUS_IN on bottom Changed default flash type to MX25U3235FM2I-10G Removed V30x Powering Option (U8) Added a current limiter mosfet (Q4) on V30L, changed R55 to N.P. Changed C38 to 2.2uF/25V Replaced R48, R49 with diodes D9 (RB531SM-30) and D10 (NP) Re-allocated MikroBUS socket #2 (avoiding the QSPI-RAM GPIOs) Added N.P. connector (J8, bottom) carrying GPIOs P0_0 to P0_5 Added testpoints (TP49, TP50) for SWDIO, SWCLK Changed C27, C28 to 10uF/0402"
+10,B0.0,25/Oct/2018,Released to internal review
+11,B1.0,12/Nov/2018,Released to manufacturing
+12,B1.1,27/Nov/2018,"Updated layout files (some mask issues, added note for USB cutout ) Changed default power to VBUS ( Jumper shunt moved from J3 to J2)"
+13,C0,13/Dec/2018,Change power supply to MikroBus sockets from VBUS to VBUS_OUT Add R58 (0 ohm) for supplying QSPI Flash from V18P Released to manufacturing

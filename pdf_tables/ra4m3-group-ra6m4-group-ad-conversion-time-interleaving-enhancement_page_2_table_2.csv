@@ -1,0 +1,7 @@
+,Parameter,,Min,Typ,Max,Unit,Test conditions
+1,"High-precision high-speed channels (AN000 & AN100, AN001 & AN101, AN002 & AN102))",Conversion time*1 Max. = 400 Q (operation at PCLKADC = 50 MHZ),0.2,-,,us,Sampling in 7 states VCC = AVCCO = 3.0 to 3.6 V 3.0 V <= VREFHO <= AVCCO
+2,,Offset error,-,+1.0,+2.5,LSB,-
+3,,Full-scale error,,+1.0,+2.5,LSB,-
+4,,Absolute accuracy,-,+2.0,+4.5,LSB,-
+5,,DNL differential nonlinearity error,-,+0.5,+4.5,LSB,-
+6,,INL integral nonlinearity error,-,+1.0,+4.5,LSB,-

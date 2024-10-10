@@ -1,0 +1,5 @@
+,#1.1,DESCRIPTION
+1,OVERVIEW,
+2,This is the second Full (LA) release of the software driver of the DA14585 Range Extender. The most important features of version are listed below:,
+3,System - -,As 1.0
+4,,Keeps TX power value set by user during sleep time.

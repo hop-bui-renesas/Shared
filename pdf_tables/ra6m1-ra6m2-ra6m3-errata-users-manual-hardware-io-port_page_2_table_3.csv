@@ -1,0 +1,31 @@
+,Port,Port name,Input pull-up,Open-drain output,Drive capacity switching,5-V tolerant
+1,Port 0,P000 to P007,"-
+:unselected:",:unselected:,,-
+2,,"P008 to P011, P014, P015",:selected:,:selected:,-,-
+3,Port 1,P100 to P115,"V
+:selected:","V
+:selected:","Low, middle, high",-
+4,Port 2,P200,"V
+:selected:",,,
+5,,"P202 to P204, P207",:selected:,:selected:,"Low, middle, high",
+6,,"P205, P206",:selected:,:selected:,"Low, middle, high",:selected:
+7,,"P201, P212, P213",:selected:,:selected:,-,
+8,Port 3,P300 to P315,:selected:,:selected:,"Low, middle, high",
+9,Port 4,"P400, P401",:selected:,:selected:,,:selected:
+10,,P402 to P404,:selected:,:selected:,"Low, middle",
+11,,P405 to P406,"V
+:selected:",:selected:,"Low, middle, high",
+12,,P407,:selected:,:selected:,"Low, middle, high",:selected:
+13,,P408 to P415,:selected:,:selected:,"Low, middle, high",:selected:
+14,Port 5,"P500 to P510, P513 to P515","V
+:selected:",:selected:,"Low, middle, high",
+15,,"P511, P512",:selected:,:selected:,,:selected:
+16,Port 6,P600 to P615 *,:selected:,:selected:,"Low, middle, high",-
+17,Port 7,P700 to P707,:selected:,:selected:,"Low, middle, high",
+18,,P708 to P713,:selected:,:selected:,"Low, middle, high",:selected:
+19,Port 8,P800 to P813,:selected:,:selected:,"Low, middle, high",
+20,Port 9,P900 to P915,:selected:,:selected:,"Low, middle, high",
+21,Port A,PA00 to PA15,:selected:,:selected:,"Low, middle, high",-
+22,Port B,"PB00, PB02 to PB07","V
+:selected:",:selected:,"Low, middle, high",-
+23,,PB01,:selected:,:selected:,"Low, middle, high",:selected:

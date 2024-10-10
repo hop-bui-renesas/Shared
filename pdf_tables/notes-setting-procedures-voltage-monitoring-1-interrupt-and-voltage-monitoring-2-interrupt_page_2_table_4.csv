@@ -1,0 +1,6 @@
+,Step,Voltage Monitoring 2 Interrupt,Voltage Monitoring 2 Reset
+1,(Omitted),,
+2,8,Set the LVD2CR0.LVD2CMPE bit to 1 (voltage monitoring 2 circuit comparison results output enabled).,
+3,9,Wait for at least 2 us.,-
+4,10,Set the LVD2SR.LVD2DET bit to 0.,-
+5,11,Set the LVD2CR0.LVD2RIE bit to 1 (voltage monitoring 2 interrupt/reset enabled).,-

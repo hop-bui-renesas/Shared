@@ -1,0 +1,38 @@
+,Product Category,MPU/MCU,Document No.,TN-RA *- A0007A/E,Rev.,1.00,
+1,Title,Errata for User's Manual: Hardware for HOCO,Information Category,Technical Notification,,,
+2,Applicable Product,RA6T1 Group,Reference Document,"RA6T1 Group User's
+Hardware Rev.1.00",Manual,,Lot No.
+3,,,,,,,All
+4,The following descriptions should be changed.,,,,,,
+5,1. OSCSF,,,,,,
+6,"Page
+:unselected:",132,,,,,
+7,- Incorrect :selected:,,,,,,
+8,"HOCOSF flag (HOCO Clock Oscillation Stabilization Flag)
+:unselected:",,,,,,
+9,The HOCOSF flag indicates the operating status of the counter that measures the wait time for the HOCO.,,,,,,
+10,"Confirm that the OSCSF.HOCOSF is set to 1 before using the HOCO clock.
+:unselected:",,,,,,
+11,- :selected: Correct,,,,,,
+12,"HOCOSF flag (HOCO Clock Oscillation Stabilization Flag)
+:unselected:",,,,,,
+13,"The HOCOSF flag indicates the operating status of the counter that measures the wait time for the high-speed clock oscillator (HOCO). When OFS1.HOCOEN is set to 0, confirm that OSCSF.HOCOSF is set
+:unselected:",,,,,,
+14,"to 1 before using the HOCO clock.
+:unselected:",,,,,,
+15,2. HOCOCR,,,,,,
+16,"Page 128
+:unselected:",,,,,,
+17,"- Incorrect
+:selected:",,,,,,
+18,HCSTP bit (HOCO Stop),,,,,,
+19,The HCSTP bit starts or stops the HOCO clock.,,,,,,
+20,"After setting the HCSTP bit to 0 to start the HOCO clock, confirm that the OSCSF.HOSCSF bit is set to 1 before using the clock. A fixed stabilization wait is required after setting the HOCO clock to start operation. A fixed wait time for oscillation to stop is also required. For the HOCO to operate, the HOCO Wait Control
+:unselected:",,,,,,
+21,Register (HOCOWTCR) must also be set.,,,,,,
+22,The following restrictions apply when starting and stopping operation:,,,,,,
+23,"- :selected: After stopping the HOCO, confirm that the OSCSF.HOCOSF bit is 0 before restarting the HOCO clock",,,,,,
+24,". Confirm that the HOCO clock operates and that the OSCSF.HOCOSF bit is 1 before stopping the :selected: HOCO clock
+:unselected:",,,,,,
+25,". Regardless of whether the HOCO clock is selected as the system clock, confirm that the
+:selected:",,,,,,

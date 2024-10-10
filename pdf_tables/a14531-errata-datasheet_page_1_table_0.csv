@@ -1,0 +1,5 @@
+,Product,DA14531
+1,Silicon Revision,"0xAE / 0xAF (Register CHIP_REVISION_REG, CHIP_TEST1_REG and CHIP_TEST2_REG)"
+2,Datasheet Reference,DA14531_datasheet_2v1.pdf
+3,Package(s),"WLCSP 17 balls, 1.7x2.05, 0.5 mm pitch FCGQFN 24 pins, 2.2x3, 0.4 mm pitch"
+4,Issue Date,22-Feb-2022

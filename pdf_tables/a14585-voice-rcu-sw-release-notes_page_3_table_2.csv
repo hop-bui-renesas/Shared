@@ -1,0 +1,24 @@
+,#,DESCRIPTION,
+1,OVERVIEW,,
+2,This is the first FULL (GA) release of the software of the DA14585 based Voice RCU reference design. The most important features of this initial version are listed below:,,
+3,User Interface Audio capabilities,,
+4,- 4x3,matrix keyboard,- PDM microphone input
+5,.,Trackpad,". 16-bit, 8 or 16 kHz sampling"
+6,- LED,indicators,. IMA ADPCM encoder
+7,-,Magnetic buzzer indicator,. Adaptive audio rate
+8,Sensors,,BLE Services
+9,.,Accelerometer/Gyro (BMI160),- Battery service .
+10,".
+PDM",microphone,".
+Device information service"
+11,Actuator,,- HOGP
+12,. IR,LED,. SUOTA service (Dialog proprietary)
+13,,,. Dialog Audio service (Dialog proprietary)
+14,NEW FEATURES,,
+15,-,N/A,
+16,FIXES / IMPROVEMENTS,,
+17,-,N/A,
+18,Documentation,,
+19,1,UM-B-086_DA14585_Voice_RCU_Software_Manual_v1.0.pdf,
+20,2,UM-B-087_DA14585_Voice_RCU_Hardware_Manual_v1.0.pdf,
+21,3,Voice_RCU_Quick_Start_Guide_v1.0.pdf,

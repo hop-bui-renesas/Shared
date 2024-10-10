@@ -1,0 +1,8 @@
+,Conflicting Trigger Generation Timing with Respect to Selected Trigger Generation Timing,Conflicting Trigger,Selected Trigger,Operations,,
+1,,,"TRGnBN (n = 4, 7) GTADTRGBmN (m = 0, 1, 2, 3)",,"TRGnAN (n = 4, 7) GTADTRGAmN (m = 0, 1, 2, 3)",Others
+2,Generated 2 or more cycles before the selected trigger,Any,,Normal,,
+3,Generated 1 cycle before the selected trigger,"TRGnBN (n = 4, 7) GTADTRGBmN (m = 0, 1, 2, 3)",Error (except when the related triggers are identical),Error: Erroneously stored in ADDR0A,,
+4,,Others,,Normal,,
+5,Generated simultaneously,"TRGnBN (n = 4, 7) GTADTRGBmN (m= 0, 1, 2, 3)",-,Error: Erroneously stored in ADDR0B,Error (except when the related triggers are identical),
+6,,Others,,Normal,,
+7,Generated 1 or more cycles after the selected trigger,Any,-,Normal,,

@@ -1,0 +1,4 @@
+,Bit field:,-,CKS,TUIEN,TOIEN,RUIEN,ROIEN,IIEN,-,FRM[1:0],DWL[2:0],SWL[2:0],,,,
+1,Value after reset:,0,0,0,0,0,0,0,0,0 0,0,0,0,0,0,0
+2,Bit position:,15,14,13,12,11,10,9,8,7 6,5,2,4,3,1,"0
+:unselected:"

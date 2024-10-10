@@ -1,0 +1,10 @@
+,No.,Step Name,Description
+1,1,Set operating mode,Set the operating mode with the GTCR.MD[2:0] bits or GTCR.MD[3:0] bits.
+2,2,Set count direction,Select the count direction (up or down) with GTUDDTYC.
+3,3,Select count clock,Select the count clock with GTCR.TPCS[3:0] bits of the corresponding channel.
+4,4,Set cycle,"Set the cycle in GTPR of the corresponding channel. When complementary PWM mode, set the cycle in GTPR of the master channel."
+5,5,Set initial value for counter,Set the initial value in the GTCNT counter of the corresponding channel.
+6,6,Inter channel cooperation synchronous clear setting (Source channel),"Set the input capture factor using GTIOCnA/B pin to GTICASR and set the same factor as the GTICSASR to the GTCSR as the count clearing factor. In addition, set GTINTAD.SCFA bit = 1b and CTCSR.CSCMSC[2:0] bit = 001b to enable sunchronous clear by the GTCCRA input capture. When complementary PWM mode, set GTINTAD of the master channel."
+7,7,Inter channel cooperation synchronous clear setting (Cleared channels),Set GTCSR.CSCMSC[2:0] bits in the cleared channels of inter channel cooperation synchronous clear to 111b and select the counter clear by synchronous counter clearing group.
+8,8,Set group of inter channel cooperation synchronous clear,"Set the same value to GTCR.SSCGRP[1:0] bits in the source channel and cleared channels of inter channel cooperation synchronous clear and set them in the same synchronous set/clear group. When complementary PWM mode, set GTCR of the master channel."
+9,9,Enable inter channel cooperation synchronous clear,Set GTCR.SSCEN bits in the source channel and cleared channels of inter channel cooperation synchronous clear to enable synchronous clear.
