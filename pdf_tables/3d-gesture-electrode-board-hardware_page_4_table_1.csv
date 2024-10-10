@@ -1,0 +1,8 @@
+,Item,Description,Notes
+1,Board size,100.0*100.0[mm],Upper board : Electrode board Bottom board : Relay board
+2,Gesture detecting electrode board,Receiver electrode: 1,-
+3,,Transmitter electrode: 4,-
+4,Interface,16-pin connector,Connect to CN1 of CPU board
+5,,40-pin connector,Connect to CN2 of CPU board
+6,Power Supply,5.0V,Power supply from CPU board
+7,CPU Board*,RA2L1 Cap Touch CPU Board (RTK0EG0018C01001BJ),Renesas Electronics Capacitive Touch Evaluation System for RA2L1 (RTK0EG0022S01001BJ) Accessories
