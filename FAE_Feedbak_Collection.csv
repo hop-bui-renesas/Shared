@@ -1,0 +1,14 @@
+﻿question,answer,answerFeedback,citationFeedback,textResponseFeedback,timestamp
+What are the benefits of using the DA14585 Range Extender Daughterboard?,"The Dialog Semiconductor smartbond™ DA14585 Range Extender Daughterboard boosts the range of your Bluetooth® Low Energy applications.
+
+Bluetooth® Low Energy is a key technology for the Internet of Things. Some IoT applications require longer distance to be covered by the Bluetooth connection. For example, smart home networks need to be carefully designed to ensure all nodes can communicate with the gateway. Proximity tags and beacons could be even more useful if they worked over greater distances, allowing single nodes to cover entire commercial or industrial sites.
+
+By combining Dialog's best-in-class Bluetooth Low Energy chips with a high-efficiency RF power amplifier front-end-module, Dialog's Range Extender offers you optimal range without compromising on power consumption and data rate.
+
+The Dialog Semiconductor smartbond™ DA14585 Range Extender Daughterboard allows the range of Bluetooth Low Energy communications to be increased in software-selectable steps without compromising on data rate and maintain best in class overall power consumption.
+
+The resulting solution meets all Bluetooth Low Energy and regulatory requirements. The Range Extender Daughterboard is provided as an optional extra for the DA14585 Pro Development Kit, featuring the Skyworks Sky66111 discrete power amplifier. The optimized board design allows output power to be scaled by software in 2 dBm steps from +0 dBm to +9.3 dBm (enough for whole house coverage indoors).
+
+So system developers have freedom to balance range and overall power consumption. Crucially, the solution maintains the standard Bluetooth Low Energy data rate. It can also be powered from single coin cell ensuring the smallest systems.",Correct,No,None,53:04.4
+What is the spectrum of applications that require extended range which the DA14585 Range Extender can support?,"smart home networks, proximity tags and beacons, asset tracking, bluetooth mesh",Partially Correct,No,"The DA14585 Range Extender can support a wide array of Bluetooth low energy applications that require extended range including Smart Home applications, Beacons, Proximity Tags, and much more.",54:15.0
+How many simultaneous sync DAC’s units are available on RA MCU’s for synchronous output operations?,RA MCU’s have 2 units of simultaneous sync DAC’s available for synchronous output operations.,Incorrect,No,If you are looking for simultaneous synced DAC o/p's Renesas RA6T2 can help to support 2-DAC units with individual 12-bit D/A units. Each of these units also have 2-outputs pins,54:55.8
