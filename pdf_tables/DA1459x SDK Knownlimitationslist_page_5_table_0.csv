@@ -1,0 +1,6 @@
+,Index,Description,Appeared,Status
+1,732,Hogp device requests to pair again with iPhone 6s,10.1.2.86,Open
+2,735,Cscp collector crashes during sending notifications and scanning,10.1.2.86,Open
+3,742,RSSI reading in LP mode have 2dB error,10.1.2.86,Open
+4,761,eFlash read error in Cli_Programmer Tool,10.1.2.86,Open
+5,767,Xtal 32kHz may fail to start up at low temperature,10.1.2.86,Open
